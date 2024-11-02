@@ -1,4 +1,5 @@
 # Lattice Certus-NX dev board start up
+## 1. setup FPGA SoC Hardware Platform
 download windows propel 2024 IDE and radiant IDE. download free licence for them.   
 launch Propel, input the workspace folder. click [launch]    
 ![image](https://github.com/user-attachments/assets/d0a75cbd-703a-4e5f-afee-2bda3ebe5ef0)   
