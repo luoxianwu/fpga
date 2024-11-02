@@ -1,0 +1,6 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work, lscc_ram_dp_true_inst_Z19_layer0,0h:00m:03s,0h:00m:02s,-,0h:00m:00s,   213 MB,    11 MB,    11 MB,     0 MB,     0 MB
+work, sysmem0_ipgen_lscc_mem_Z18_layer0,0h:00m:03s,0h:00m:03s,0h:00m:00s,0h:00m:00s,   213 MB,    11 MB,    11 MB,     0 MB,     0 MB
+work, sysmem0_ipgen_lscc_sys_mem_Z16_layer0,0h:00m:03s,0h:00m:03s,-,0h:00m:00s,   213 MB,    12 MB,    12 MB,     0 MB,     0 MB
+work, cpu0_ipgen_Riscv_Dbg_IMAC,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   290 MB,    83 MB,     3 MB,    19 MB,    61 MB
+work, cpu0_ipgen_riscvsmall_Z10_layer0,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   290 MB,    25 MB,    25 MB,     0 MB,     0 MB

@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.v"
+-lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.vhd"
+-ver "C:/lattice-fpga/HW/HW/HW.v"
+-path "C:/lattice-fpga/HW" "C:/lattice-fpga/HW"
+-top HW
+-isTop
+-a "LFD2NX"
+-t "LFD2NX-40"

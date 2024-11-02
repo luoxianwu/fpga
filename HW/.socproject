@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<propelProject>
+    <builder-resource>
+        <socProject sbxfile="./HW/HW.sbx"/>
+        <verifyProject sbxfile="./verification/HW_v.sbx"/>
+        <ConstraintFile>./HW.pdc</ConstraintFile>
+        <AddResources/>
+    </builder-resource>
+    <builderInfo version="2024.1"/>
+</propelProject>

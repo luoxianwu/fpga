@@ -1,0 +1,108 @@
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2024.1.1.259.1
+Command Line: postsyn -a LFD2NX -p LFD2NX-40 -t CABGA256 -sp 8_High-Performance_1.0V -oc Commercial -top -w -o HW_impl_1_syn.udb -ldc C:/lattice-fpga/HW/impl_1/HW_impl_1.ldc -gui -msgset C:/lattice-fpga/HW/promote.xml HW_impl_1.vm 
+   Architecture:     LFD2NX
+   Device:           LFD2NX-40
+   Package:          CABGA256
+   Performance:      8_High-Performance_1.0V
+Reading input file 'HW_impl_1.vm' ...
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_304' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_305' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_306' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_307' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_308' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_309' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_310' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_311' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_312' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_313' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_314' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_315' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_316' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_317' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_318' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_319' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_320' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_321' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_322' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_323' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_324' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_325' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_326' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_327' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_328' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_329' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_330' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_367' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_368' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_369' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_370' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_371' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_372' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_642' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_643' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_644' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_645' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1867' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1868' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1869' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1870' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1871' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1872' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1873' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1874' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1875' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1876' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1877' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1878' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1879' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1880' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1881' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1882' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1883' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1884' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1885' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1886' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1887' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1888' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1889' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1890' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1891' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1892' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1893' in Module 'secured_object_56' cannot be supported. It will be ignored.
+WARNING <35811117> - Attribute 'keep' on Wire 'secured_signal_56_1894' in Module 'secured_object_56' cannot be supported. It will be ignored.
+Reading constraint file 'C:/lattice-fpga/HW/impl_1/HW_impl_1.ldc' ...
+Removing unused logic ...
+INFO <35811146> - Signal ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor/hsel_def_Q_reg.intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor/ahbl_hsel_dec_r_reg[0].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor/ahbl_hsel_dec_r_reg[1].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor/active_tx_r_reg.intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_default_slv/cs_sm_reg[0].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_default_slv/cs_sm_reg[1].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl2apb0_inst/lscc_ahbl2apb_inst/hwrite_r_reg.intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl2apb0_inst/lscc_ahbl2apb_inst/haddr_r_reg[2].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl2apb0_inst/lscc_ahbl2apb_inst/haddr_r_reg[3].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal ahbl2apb0_inst/lscc_ahbl2apb_inst/haddr_r_reg[4].intGnd undriven or does not drive anything - clipped
+INFO <35811149> - ... More signals are undriven or does not drive anything - clipped
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[5].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[5].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[6].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[6].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[7].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[7].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[4].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[4].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[1].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[1].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811148> - ... More instances are optimized away.
+Starting design annotation....
+ 
+Constraint Summary:
+   Total number of constraints: 3
+   Total number of constraints dropped: 0
+ 
+Writing output file 'HW_impl_1_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 1 secs 
+Total REAL Time: 3 secs 
+Peak Memory Usage: 231 MB
+Checksum -- postsyn: e24c30e2d850a7c0309e6715f758492226743fa9

@@ -1,0 +1,5 @@
+#Start recording tcl command: 11/2/2024 13:37:22
+#Project Location: C:/lattice-fpga/HW; Project name: HW
+source "C:/lattice-fpga/HW/radiant_setup_template.tcl"
+prj_run Export -impl impl_1
+#Stop recording: 11/2/2024 14:54:34

@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/CHANNEL/delimiter=;
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/CHANNEL/operation=replace
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/CHANNEL/value=14
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/CMDLENGTH/delimiter=;
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/CMDLENGTH/operation=replace
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/CMDLENGTH/value=0
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/DEBUGENABLE/delimiter=;
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/DEBUGENABLE/operation=replace
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/DEBUGENABLE/value=True
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/JTAG_CHANNEL/delimiter=;
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/JTAG_CHANNEL/operation=replace
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/JTAG_CHANNEL/value=14
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/append=true
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.864216107/appendContributed=true
