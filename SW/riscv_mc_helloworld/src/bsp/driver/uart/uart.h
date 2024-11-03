@@ -137,6 +137,8 @@ unsigned char uart_putc(struct uart_instance *this_uart,
 			unsigned char ucChar);
 unsigned char uart_getc(struct uart_instance *this_uart,
 			unsigned char *pucChar);
+unsigned int uart_getline(struct uart_instance *this_uart, unsigned char *buf, int buf_size);
+
 unsigned char uart_set_rate(struct uart_instance *this_uart,
 			    unsigned int baudrate);
 unsigned char uart_config(struct uart_instance *this_uart,

@@ -273,14 +273,85 @@ unsigned char uart_getc(struct uart_instance *this_uart,
 		}
 
 		/* if rx is non-blocking, return immediately */
-		if (this_uart->blockingRx == 0)
+		/*if (this_uart->blockingRx == 0)
 			return (UART_ERR_WOULD_BLOCK);
-
+*/
 	} while (1);
 
 	/* this "return" should never happen */
 	return (255);
 }
+
+
+/*
+ * get a line of input.
+ * return 0, when successfully get a line(end with '\r')
+ * return -1, when input excese buffer can contain.
+ * will block caller,
+ */
+unsigned int uart_getline(struct uart_instance *this_uart,
+			unsigned char *buf, int buf_size)
+{
+	volatile unsigned char uiValue;
+	volatile struct uart_dev *dev;
+	if (NULL == this_uart) {
+		return 1;
+	}
+	if (buf == 0)
+		return (UART_ERR_INVALID_ARGUMENT);
+
+	dev = (volatile struct uart_dev *) (this_uart->base);
+
+	int i = 0;
+	do{
+#if _UART_ENABLE_INTERRUPTS_
+		if (this_uart->intrAvail) {
+
+			/* using interrupts */
+			if (this_uart->rxDataBytes > 0) {
+				buf[i] = this_uart->rxBuffer[this_uart->rxReadLoc];
+				this_uart->rxReadLoc++;
+				if (this_uart->rxReadLoc >= this_uart->rxBufferSize)
+					this_uart->rxReadLoc = 0;
+				pic_int_disable(this_uart->intrLevel);
+				this_uart->rxDataBytes--;
+				this_uart->ier |= UART_IER_RX_INT_MASK;
+				dev->ier = this_uart->ier;
+				pic_int_enable(this_uart->intrLevel);
+				if( buf[i] == '\r' ){
+					buf[++i] = '\n';
+					return 0;
+				}
+				else
+					i++;
+
+			}
+		} else
+#endif
+		{
+			/* not using interrupts */
+			uiValue = dev->lsr;
+			if (uiValue & UART_LSR_RX_RDY_MASK) {
+				buf[i] = dev->rxtx;
+				if( buf[i] == '\r' ){
+					buf[++i] = '\n';
+					return 0;
+				}
+				else
+					i++;
+			}
+		}
+
+		/* if rx is non-blocking, return immediately */
+		/*if (this_uart->blockingRx == 0)
+			return (UART_ERR_WOULD_BLOCK);
+*/
+	}while( i < buf_size - 2 );
+
+	/* buf is full */
+	return (-1);
+}
+
 
 /*
  ***************************************************************
