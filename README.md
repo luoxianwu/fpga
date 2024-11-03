@@ -16,3 +16,20 @@ In Radiant, run All, It take some time. wait...
 ![image](https://github.com/user-attachments/assets/b9359bc0-e8fc-4000-bd67-0e11b6b27106)
 
 
+# Software Develop 
+git clone git@github.com:luoxianwu/fpga.git 
+start propel ![image](https://github.com/user-attachments/assets/4059a249-bc2d-4ab9-9c21-951b7e72f89c)
+![image](https://github.com/user-attachments/assets/91d9dc63-d3e2-483f-b24c-2bddfaab3b82)   
+[launch]
+then you can countiue develop software.
+
+# Hardware develop
+start propel-builder.   
+in builder IDE, File/Open Design,    
+select fpga/HW/HW/HW.sbx, then [Open]   
+![image](https://github.com/user-attachments/assets/9e81cefd-5e78-4923-8e06-e4b9ca72d240)   
+then you can countiue develop hardware.
+
+
+
+
