@@ -44,6 +44,7 @@
 #include <stdio.h>
 #include "sys_platform.h"
 #include <riscv_errors.h>
+#include "parse_input.h"
 
 #ifdef UART_INST_BASE_ADDR
 #include "uart.h"
@@ -137,6 +138,7 @@ while(1){
     printf("Enter command:\n>");
 	int ret = uart_getline(&uart_core_uart, buf, sizeof(buf));
     printf("\n%s", buf);
+    parse_input( buf );
 }
 	while (true) {
 #ifdef GPIO_INST_BASE_ADDR
