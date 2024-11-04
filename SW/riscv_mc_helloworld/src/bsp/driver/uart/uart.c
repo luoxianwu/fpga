@@ -297,6 +297,7 @@ unsigned char uart_getc(struct uart_instance *this_uart,
 unsigned int uart_getline(struct uart_instance *this_uart,
 			unsigned char *buf, int buf_size)
 {
+	int escape = 0;
 	volatile unsigned char uiValue;
 	volatile struct uart_dev *dev;
 	if (NULL == this_uart) {
@@ -331,30 +332,42 @@ unsigned int uart_getline(struct uart_instance *this_uart,
 				        printf("\b \b");      // Move cursor back, print space, move cursor back again
 				    }
 				}else
-				if (buf[i] == 'A') {  // Handle up arrow ( teraterm, send '\e','[' and 'A' )
-				    if( (i >= 2) && (buf[i-2] == '\e') && (buf[i-1] == '[') ){
-				    	i -= 2; //remove ...
-				    	const char* p = history_up();
-				    	int cnt = 0;
-				    	if( p != NULL ){
-				    		cnt = strlen(p) - 2; // remove the last 2 char('\r','\n')
-				    		strncpy( buf, p, cnt );
-				    		buf[cnt] = '\0';
-				    	}
-				    	// clean terminal
+				if (buf[i] == '\e') {  // Handle backspace
+					escape = 1;
+					i++;
+				}else
+				if (buf[i] == '[' && escape == 1 ) {  // Handle backspace
+					escape = 2;
+					i++;
+				}else
 
-				    	for( ;i != 0; i-- ){
-				    		printf("\b \b");
-				    	}
-				    	//printf("%s", buf);
-				    	for( int j = 0; j < cnt; j++ )
-				    		uart_putc( &uart_core_uart, buf[j]);
-				    	i = cnt;
+				if (buf[i] == 'A' && escape == 2) {  // Handle up arrow ( teraterm, send '\e','[' and 'A' )
+				    i -= 2; //remove ...
+				    const char* p = history_up();
+				    int cnt = 0;
+				    if( p != NULL ){
+				    	cnt = strlen(p) - 2; // remove the last 2 char('\r','\n')
+				    	strncpy( buf, p, cnt );
+				    	buf[cnt] = '\0';
+
+				    	// clean terminal
+				    	printf("\033[2K\r"); // putty terminal : clean line
+				    	printf(">%s", buf);
+			    		i = cnt;
 				    }
 				}else
-				if (buf[i] == 'B') {  // Handle up arrow
-					if( (i >= 2) && (buf[i-2] == '\e') && (buf[i-1] == '[') ){
-						const char* p = history_down();
+				if (buf[i] == 'B'  && escape == 2 ) {  // Handle up arrow
+					const char* p = history_down();
+					int cnt = 0;
+			    	if( p != NULL ){
+			    		cnt = strlen(p) - 2; // remove the last 2 char('\r','\n')
+			    		strncpy( buf, p, cnt );
+			    		buf[cnt] = '\0';
+				    	// clean terminal
+				    	printf("\033[2K\r"); // putty terminal : clean line
+				    	printf(">%s", buf);  // show history input
+
+				    	i = cnt;
 					}
 				}else
 				if( buf[i] == '\r' ){
@@ -617,7 +630,8 @@ const char* history_up() {
         navigate_count++;
         return history[navigate_index % HISTORY_SIZE];
     } else {
-        printf("No more history above.\n");
+    	printf("\033[2K\r");
+        printf("No more history above.\n>");
         return NULL;
     }
 }
@@ -628,7 +642,8 @@ const char*history_down() {
         navigate_count--;
         return history[navigate_index % HISTORY_SIZE];
     } else {
-        printf("No more history below.\n");
+    	printf("\033[2K\r");
+        printf("No more history below.\n>");
         return NULL;
     }
 }
