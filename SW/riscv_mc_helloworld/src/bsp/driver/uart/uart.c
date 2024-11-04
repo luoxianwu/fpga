@@ -50,7 +50,7 @@
      ================================================================== */
 #include "uart.h"
 #include "hal.h"
-
+#include <string.h>
 /*
  ***************************************************************
  * UART ISR: Automatically optimized-out (it's a "static") if
@@ -59,6 +59,10 @@
  * UART instances.
  ***************************************************************
 */
+extern struct uart_instance uart_core_uart;
+static void add_to_history(const char *input);
+static const char* history_up();
+static const char* history_down();
 
 #if _UART_ENABLE_INTERRUPTS_
 void uart_isr(void *ctx)
@@ -87,6 +91,7 @@ void uart_isr(void *ctx)
 
 			/* read the data into the buffer */
 			uart->rxBuffer[uart->rxWriteLoc] = dev->rxtx;
+			//dev->rxtx = uart->rxBuffer[uart->rxWriteLoc];
 
 			/* check for error(s) with the current word */
 			if ((lsr & (UART_LSR_PE_MASK | UART_LSR_FE_MASK))
@@ -313,17 +318,56 @@ unsigned int uart_getline(struct uart_instance *this_uart,
 				this_uart->rxReadLoc++;
 				if (this_uart->rxReadLoc >= this_uart->rxBufferSize)
 					this_uart->rxReadLoc = 0;
+
 				pic_int_disable(this_uart->intrLevel);
 				this_uart->rxDataBytes--;
 				this_uart->ier |= UART_IER_RX_INT_MASK;
 				dev->ier = this_uart->ier;
 				pic_int_enable(this_uart->intrLevel);
+
+				if (buf[i] == '\b') {  // Handle backspace
+				    if (i > 0) {
+				        buf[--i] = '\0';  // Remove last character from buffer
+				        printf("\b \b");      // Move cursor back, print space, move cursor back again
+				    }
+				}else
+				if (buf[i] == 'A') {  // Handle up arrow ( teraterm, send '\e','[' and 'A' )
+				    if( (i >= 2) && (buf[i-2] == '\e') && (buf[i-1] == '[') ){
+				    	i -= 2; //remove ...
+				    	const char* p = history_up();
+				    	int cnt = 0;
+				    	if( p != NULL ){
+				    		cnt = strlen(p) - 2; // remove the last 2 char('\r','\n')
+				    		strncpy( buf, p, cnt );
+				    		buf[cnt] = '\0';
+				    	}
+				    	// clean terminal
+
+				    	for( ;i != 0; i-- ){
+				    		printf("\b \b");
+				    	}
+				    	//printf("%s", buf);
+				    	for( int j = 0; j < cnt; j++ )
+				    		uart_putc( &uart_core_uart, buf[j]);
+				    	i = cnt;
+				    }
+				}else
+				if (buf[i] == 'B') {  // Handle up arrow
+					if( (i >= 2) && (buf[i-2] == '\e') && (buf[i-1] == '[') ){
+						const char* p = history_down();
+					}
+				}else
 				if( buf[i] == '\r' ){
 					buf[++i] = '\n';
+					buf[++i] = '\0';
+					add_to_history( buf );
 					return 0;
 				}
-				else
+				else{
+					uart_putc(&uart_core_uart, buf[i]);
 					i++;
+
+				}
 
 			}
 		} else
@@ -537,3 +581,56 @@ unsigned char uart_set_rate(struct uart_instance *this_uart,
 
 	return 0;
 }
+
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_CMD_LEN 32
+#define HISTORY_SIZE 4
+
+char history[HISTORY_SIZE][MAX_CMD_LEN];
+unsigned int input_index = 0;  // Index for the next input in history
+unsigned int navigate_index = 0;  // Index for navigating through history
+unsigned int navigate_count = 0;
+unsigned int history_total_count = 0;  // Total number of inputs stored
+
+void add_to_history(const char *input) {
+    int i = input_index % HISTORY_SIZE;
+    strncpy(history[i], input, MAX_CMD_LEN - 1);
+    history[i][MAX_CMD_LEN - 1] = '\0';
+    input_index++;
+    if (history_total_count < HISTORY_SIZE) {
+        history_total_count++;
+    }
+    navigate_index = input_index;  // Reset navigate index to the top of history
+    navigate_count = 0;			   // Reset navigate count to 0
+}
+
+void display_navigated_command() {
+        printf( "%s", history[navigate_index % HISTORY_SIZE]);
+        int cnt = strlen(history[navigate_index % HISTORY_SIZE]);
+}
+
+const char* history_up() {
+    if (history_total_count && navigate_count < history_total_count ) {
+        navigate_index--;
+        navigate_count++;
+        return history[navigate_index % HISTORY_SIZE];
+    } else {
+        printf("No more history above.\n");
+        return NULL;
+    }
+}
+
+const char*history_down() {
+    if (navigate_index < input_index) {
+        navigate_index++;
+        navigate_count--;
+        return history[navigate_index % HISTORY_SIZE];
+    } else {
+        printf("No more history below.\n");
+        return NULL;
+    }
+}
+
+

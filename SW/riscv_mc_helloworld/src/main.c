@@ -132,12 +132,12 @@ int main(void) {
 	bsp_init();
 
 	printf("Started!\nHello RISC-V world!\n"); 
-
-	unsigned char buf[64];
-    printf("Enter your string to test uart_getline():\n>");
+while(1){
+	unsigned char buf[64] = {0};
+    printf("Enter command:\n>");
 	int ret = uart_getline(&uart_core_uart, buf, sizeof(buf));
-    printf("Hello, %s", buf);
-
+    printf("\n%s", buf);
+}
 	while (true) {
 #ifdef GPIO_INST_BASE_ADDR
 		gpio_output_write(&gpio_inst, idx, pin_state);
