@@ -41,7 +41,7 @@
 
 //Verilog instantiation template
 
-HW _inst (.rstn_i(), 
-          .led_o(), 
-          .rxd_i(), 
-          .txd_o());
+HW _inst (.rxd_i(), 
+          .txd_o(), 
+          .rstn_i(), 
+          .led_o());

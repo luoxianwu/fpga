@@ -1013,21 +1013,6 @@
         </lattice:ipInstances>
         <lattice:memoryRegions>
             <lattice:memoryRegion>
-                <lattice:name>sysmem0_inst_AHBL_S1</lattice:name>
-                <lattice:instanceName>sysmem0_inst</lattice:instanceName>
-                <lattice:editAddress>False</lattice:editAddress>
-                <lattice:startAddress>0</lattice:startAddress>
-                <lattice:addressSpace>32768</lattice:addressSpace>
-                <lattice:accessType>R/W</lattice:accessType>
-                <lattice:masterPorts>
-                    <lattice:masterPort>
-                        <lattice:name>cpu0_inst_AHBL_M1_DATA</lattice:name>
-                        <lattice:baseAddress>0x0</lattice:baseAddress>
-                        <lattice:range>0x8000</lattice:range>
-                    </lattice:masterPort>
-                </lattice:masterPorts>
-            </lattice:memoryRegion>
-            <lattice:memoryRegion>
                 <lattice:name>sysmem0_inst_AHBL_S0</lattice:name>
                 <lattice:instanceName>sysmem0_inst</lattice:instanceName>
                 <lattice:editAddress>False</lattice:editAddress>
@@ -1037,6 +1022,21 @@
                 <lattice:masterPorts>
                     <lattice:masterPort>
                         <lattice:name>cpu0_inst_AHBL_M0_INSTR</lattice:name>
+                        <lattice:baseAddress>0x0</lattice:baseAddress>
+                        <lattice:range>0x8000</lattice:range>
+                    </lattice:masterPort>
+                </lattice:masterPorts>
+            </lattice:memoryRegion>
+            <lattice:memoryRegion>
+                <lattice:name>sysmem0_inst_AHBL_S1</lattice:name>
+                <lattice:instanceName>sysmem0_inst</lattice:instanceName>
+                <lattice:editAddress>False</lattice:editAddress>
+                <lattice:startAddress>0</lattice:startAddress>
+                <lattice:addressSpace>32768</lattice:addressSpace>
+                <lattice:accessType>R/W</lattice:accessType>
+                <lattice:masterPorts>
+                    <lattice:masterPort>
+                        <lattice:name>cpu0_inst_AHBL_M1_DATA</lattice:name>
                         <lattice:baseAddress>0x0</lattice:baseAddress>
                         <lattice:range>0x8000</lattice:range>
                     </lattice:masterPort>
