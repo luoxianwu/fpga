@@ -66,15 +66,19 @@ void execute_command(int items_count, const char* cmd, unsigned int addr, unsign
         printf("[%p] : %02x\n", p, (unsigned int)(*p));
     } else
     if (strcmp(cmd, "m") == 0 && items_count == 3) {
-        printf("Read Array uint32_t from address 0x%x, count %d\n", addr, val);
+    	if( addr%4 == 0 ){
+    		printf("Read Array uint32_t from address 0x%x, count %d\n", addr, val);
 
-        uint32_t *p = (uint32_t*)addr;
-        printf("[%p] :\n", p);
-        for( int i = 0; i < val; i++ ){
-    		printf("%08x\n", (unsigned int)(*p));
-    		p++;
-        }
-        printf("\n");
+    		uint32_t *p = (uint32_t*)addr;
+    		printf("[%p] :\n", p);
+    		for( int i = 0; i < val; i++ ){
+    			printf("%08x\n", (unsigned int)(*p));
+    			p++;
+    		}
+    		printf("\n");
+    	}else{
+    		printf("address must align 4 bytes, in order to write uint32\n");
+    	}
     } else
     if (strcmp(cmd, "m16") == 0 && items_count == 3) {
         printf("Read Array uint16_t from address 0x%x, count %d\n", addr, val);
@@ -85,9 +89,13 @@ void execute_command(int items_count, const char* cmd, unsigned int addr, unsign
         // Implement actual read operation here
     } else
     if (strcmp(cmd, "w") == 0 && items_count == 3) {
-        printf("Writing value(4 bytes) %x to address 0x%x\n", val, addr);
-        uint32_t *p = (uint32_t*)&memory[addr];
-        *p = val;
+    	if( addr%4 == 0 ){
+    		printf("Writing value(4 bytes) %x to address 0x%x\n", val, addr);
+    		uint32_t *p = (uint32_t*)addr;
+    		*p = val;
+    	}else{
+    		printf("address must align 4 bytes, in order to write uint32\n");
+    	}
     } else
     if (strcmp(cmd, "w16") == 0 && items_count == 3) {
         printf("Writing value(2 bytes) %x to address 0x%x\n", val, addr);
