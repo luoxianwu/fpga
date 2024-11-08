@@ -135,7 +135,7 @@ int main(void) {
 	static uint8_t pin_state = 0xFF;
 
 	bsp_init();
-
+/*
 	spi_master_init((struct spim_instance *)123,
 				0x8800,//uint32_t base_addr,
 				8,//uint8_t slave_count,
@@ -145,7 +145,7 @@ int main(void) {
 				4,//uint32_t spi_rx_fifo_afull_flag,
 				16,//uint32_t spi_rx_fifo_depth,
 				16);//uint32_t spi_tx_fifo_depth)
-
+*/
 	printf("Started!\nHello RISC-V world!\n"); 
 while(1){
 	unsigned char buf[64] = {0};
