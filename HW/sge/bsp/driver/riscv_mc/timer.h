@@ -52,6 +52,8 @@
 #ifndef TIMER_H_
 #define TIMER_H_
 
+#include <stdint.h>
+
 #define TIMER_MTIME_LOW                 0x400
 #define TIMER_MTIME_HIGH                0X404
 
@@ -59,29 +61,29 @@
 #define TIMER_MTIMECMP_HIGH             0x414
 
 struct timer_instance {
-	volatile unsigned int base_address;
-	unsigned int cpu_freq;
-	unsigned int delay;
-	unsigned char periodic;
+	volatile uint32_t base_address;
+	uint32_t cpu_freq;
+	uint32_t delay;
+	uint8_t periodic;
 	void (*callback) (void *);
 	void *userCtx;
 };
 
-unsigned char timer_init(struct timer_instance *this_timer,
-			 unsigned int base_addr, unsigned int cpu_freq);
-unsigned char timer_start(struct timer_instance *this_timer,
+uint8_t timer_init(struct timer_instance *this_timer,
+			 uint32_t base_addr, uint32_t cpu_freq);
+uint8_t timer_start(struct timer_instance *this_timer,
 			  void (*callback) (void *), void *userCtx,
-			  unsigned int periodic, unsigned int count);
-unsigned char timer_stop();
-unsigned char timer_get_mtime(struct timer_instance *this_timer,
+			  uint32_t periodic, uint32_t count);
+uint8_t timer_stop();
+uint8_t timer_get_mtime(struct timer_instance *this_timer,
 			      unsigned long long int *value);
-unsigned char timer_set_mtime(struct timer_instance *this_timer,
+uint8_t timer_set_mtime(struct timer_instance *this_timer,
 			      unsigned long long int value);
-unsigned char timer_get_mtimecmp(struct timer_instance *this_timer,
+uint8_t timer_get_mtimecmp(struct timer_instance *this_timer,
 				 unsigned long long int *value);
-unsigned char timer_set_mtimecmp(struct timer_instance *this_timer,
+uint8_t timer_set_mtimecmp(struct timer_instance *this_timer,
 				 unsigned long long int value);
-unsigned char timer_reload(struct timer_instance *this_timer,
-			   unsigned int delay);
+uint8_t timer_reload(struct timer_instance *this_timer,
+			   uint32_t delay);
 
 #endif				/* TIMER_H_ */

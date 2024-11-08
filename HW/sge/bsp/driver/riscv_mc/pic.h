@@ -53,28 +53,29 @@
 #define PIC_H_
 
 #include "util.h"
+#include <stdint.h>
 
 #if 0
 struct pic_reg {
-	volatile unsigned int isrc;
-	volatile unsigned int isrs;
-	volatile unsigned int isr;
-	volatile unsigned int reserved1;
-	volatile unsigned int ierc;
-	volatile unsigned int iers;
-	volatile unsigned int ier;
-	volatile unsigned int reserved2;
-	volatile unsigned int polc;
-	volatile unsigned int pols;
-	volatile unsigned int pol;
+	volatile uint32_t isrc;
+	volatile uint32_t isrs;
+	volatile uint32_t isr;
+	volatile uint32_t reserved1;
+	volatile uint32_t ierc;
+	volatile uint32_t iers;
+	volatile uint32_t ier;
+	volatile uint32_t reserved2;
+	volatile uint32_t polc;
+	volatile uint32_t pols;
+	volatile uint32_t pol;
 };
 #endif
 
 struct pic_reg {
-	volatile unsigned int pic_status;
-	volatile unsigned int pic_en;
-	volatile unsigned int pic_set;
-	volatile unsigned int pic_pol;
+	volatile uint32_t pic_status;
+	volatile uint32_t pic_en;
+	volatile uint32_t pic_set;
+	volatile uint32_t pic_pol;
 };
 
 
@@ -96,15 +97,15 @@ struct interrupt_entry {
 	void *context;		// base address of IP
 };
 
-unsigned char pic_int_clear(unsigned char src);
-unsigned char pic_int_enable(unsigned char src);
-unsigned char pic_int_disable(unsigned char src);
-unsigned char pic_int_pending(unsigned char src);
-unsigned char pic_init(unsigned int base);
-unsigned char pic_int_polarity_set(unsigned char src, unsigned char bit);
-unsigned char pic_int_polarity_get(unsigned char src, unsigned char *pol);
-unsigned char pic_int_status_get(unsigned int *status);
-unsigned char pic_isr_register(unsigned char src, void (*isr) (void *),
+uint8_t pic_int_clear(uint8_t src);
+uint8_t pic_int_enable(uint8_t src);
+uint8_t pic_int_disable(uint8_t src);
+uint8_t pic_int_pending(uint8_t src);
+uint8_t pic_init(uint32_t base);
+uint8_t pic_int_polarity_set(uint8_t src, uint8_t bit);
+uint8_t pic_int_polarity_get(uint8_t src, uint8_t *pol);
+uint8_t pic_int_status_get(uint32_t *status);
+uint8_t pic_isr_register(uint8_t src, void (*isr) (void *),
 			       void *context);
 
 #endif				/* PIC_H_ */

@@ -51,6 +51,8 @@
 #ifndef HAL_H_
 #define HAL_H_
 
+#define RISCV_MC_DRV_VER "v2.5.0"
+
 #include "pic.h"
 #include "reg_access.h"
 #include "iob.h"

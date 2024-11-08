@@ -58,6 +58,6 @@
 
 #define assert(cond) if (!(cond)) { return false; }
 
-unsigned int big_little_convert(unsigned int val, unsigned int *reval);
+uint32_t big_little_convert(uint32_t val, uint32_t *reval);
 
 #endif				/* BSP_DRIVER_CPU_VEXRISCV_UTIL_H_ */

@@ -43,14 +43,22 @@
 
 component HW is
     port (led_o: inout std_logic_vector(7 downto 0);
+        CS: out std_logic_vector(7 downto 0);
         rstn_i: in std_logic;
         rxd_i: in std_logic;
-        txd_o: out std_logic
+        txd_o: out std_logic;
+        MOSI: out std_logic;
+        clk_o: out std_logic;
+        MISO_i: in std_logic
     );
     
 end component HW;
-_inst: HW port map (rxd_i => __,
-                    txd_o => __,
+_inst: HW port map (CS => __,
+                    MOSI => __,
+                    clk_o => __,
+                    MISO_i => __,
+                    led_o => __,
                     rstn_i => __,
-                    led_o => __);
+                    rxd_i => __,
+                    txd_o => __);
                     

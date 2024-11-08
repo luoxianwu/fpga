@@ -55,9 +55,9 @@
 volatile struct pic_reg *pic_dev;
 struct interrupt_entry int_table[S_INT_NUM];
 
-unsigned char pic_init(unsigned int base)
+uint8_t pic_init(uint32_t base)
 {
-	unsigned int idx;
+	uint32_t idx;
 	pic_dev = (struct pic_reg *) base;
 
 	/* init interrupt table */
@@ -78,27 +78,27 @@ unsigned char pic_init(unsigned int base)
 	return 0;
 }
 
-unsigned char pic_int_enable(unsigned char src)
+uint8_t pic_int_enable(uint8_t src)
 {
 	pic_dev->pic_en |= 1 << (src);
 	return 0;
 }
 
-unsigned char pic_int_disable(unsigned char src)
+uint8_t pic_int_disable(uint8_t src)
 {
 	pic_dev->pic_en &= (~(1 << src));
 	return 0;
 }
 
-unsigned char pic_int_clear(unsigned char src)
+uint8_t pic_int_clear(uint8_t src)
 {
 	pic_dev->pic_status = 1 << (src);
 	return 0;
 }
 
-unsigned char pic_int_pending(unsigned char src)
+uint8_t pic_int_pending(uint8_t src)
 {
-	unsigned int ifr = pic_dev->pic_status;
+	uint32_t ifr = pic_dev->pic_status;
 
 	if (ifr & (1 << src)) {
 		return 1;
@@ -107,7 +107,7 @@ unsigned char pic_int_pending(unsigned char src)
 	return 0;
 }
 
-unsigned char pic_int_polarity_set(unsigned char src, unsigned char bit)
+uint8_t pic_int_polarity_set(uint8_t src, uint8_t bit)
 {
 	/* bit 1 means active low, otherwise,active high */
 	if (bit) {
@@ -118,20 +118,20 @@ unsigned char pic_int_polarity_set(unsigned char src, unsigned char bit)
 	return 0;
 }
 
-unsigned char pic_int_polarity_get(unsigned char src, unsigned char *pol)
+uint8_t pic_int_polarity_get(uint8_t src, uint8_t *pol)
 {
 
 	*pol = (pic_dev->pic_pol >> src) & 0x01;
 	return 0;
 }
 
-unsigned char pic_int_status_get(unsigned int *status)
+uint8_t pic_int_status_get(uint32_t *status)
 {
 	*status = pic_dev->pic_status;
 	return 0;
 }
 
-unsigned char pic_isr_register(unsigned char src, void (*isr) (void *),
+uint8_t pic_isr_register(uint8_t src, void (*isr) (void *),
 			       void *context)
 {
 	if (src >= S_INT_NUM) {

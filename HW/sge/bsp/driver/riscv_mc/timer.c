@@ -67,10 +67,10 @@ static void timer_isr(void *context)
 	}
 }
 
-unsigned char timer_init(struct timer_instance *this_timer,
-			 unsigned int base_addr, unsigned int cpu_freq)
+uint8_t timer_init(struct timer_instance *this_timer,
+			 uint32_t base_addr, uint32_t cpu_freq)
 {
-	unsigned long long int tmp = 1;
+	uint64_t tmp = 1;
 	if (NULL == this_timer) {
 		return 1;
 	}
@@ -80,13 +80,13 @@ unsigned char timer_init(struct timer_instance *this_timer,
 	return 0;
 }
 
-unsigned char timer_start(struct timer_instance *this_timer,
+uint8_t timer_start(struct timer_instance *this_timer,
 			  void (*callback) (void *), void *userCtx,
-			  unsigned int periodic, unsigned int count)
+			  uint32_t periodic, uint32_t count)
 {
-	unsigned int val;
+
 	/* Check initial condition */
-	unsigned int mie;
+	uint32_t mie;
 	if (NULL == this_timer) {
 		return 1;
 	}
@@ -108,9 +108,9 @@ unsigned char timer_start(struct timer_instance *this_timer,
 	return 0;
 }
 
-unsigned char timer_stop()
+uint8_t timer_stop()
 {
-	unsigned int mie;
+	uint32_t mie;
 
 	int_table[S_INT_TIMER].isr = NULL;
 	int_table[S_INT_TIMER].context = NULL;
@@ -120,11 +120,11 @@ unsigned char timer_stop()
 	return 0;
 }
 
-unsigned char timer_get_mtime(struct timer_instance *this_timer,
-			      unsigned long long int *value)
+uint8_t timer_get_mtime(struct timer_instance *this_timer,
+		uint64_t *value)
 {
-	unsigned int mtime_lo;
-	unsigned int mtime_hi;
+	uint32_t mtime_lo;
+	uint32_t mtime_hi;
 	if (NULL == this_timer) {
 		return 1;
 	}
@@ -134,17 +134,17 @@ unsigned char timer_get_mtime(struct timer_instance *this_timer,
 	reg_32b_read(this_timer->base_address | TIMER_MTIME_HIGH,
 		     &mtime_hi);
 
-	*value = ((unsigned long long int) mtime_hi << 32) | mtime_lo;
+	*value = ((uint64_t) mtime_hi << 32) | mtime_lo;
 
 	return 0;
 }
 
-unsigned char timer_set_mtime(struct timer_instance *this_timer,
-			      unsigned long long int value)
+uint8_t timer_set_mtime(struct timer_instance *this_timer,
+		uint64_t value)
 {
 
-	unsigned int mtime_lo;
-	unsigned int mtime_hi;
+	uint32_t mtime_lo;
+	uint32_t mtime_hi;
 	if (NULL == this_timer) {
 		return 1;
 	}
@@ -158,11 +158,11 @@ unsigned char timer_set_mtime(struct timer_instance *this_timer,
 	return 0;
 }
 
-unsigned char timer_get_mtimecmp(struct timer_instance *this_timer,
-				 unsigned long long int *value)
+uint8_t timer_get_mtimecmp(struct timer_instance *this_timer,
+		uint64_t *value)
 {
-	unsigned int mtimecmp_lo;
-	unsigned int mtimecmp_hi;
+	uint32_t mtimecmp_lo;
+	uint32_t mtimecmp_hi;
 	if (NULL == this_timer) {
 		return 1;
 	}
@@ -172,17 +172,17 @@ unsigned char timer_get_mtimecmp(struct timer_instance *this_timer,
 		     &mtimecmp_hi);
 
 	*value =
-	    ((unsigned long long int) mtimecmp_hi << 32) | mtimecmp_lo;
+	    ((uint64_t) mtimecmp_hi << 32) | mtimecmp_lo;
 
 	return 0;
 }
 
-unsigned char timer_set_mtimecmp(struct timer_instance *this_timer,
-				 unsigned long long int value)
+uint8_t timer_set_mtimecmp(struct timer_instance *this_timer,
+		uint64_t value)
 {
 
-	unsigned int mtimecmp_lo;
-	unsigned int mtimecmp_hi;
+	uint32_t mtimecmp_lo;
+	uint32_t mtimecmp_hi;
 	if (NULL == this_timer) {
 		return 1;
 	}
@@ -196,10 +196,10 @@ unsigned char timer_set_mtimecmp(struct timer_instance *this_timer,
 	return 0;
 }
 
-unsigned char timer_reload(struct timer_instance *this_timer,
-			   unsigned int delay)
+uint8_t timer_reload(struct timer_instance *this_timer,
+			   uint32_t delay)
 {
-	unsigned long long int tmp;
+	uint64_t tmp;
 	if (NULL == this_timer) {
 		return 1;
 	}

@@ -16,13 +16,19 @@
         </lattice:general>
         <lattice:ipInstances>
             <lattice:ipInstance>
-                <lattice:instanceName vendor="latticesemi.com" library="ip" name="riscv_mc" version="2.4.0">cpu0_inst</lattice:instanceName>
+                <lattice:instanceName vendor="latticesemi.com" library="ip" name="riscv_mc" version="2.6.0">cpu0_inst</lattice:instanceName>
                 <ipxact:addressSpaces>
                     <ipxact:addressSpace>
                         <ipxact:name>riscv_ahbl_m_data_Address_Space</ipxact:name>
                         <ipxact:range>4294967296</ipxact:range>
                         <ipxact:width>32</ipxact:width>
                         <ipxact:segments>
+                            <ipxact:segment>
+                                <ipxact:name>HW_SPI_inst_spi_master_mem_map</ipxact:name>
+                                <ipxact:displayName>HW/SPI_inst/spi_master_mem_map</ipxact:displayName>
+                                <ipxact:addressOffset>0x8800</ipxact:addressOffset>
+                                <ipxact:range>0x400</ipxact:range>
+                            </ipxact:segment>
                             <ipxact:segment>
                                 <ipxact:name>HW_gpio0_inst_gpio_mem_map</ipxact:name>
                                 <ipxact:displayName>HW/gpio0_inst/gpio_mem_map</ipxact:displayName>
@@ -107,6 +113,10 @@
                         <lattice:value>False</lattice:value>
                     </lattice:configurableParameter>
                     <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">CFU_EN</lattice:name>
+                        <lattice:value>False</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
                         <lattice:name sequence_id="0">DEBUG_ENABLE</lattice:name>
                         <lattice:value>True</lattice:value>
                     </lattice:configurableParameter>
@@ -159,6 +169,10 @@
                         <lattice:value>True</lattice:value>
                     </lattice:configurableParameter>
                     <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">CFU_N_CFUS</lattice:name>
+                        <lattice:value>1</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
                         <lattice:name sequence_id="0">C_EXT</lattice:name>
                         <lattice:value>True</lattice:value>
                     </lattice:configurableParameter>
@@ -180,17 +194,137 @@
                     </lattice:configurableParameter>
                     <lattice:configurableParameter>
                         <lattice:name sequence_id="0">IRQ_NUM</lattice:name>
-                        <lattice:value>2</lattice:value>
+                        <lattice:value>3</lattice:value>
                     </lattice:configurableParameter>
                     <lattice:configurableParameter>
                         <lattice:name sequence_id="0">DEVICE</lattice:name>
-                        <lattice:value>LIFCL</lattice:value>
+                        <lattice:value>LFD2NX</lattice:value>
                     </lattice:configurableParameter>
                     <lattice:configurableParameter>
                         <lattice:name sequence_id="0">JTAG_CHANNEL</lattice:name>
                         <lattice:value>14</lattice:value>
                     </lattice:configurableParameter>
                 </lattice:configurableParameters>
+                <lattice:driverVersion>2.5.0</lattice:driverVersion>
+            </lattice:ipInstance>
+            <lattice:ipInstance>
+                <lattice:instanceName vendor="latticesemi.com" library="ip" name="spi_controller" version="2.1.0">SPI_inst</lattice:instanceName>
+                <ipxact:memoryMaps>
+                    <ipxact:memoryMap>
+                        <ipxact:name>spi_master_mem_map</ipxact:name>
+                        <ipxact:description>SPI_Master memory map</ipxact:description>
+                        <ipxact:addressBlock>
+                            <ipxact:name>SPI_MASTER_Registers</ipxact:name>
+                            <ipxact:baseAddress>0x8800</ipxact:baseAddress>
+                            <ipxact:range>0x400</ipxact:range>
+                            <ipxact:width>32</ipxact:width>
+                            <ipxact:vendorExtensions/>
+                        </ipxact:addressBlock>
+                    </ipxact:memoryMap>
+                </ipxact:memoryMaps>
+                <lattice:configurableParameters>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">INTERFACE</lattice:name>
+                        <lattice:value>APB</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">SLAVE_COUNT</lattice:name>
+                        <lattice:value>8</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">FAMILY</lattice:name>
+                        <lattice:value>LIFCL</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">LSB_FIRST</lattice:name>
+                        <lattice:value>0</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">ONLY_WRITE</lattice:name>
+                        <lattice:value>0</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">DATA_WIDTH</lattice:name>
+                        <lattice:value>16</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">DATA_WIDTH_RESET</lattice:name>
+                        <lattice:value>1</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">SSNP</lattice:name>
+                        <lattice:value>1</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">CPOL</lattice:name>
+                        <lattice:value>0</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">CPHA</lattice:name>
+                        <lattice:value>0</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">slv_sel_pol</lattice:name>
+                        <lattice:value>00</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">SSPOL</lattice:name>
+                        <lattice:value>0x00</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">SPI_EN_IN</lattice:name>
+                        <lattice:value>False</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">SPI_EN</lattice:name>
+                        <lattice:value>0</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">BB_PRIM_EN</lattice:name>
+                        <lattice:value>False</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">FIFO_WIDTH</lattice:name>
+                        <lattice:value>16</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">FIFO_DEPTH</lattice:name>
+                        <lattice:value>16</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">FIFO_IMPL</lattice:name>
+                        <lattice:value>EBR</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">TX_FIFO_AE_FLAG</lattice:name>
+                        <lattice:value>3</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">RX_FIFO_AF_FLAG</lattice:name>
+                        <lattice:value>12</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">SYS_CLOCK_FREQ</lattice:name>
+                        <lattice:value>50.0</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">DESIRED_CLOCK_FREQ</lattice:name>
+                        <lattice:value>0.1</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">PRESCALER_INPUT</lattice:name>
+                        <lattice:value>250</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">PRESCALER</lattice:name>
+                        <lattice:value>250</lattice:value>
+                    </lattice:configurableParameter>
+                    <lattice:configurableParameter>
+                        <lattice:name sequence_id="0">ACTUAL_CLOCK_FREQ</lattice:name>
+                        <lattice:value>0.1</lattice:value>
+                    </lattice:configurableParameter>
+                </lattice:configurableParameters>
+                <lattice:interruptPort>IRQ_S2</lattice:interruptPort>
                 <lattice:driverVersion>null</lattice:driverVersion>
             </lattice:ipInstance>
             <lattice:ipInstance>

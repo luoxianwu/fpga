@@ -51,34 +51,34 @@
 
 #include "reg_access.h"
 
-unsigned char reg_32b_write(unsigned int reg_addr, unsigned int value)
+uint8_t reg_32b_write(uint32_t reg_addr, uint32_t value)
 {
-	unsigned int volatile *reg_value = (void *) reg_addr;
+	uint32_t volatile *reg_value = (void *) reg_addr;
 
 	*reg_value = value;
 	return 0;
 }
 
-unsigned char reg_32b_read(unsigned int reg_addr,
-			   unsigned int *reg_32b_value)
+uint8_t reg_32b_read(uint32_t reg_addr,
+			   uint32_t *reg_32b_value)
 {
-	unsigned int volatile *reg_value = (void *) reg_addr;
+	uint32_t volatile *reg_value = (void *) reg_addr;
 	*reg_32b_value = *reg_value;
 
 	return 0;
 }
 
-unsigned char reg_32b_modify(unsigned int reg_addr, unsigned int bits_mask,
-			     unsigned int value)
+uint8_t reg_32b_modify(uint32_t reg_addr, uint32_t bits_mask,
+			     uint32_t value)
 {
-	unsigned int volatile *reg_value = (void *) reg_addr;
+	uint32_t volatile *reg_value = (void *) reg_addr;
 
 	//*reg_value = ((*reg_value) & ~bits_mask) | value;
 	*reg_value = ((*reg_value) & (~bits_mask)) | (value & bits_mask);
 	return 0;
 }
 
-unsigned char reg_16b_write(unsigned int reg_addr, unsigned short value)
+uint8_t reg_16b_write(uint32_t reg_addr, unsigned short value)
 {
 	unsigned short volatile *reg_value = (void *) reg_addr;
 
@@ -86,7 +86,7 @@ unsigned char reg_16b_write(unsigned int reg_addr, unsigned short value)
 	return 0;
 }
 
-unsigned char reg_16b_read(unsigned int reg_addr,
+uint8_t reg_16b_read(uint32_t reg_addr,
 			   unsigned short *reg_16b_value)
 {
 	unsigned short volatile *reg_value = (void *) reg_addr;
@@ -94,27 +94,27 @@ unsigned char reg_16b_read(unsigned int reg_addr,
 	return 0;
 }
 
-unsigned char reg_8b_write(unsigned int reg_addr, unsigned char value)
+uint8_t reg_8b_write(uint32_t reg_addr, uint8_t value)
 {
-	unsigned char volatile *reg_value = (void *) reg_addr;
+	uint8_t volatile *reg_value = (void *) reg_addr;
 
 	*reg_value = value;
 	return 0;
 }
 
-unsigned char reg_8b_modify(unsigned int reg_addr, unsigned char bits_mask,
-			    unsigned char value)
+uint8_t reg_8b_modify(uint32_t reg_addr, uint8_t bits_mask,
+			    uint8_t value)
 {
-	unsigned char volatile *reg_value = (void *) reg_addr;
+	uint8_t volatile *reg_value = (void *) reg_addr;
 
 	*reg_value = ((*reg_value) & (~bits_mask)) | (value & bits_mask);
 	return 0;
 }
 
-unsigned char reg_8b_read(unsigned int reg_addr,
-			  unsigned char *reg_8b_value)
+uint8_t reg_8b_read(uint32_t reg_addr,
+			  uint8_t *reg_8b_value)
 {
-	unsigned char volatile *reg_value = (void *) reg_addr;
+	uint8_t volatile *reg_value = (void *) reg_addr;
 	*reg_8b_value = *reg_value;
 	return 0;
 }

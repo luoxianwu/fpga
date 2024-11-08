@@ -50,10 +50,10 @@
      ================================================================== */
 #include <stdio.h>
 
-unsigned int big_little_convert(unsigned int val, unsigned int *reval)
+uint32_t big_little_convert(uint32_t val, uint32_t *reval)
 {
-	unsigned char *b1 = (unsigned char *) &val;
-	unsigned char *b2 = (unsigned char *) reval;
+	uint8_t *b1 = (uint8_t *) &val;
+	uint8_t *b2 = (uint8_t *) reval;
 
 	b2[0] = b1[3];
 	b2[1] = b1[2];

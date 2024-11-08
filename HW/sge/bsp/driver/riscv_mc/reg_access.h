@@ -52,7 +52,7 @@
 #define REG_ACCESS_H
 
 //#include "sys_platform.h"
-//#include <stdint.h>
+#include <stdint.h>
 
 //typedef unsigned int XLEN;  // 32bit for RV32, 64bit for RV64
 
@@ -64,7 +64,7 @@
  *                  write.
  * @param value     Value to be written into the peripheral register.
  */
-unsigned char reg_32b_write(unsigned int reg_addr, unsigned int value);
+uint8_t reg_32b_write(uint32_t reg_addr, uint32_t value);
 
 /*
  * reg_32b_read is used to read the content of a 32 bits wide peripheral
@@ -74,17 +74,17 @@ unsigned char reg_32b_write(unsigned int reg_addr, unsigned int value);
  *                  read.
  * @return          32 bits value read from the peripheral register.
  */
-unsigned char reg_32b_read(unsigned int reg_addr,
-			   unsigned int *reg_32b_value);
-unsigned char reg_32b_modify(unsigned int reg_addr, unsigned int bits_mask,
-			     unsigned int value);
+uint8_t reg_32b_read(uint32_t reg_addr,
+		uint32_t *reg_32b_value);
+uint8_t reg_32b_modify(uint32_t reg_addr, uint32_t bits_mask,
+			     uint32_t value);
 
-unsigned char reg_16b_write(unsigned int reg_addr, unsigned short value);
+uint8_t reg_16b_write(uint32_t reg_addr, unsigned short value);
 
-unsigned char reg_16b_read(unsigned int reg_addr,
+uint8_t reg_16b_read(uint32_t reg_addr,
 			   unsigned short *reg_16b_value);
 
-unsigned char reg_8b_write(unsigned int reg_addr, unsigned char value);
+uint8_t reg_8b_write(uint32_t reg_addr, uint8_t value);
 
 /*
  * reg_8b_modify is used to modify the masked bits of a 8 bits wide peripheral
@@ -96,8 +96,8 @@ unsigned char reg_8b_write(unsigned int reg_addr, unsigned char value);
  * @value           The value will be modified to the masked bits of the register
  * @return
  */
-unsigned char reg_8b_modify(unsigned int reg_addr, unsigned char bits_mask,
-			    unsigned char value);
+uint8_t reg_8b_modify(uint32_t reg_addr, uint8_t bits_mask,
+			    uint8_t value);
 
 /*
  * reg_8b_read is used to read the content of a 8 bits wide peripheral
@@ -107,7 +107,7 @@ unsigned char reg_8b_modify(unsigned int reg_addr, unsigned char bits_mask,
  *                  read.
  * @return          8 bits value read from the peripheral register.
  */
-unsigned char reg_8b_read(unsigned int reg_addr,
-			  unsigned char *reg_8b_value);
+uint8_t reg_8b_read(uint32_t reg_addr,
+			  uint8_t *reg_8b_value);
 
 #endif				/*REG_ACCESS_H */
