@@ -46,6 +46,8 @@
 #include <riscv_errors.h>
 #include "parse_input.h"
 
+#include "spi_master.h"
+
 #ifdef UART_INST_BASE_ADDR
 #include "uart.h"
 
@@ -83,6 +85,8 @@ static int lscc_uart_putc(char c, FILE *file)
 		return EOF;
 #endif
 }
+
+
 
 
 static int lscc_uart_getc(FILE *file)
@@ -131,6 +135,16 @@ int main(void) {
 	static uint8_t pin_state = 0xFF;
 
 	bsp_init();
+
+	spi_master_init((struct spim_instance *)123,
+				0x8800,//uint32_t base_addr,
+				8,//uint8_t slave_count,
+				(uint32_t *)123, //tx_buf,
+				(uint32_t *)123, //rx_buf,
+				123, //uint32_t prescaler,
+				4,//uint32_t spi_rx_fifo_afull_flag,
+				16,//uint32_t spi_rx_fifo_depth,
+				16);//uint32_t spi_tx_fifo_depth)
 
 	printf("Started!\nHello RISC-V world!\n"); 
 while(1){
