@@ -46,7 +46,10 @@
 #include <riscv_errors.h>
 #include "parse_input.h"
 
+#ifdef SPI_INST_BASE_ADDR
 #include "spi_master.h"
+struct spim_instance spi_mast;
+#endif
 
 #ifdef UART_INST_BASE_ADDR
 #include "uart.h"
@@ -135,17 +138,16 @@ int main(void) {
 	static uint8_t pin_state = 0xFF;
 
 	bsp_init();
-/*
-	spi_master_init((struct spim_instance *)123,
-				0x8800,//uint32_t base_addr,
-				8,//uint8_t slave_count,
+
+	spi_master_init( &spi_mast, SPI_INST_BASE_ADDR,
+		SPI_INST_SLAVE_COUNT, //8,//uint8_t slave_count,
 				(uint32_t *)123, //tx_buf,
 				(uint32_t *)123, //rx_buf,
-				123, //uint32_t prescaler,
-				4,//uint32_t spi_rx_fifo_afull_flag,
-				16,//uint32_t spi_rx_fifo_depth,
-				16);//uint32_t spi_tx_fifo_depth)
-*/
+		SPI_INST_PRESCALER, //uint32_t prescaler,
+		SPI_INST_RX_FIFO_AF_FLAG,//uint32_t spi_rx_fifo_afull_flag,
+		SPI_INST_FIFO_DEPTH,//uint32_t spi_rx_fifo_depth,
+		SPI_INST_FIFO_DEPTH);//uint32_t spi_tx_fifo_depth)
+
 	printf("Started!\nHello RISC-V world!\n"); 
 while(1){
 	unsigned char buf[64] = {0};
