@@ -52,6 +52,8 @@
 #ifndef TIMER_H_
 #define TIMER_H_
 
+#include "sys_platform.h"
+
 #define TIMER_MTIME_LOW                 0x400
 #define TIMER_MTIME_HIGH                0X404
 
@@ -83,5 +85,7 @@ unsigned char timer_set_mtimecmp(struct timer_instance *this_timer,
 				 unsigned long long int value);
 unsigned char timer_reload(struct timer_instance *this_timer,
 			   unsigned int delay);
+
+void timer_test();
 
 #endif				/* TIMER_H_ */

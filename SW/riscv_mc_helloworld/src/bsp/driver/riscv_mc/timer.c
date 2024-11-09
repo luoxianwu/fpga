@@ -51,6 +51,10 @@
 #include "timer.h"
 #include "pic.h"
 #include "reg_access.h"
+#include "gpio.h"
+
+
+#define GPIO ((GPIO_TypeDef*)GPIO0_INST_BASE_ADDR)
 
 //struct interrupt_entry intTimer;
 extern struct interrupt_entry int_table[S_INT_NUM];
@@ -65,6 +69,16 @@ static void timer_isr(void *context)
 	if (ctx->periodic) {
 		timer_reload(ctx, ctx->delay);
 	}
+
+	static int toggle = 0;
+	toggle = !toggle;
+	if( toggle ){
+		GPIO->WR_DATA_REG = 0xff;
+	}
+	else{
+		GPIO->WR_DATA_REG = 0x00;
+	}
+
 }
 
 unsigned char timer_init(struct timer_instance *this_timer,
@@ -82,7 +96,8 @@ unsigned char timer_init(struct timer_instance *this_timer,
 
 unsigned char timer_start(struct timer_instance *this_timer,
 			  void (*callback) (void *), void *userCtx,
-			  unsigned int periodic, unsigned int count)
+			  unsigned int periodic,    // true/false, !0, timer will continue, 0 only 1 shot
+			  unsigned int count)  		// after count ms, will trigger interrupt, perio
 {
 	unsigned int val;
 	/* Check initial condition */
@@ -210,3 +225,30 @@ unsigned char timer_reload(struct timer_instance *this_timer,
 
 	return 0;
 }
+
+
+
+/*
+ * fot test
+ */
+
+
+extern struct timer_instance m_timer;
+void timer_test(){
+	timer_init( &m_timer, CPU0_INST_BASE_ADDR, 500000000 );
+	timer_start( &m_timer,
+				 NULL, NULL,
+				 1, 1000);
+}
+
+void timer_callback(){
+	static int toggle = 0;
+	toggle = !toggle;
+	if( toggle ){
+		GPIO->WR_DATA_REG = 0xff;
+	}
+	else{
+		GPIO->WR_DATA_REG = 0x00;
+	}
+}
+

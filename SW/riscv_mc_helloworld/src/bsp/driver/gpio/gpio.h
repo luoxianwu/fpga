@@ -51,6 +51,7 @@
 
 #ifndef __GPIO__
 #define __GPIO__
+#include <stdint.h>
 
 enum gpio_direction {
 	GPIO_INPUT,
@@ -82,4 +83,18 @@ unsigned char gpio_output_write(struct gpio_instance *this_gpio,
 unsigned char gpio_input_get(struct gpio_instance *this_gpio,
 			    unsigned int index, unsigned int *data);
 
+
+
+typedef struct {
+    volatile uint32_t RD_DATA_REG;     // 0x0000: Read Data Register
+    volatile uint32_t WR_DATA_REG;     // 0x0004: Write Data Register
+    volatile uint32_t SET_DATA_REG;    // 0x0008: Set Data Register
+    volatile uint32_t CLEAR_DATA_REG;  // 0x000C: Clear Data Register
+    volatile uint32_t DIRECTION_REG;   // 0x0010: Direction Register
+    volatile uint32_t INT_TYPE_REG;    // 0x0014: Interrupt Type Register
+    volatile uint32_t INT_METHOD_REG;  // 0x0018: Interrupt Method Register
+    volatile uint32_t INT_STATUS_REG;  // 0x001C: Interrupt Status Register
+    volatile uint32_t INT_ENABLE_REG;  // 0x0020: Interrupt Enable Register
+    volatile uint32_t INT_SET_REG;     // 0x0024: Interrupt Set Register
+} GPIO_TypeDef;
 #endif

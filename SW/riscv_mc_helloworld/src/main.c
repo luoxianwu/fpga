@@ -47,6 +47,9 @@
 #include "parse_input.h"
 #include "ispace.h"
 #include "adc128.h"
+#include "timer.h"
+
+struct timer_instance m_timer; // machine timer
 
 #ifdef SPI_INST_BASE_ADDR
 #include "spi_master.h"
@@ -127,6 +130,7 @@ static void bsp_init(void)
 	//initialize UART
 	uart_init(&uart_core_uart, UART_INST_BASE_ADDR, UART_INST_SYS_CLK * 1000000, UART_INST_BAUD_RATE, 1, 8);
 #elif (defined LOCAL_UART_INST_BASE_ADDR)
+
     local_uart_init(&local_uart_core, LOCAL_UART_INST_BASE_ADDR, CPU0_INST_SYS_CLOCK_FREQ * 1000000, CPU0_INST_BAUD_RATE, 1, 8);
 #endif
 	iob_init(lscc_uart_putc, lscc_uart_getc, lscc_uart_flush);
@@ -141,6 +145,8 @@ int main(void) {
 
 	bsp_init();
 
+	timer_test();
+
 	spi_master_init( &spi_mast, SPI_INST_BASE_ADDR,
 		SPI_INST_SLAVE_COUNT, //8,//uint8_t slave_count,
 				(uint32_t *)123, //tx_buf,
@@ -149,6 +155,8 @@ int main(void) {
 		SPI_INST_RX_FIFO_AF_FLAG,//uint32_t spi_rx_fifo_afull_flag,
 		SPI_INST_FIFO_DEPTH,//uint32_t spi_rx_fifo_depth,
 		SPI_INST_FIFO_DEPTH);//uint32_t spi_tx_fifo_depth)
+
+
 
 	parse_input( "m 8800 10" );
 
