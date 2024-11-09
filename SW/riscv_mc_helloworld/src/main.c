@@ -45,6 +45,8 @@
 #include "sys_platform.h"
 #include <riscv_errors.h>
 #include "parse_input.h"
+#include "ispace.h"
+#include "adc128.h"
 
 #ifdef SPI_INST_BASE_ADDR
 #include "spi_master.h"
@@ -91,7 +93,6 @@ static int lscc_uart_putc(char c, FILE *file)
 
 
 
-
 static int lscc_uart_getc(FILE *file)
 {
 	(void) file;
@@ -132,6 +133,7 @@ static void bsp_init(void)
 	trap_init();
 }
 
+uint16_t rx_buf[16];
 
 int main(void) {
 	static uint8_t idx = 0;
@@ -148,7 +150,14 @@ int main(void) {
 		SPI_INST_FIFO_DEPTH,//uint32_t spi_rx_fifo_depth,
 		SPI_INST_FIFO_DEPTH);//uint32_t spi_tx_fifo_depth)
 
+	parse_input( "m 8800 10" );
+
+	adc128_read( 7, rx_buf, 2 );
+
+	printf("adc128_read: 0x%x\n", rx_buf[0]);
+
 	printf("Started!\nHello RISC-V world!\n"); 
+	printf("%d\n", sizeof(uint32_t));
 while(1){
 	unsigned char buf[64] = {0};
     printf("Enter command:\n>");

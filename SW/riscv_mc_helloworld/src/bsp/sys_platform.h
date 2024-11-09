@@ -51,6 +51,11 @@
  
 #ifndef SYS_PLATFORM_H
 #define SYS_PLATFORM_H
+/*
+#undef uint32_t
+typedef  unsigned int uint32_t;
+*/
+
 
 /* cpu mode setting */
 #define INST_C_EXT

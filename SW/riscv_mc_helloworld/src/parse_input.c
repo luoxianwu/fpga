@@ -70,9 +70,8 @@ void execute_command(int items_count, const char* cmd, unsigned int addr, unsign
     		printf("Read Array uint32_t from address 0x%x, count %d\n", addr, val);
 
     		uint32_t *p = (uint32_t*)addr;
-    		printf("[%p] :\n", p);
     		for( int i = 0; i < val; i++ ){
-    			printf("%08x\n", (unsigned int)(*p));
+    			printf("[%p] : %08x\n", p, (unsigned int)(*p));
     			p++;
     		}
     		printf("\n");
