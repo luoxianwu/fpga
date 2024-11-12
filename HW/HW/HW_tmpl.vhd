@@ -42,23 +42,23 @@
 --VHDL instantiation template
 
 component HW is
-    port (led_o: inout std_logic_vector(7 downto 0);
-        CS: out std_logic_vector(7 downto 0);
-        rstn_i: in std_logic;
-        rxd_i: in std_logic;
-        txd_o: out std_logic;
+    port (CS: out std_logic_vector(7 downto 0);
+        led_o: inout std_logic_vector(7 downto 0);
+        MISO_i: in std_logic;
         MOSI: out std_logic;
         clk_o: out std_logic;
-        MISO_i: in std_logic
+        rstn_i: in std_logic;
+        rxd_i: in std_logic;
+        txd_o: out std_logic
     );
     
 end component HW;
 _inst: HW port map (CS => __,
+                    MISO_i => __,
                     MOSI => __,
                     clk_o => __,
-                    MISO_i => __,
-                    led_o => __,
                     rstn_i => __,
+                    led_o => __,
                     rxd_i => __,
                     txd_o => __);
                     

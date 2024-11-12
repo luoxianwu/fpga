@@ -42,10 +42,10 @@
 //Verilog instantiation template
 
 HW _inst (.CS(), 
+          .MISO_i(), 
           .MOSI(), 
           .clk_o(), 
-          .MISO_i(), 
-          .led_o(), 
           .rstn_i(), 
+          .led_o(), 
           .rxd_i(), 
           .txd_o());
