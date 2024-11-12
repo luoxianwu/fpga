@@ -235,7 +235,7 @@ unsigned char timer_reload(struct timer_instance *this_timer,
 
 extern struct timer_instance m_timer;
 void timer_test(){
-	timer_init( &m_timer, CPU0_INST_BASE_ADDR, 500000000 );
+	timer_init( &m_timer, CPU0_INST_BASE_ADDR, 100000000 );
 	timer_start( &m_timer,
 				 NULL, NULL,
 				 1, 1000);

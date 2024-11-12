@@ -35,6 +35,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>
+#include "sys_platform.h"
 
 #define SPI_Master_Driver_Version "v1.4.1"
 
@@ -271,7 +272,56 @@ uint8_t spi_device_enable(struct spim_instance *this_spim, uint8_t enable_slave)
  *
  */
 
+
+
+typedef struct {
+    volatile uint32_t RDWR_DATA_REG;       // 0x0000 Read & Write Data Register
+    volatile uint32_t CHP_SEL_REG;         // 0x0004 Chip Select Register (RW)
+    volatile uint32_t CFG_REG;             // 0x0008 Configuration Register (RW)
+    volatile uint32_t CLK_PRESCL_REG;      // 0x000C Clock Prescaler Lower Register (RW)
+    volatile uint32_t CLK_PRESCH_REG;      // 0x0010 Clock Prescaler Higher Register (RW)
+    volatile uint32_t INT_STATUS_REG;      // 0x0014 Interrupt Status Register (RW)
+    volatile uint32_t INT_ENABLE_REG;      // 0x0018 Interrupt Enable Register (RW)
+    volatile uint32_t INT_SET_REG;         // 0x001C Interrupt Set Register (WO)
+    volatile const uint32_t WORD_CNT_REG;  // 0x0020 Word Count Register (RO)
+    volatile uint32_t WORD_CNT_RST_REG;    // 0x0024 Word Count Reset Register (WO)
+    volatile uint32_t TGT_WORD_CNT_REG;    // 0x0028 Target Word Count Register (RW)
+    volatile uint32_t FIFO_RST_REG;        // 0x002C FIFO Reset Register (WO)
+    volatile uint32_t CHP_SEL_POL_REG;     // 0x0030 Chip Select Polarity Register (RW)
+    volatile const uint32_t FIFO_STATUS_REG; // 0x0034 FIFO Status Register (RO)
+    volatile uint32_t SPI_ENABLE_REG;      // 0x0038 SPI Enable Register (RW)
+} SPI_Registers;
+
+
+// Bit masks for FIFO_STATUS_REG
+#define RX_FIFO_EMPTY   (1 << 0)
+#define RX_FIFO_AFULL   (1 << 1)
+#define RX_FIFO_FULL    (1 << 2)
+#define TX_FIFO_EMPTY   (1 << 3)
+#define TX_FIFO_AEMPTY  (1 << 4)
+#define TX_FIFO_FULL    (1 << 5)
+
+// Bit masks for INT_ENABLE_REG
+#define INT_ENABLE_RX_FIFO_READY_EN     (1 << 0)  // Bit 0
+#define INT_ENABLE_RX_FIFO_AFULL_EN     (1 << 1)  // Bit 1
+#define INT_ENABLE_RX_FIFO_FULL_EN      (1 << 2)  // Bit 2
+#define INT_ENABLE_TX_FIFO_EMPTY_EN     (1 << 3)  // Bit 3
+#define INT_ENABLE_TX_FIFO_AEMPTY_EN    (1 << 4)  // Bit 4
+#define INT_ENABLE_TX_FIFO_FULL_EN      (1 << 5)  // Bit 5
+#define INT_ENABLE_TR_CMP_EN            (1 << 7)  // Bit 7
+
+typedef enum SPI_STATE{
+	SPI_IDEL,
+	SPI_BUSY,
+	SPI_TX_DONE
+}SPI_STATE;
+
+#define SPI ((SPI_Registers *)SPI_INST_BASE_ADDR)
+
 void spi_master_isr(void *ctx);
+void spi_isr(void* ctx);
+void spi_int_enable();
+int32_t spi_get_value();
 
 
 #endif  /*spi Master Header File*/

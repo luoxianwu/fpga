@@ -35,6 +35,9 @@
 #include "spi_master.h"
 #include "spi_master_regs.h"
 #include "hal.h"
+#include "ispace.h"
+
+SPI_STATE spi_state = SPI_IDEL;
 
 uint8_t spi_master_init(struct spim_instance *this_spim,
 			uint32_t base_addr,
@@ -336,4 +339,33 @@ void spi_master_isr(void* ctx)
     /* Clear all pending interrupts */
     reg_8b_write(this_spim->base_address |
                  SPI_MASTER_INT_STATUS, int_status & BITS_ALL_SET);
+}
+
+
+
+
+void spi_int_enable(){
+	SPI->INT_ENABLE_REG = 0x80; // transfer complete
+}
+
+
+
+
+uint32_t channel_value = -1; // invalid value
+
+void spi_isr(void* ctx){
+	channel_value = SPI->RDWR_DATA_REG;
+	SPI->INT_STATUS_REG = 0xff;  // clear all interrupt
+	spi_state = SPI_TX_DONE;
+}
+
+int32_t spi_get_value(){
+	if( spi_state == SPI_TX_DONE ){
+
+		spi_state = SPI_IDEL;
+		return channel_value;
+	}
+
+	else
+		return -1;
 }

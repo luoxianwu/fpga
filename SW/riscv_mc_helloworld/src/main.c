@@ -133,6 +133,12 @@ static void bsp_init(void)
 
     local_uart_init(&local_uart_core, LOCAL_UART_INST_BASE_ADDR, CPU0_INST_SYS_CLOCK_FREQ * 1000000, CPU0_INST_BAUD_RATE, 1, 8);
 #endif
+
+    pic_isr_register(SPI_INST_IRQ, spi_isr, &spi_mast);
+    pic_int_enable( SPI_INST_IRQ );
+    //enable SPI transfer complete interrupt
+    spi_int_enable();
+
 	iob_init(lscc_uart_putc, lscc_uart_getc, lscc_uart_flush);
 	trap_init();
 }
@@ -144,6 +150,8 @@ int main(void) {
 	static uint8_t pin_state = 0xFF;
 
 	bsp_init();
+
+
 
 	timer_test();
 
@@ -160,7 +168,21 @@ int main(void) {
 
 	parse_input( "m 8800 10" );
 
-	adc128_read( 7, rx_buf, 2 );
+	adc128_read_rtd( 7, rx_buf );
+
+	int temp = 0;
+	do{
+		temp = spi_get_value();
+	}while( temp == -1);
+	LOG_X(temp);
+
+	adc128_read_rtd( 9, rx_buf );
+
+
+	do{
+		temp = spi_get_value();
+	}while( temp == -1);
+	LOG_X(temp);
 
 	printf("adc128_read: 0x%x\n", rx_buf[0]);
 
