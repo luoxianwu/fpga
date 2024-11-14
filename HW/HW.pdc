@@ -20,8 +20,14 @@ ldc_set_location -site {A4} [get_ports {spi_cs_o[4]}]
 ldc_set_location -site {B4} [get_ports {spi_cs_o[5]}]
 ldc_set_location -site {C4} [get_ports {spi_cs_o[6]}]
 ldc_set_location -site {C5} [get_ports {spi_cs_o[7]}]
+ldc_set_location -site {J11} [get_ports spi_clk_o]
 ldc_set_location -site {K11} [get_ports MOSI_o]
-ldc_set_location -site {K12} [get_ports spi_clk_o]
+ldc_set_location -site {K12} [get_ports MISO_i]
+
+#clock
+ldc_set_location -site {H1} [get_ports cpu_clk_o]
+ldc_set_location -site {H2} [get_ports port_clk_o]
+
 
 
 #GSRN

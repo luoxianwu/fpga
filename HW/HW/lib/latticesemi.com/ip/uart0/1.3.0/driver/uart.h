@@ -55,7 +55,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define _UART_ENABLE_INTERRUPTS_	1
+#define _UART_NO_INTERRUPTS_
 
 /* LINE STATUS REGISTER BITS USED IN THE CODE */
 #define UART_LSR_RX_RDY_MASK    (0x01)
@@ -123,10 +123,6 @@ struct uart_instance {
 #define UART_ERR_WOULD_BLOCK        (1)
 #define UART_ERR_DEVICE_ERROR       (2)
 #define UART_ERR_INVALID_ARGUMENT   (3)
-
-#if _UART_ENABLE_INTERRUPTS_
-void uart_isr(void *ctx);
-#endif
 
 unsigned char uart_init(struct uart_instance *this_uart,
 			unsigned int base_addr,

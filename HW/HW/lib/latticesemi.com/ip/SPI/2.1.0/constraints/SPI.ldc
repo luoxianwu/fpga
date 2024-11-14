@@ -26,9 +26,9 @@ set FIFO_DEPTH 16
 set FIFO_IMPL "EBR"
 set TX_FIFO_AE_FLAG 3
 set RX_FIFO_AF_FLAG 12
-set SYS_CLOCK_FREQ 50.000000
-set PRESCALER 250
-set ACTUAL_CLOCK_FREQ 0.100000
+set SYS_CLOCK_FREQ 18.000000
+set PRESCALER 2
+set ACTUAL_CLOCK_FREQ 4.500000
 
 
 ## Refer to the generated Post-Synthesis constraints at eval/constraint.pdc

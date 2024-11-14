@@ -757,15 +757,21 @@
     <ipxact:vendorExtensions>
         <lsccip:moduleRef lsccip:library="ip" lsccip:name="uart" lsccip:vendor="latticesemi.com" lsccip:version="1.3.0"/>
         <lsccip:deviceInfo>
-            <lsccip:architecture>LIFCL</lsccip:architecture>
-            <lsccip:device>LIFCL-40</lsccip:device>
-            <lsccip:package>CABGA400</lsccip:package>
+            <lsccip:device>LFD2NX-40</lsccip:device>
+            <lsccip:device_int>jd5s30</lsccip:device_int>
+            <lsccip:package>CABGA256</lsccip:package>
+            <lsccip:package_int>CABGA256</lsccip:package_int>
             <lsccip:performanceGrade>8_High-Performance_1.0V</lsccip:performanceGrade>
+            <lsccip:speed_int>11</lsccip:speed_int>
+            <lsccip:operation>Commercial</lsccip:operation>
+            <lsccip:family>LFD2NX</lsccip:family>
+            <lsccip:architecture>jd5s00</lsccip:architecture>
+            <lsccip:partnumber>LFD2NX-40-8BG256C</lsccip:partnumber>
         </lsccip:deviceInfo>
         <lsccip:generationInfo>
             <lsccip:fileVersion>20180929</lsccip:fileVersion>
-            <lsccip:createdTimestamp>2022 09 19 15:27:01</lsccip:createdTimestamp>
-            <lsccip:radiantBuild>&quot;Lattice Propel&quot; (64-bit) 2022.1.2209140739</lsccip:radiantBuild>
+            <lsccip:createdTimestamp>2024 11 13 14:33:09</lsccip:createdTimestamp>
+            <lsccip:radiantBuild>&quot;Lattice Propel&quot; (64-bit) 2024.1.2406150513_p</lsccip:radiantBuild>
         </lsccip:generationInfo>
     </ipxact:vendorExtensions>
 </ipxact:component>
