@@ -425,7 +425,7 @@
                         <ipxact:bitOffset>0</ipxact:bitOffset>
                         <ipxact:resets>
                             <ipxact:reset>
-                                <ipxact:value>2</ipxact:value>
+                                <ipxact:value>250</ipxact:value>
                             </ipxact:reset>
                         </ipxact:resets>
                         <ipxact:bitWidth>8</ipxact:bitWidth>
@@ -1435,7 +1435,7 @@
         </lsccip:deviceInfo>
         <lsccip:generationInfo>
             <lsccip:fileVersion>20180929</lsccip:fileVersion>
-            <lsccip:createdTimestamp>2024 11 13 14:33:57</lsccip:createdTimestamp>
+            <lsccip:createdTimestamp>2024 11 07 20:22:51</lsccip:createdTimestamp>
             <lsccip:radiantBuild>&quot;Lattice Propel&quot; (64-bit) 2024.1.2406150513_p</lsccip:radiantBuild>
         </lsccip:generationInfo>
     </ipxact:vendorExtensions>

@@ -1,0 +1,1432 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strncpy.c.o)
+                              ./src/bsp/driver/uart/uart.o (strncpy)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_printf.c.o)
+                              ./src/bsp/driver/uart/uart.o (printf)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_putchar.c.o)
+                              ./src/parse_input.o (putchar)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_puts.c.o)
+                              ./src/RTD/adc128.o (puts)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_sscanf.c.o)
+                              ./src/parse_input.o (sscanf)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+                              (__i_vfprintf)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+                              (__i_vfscanf)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(memset.S.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strncpy.c.o) (memset)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strcmp.S.o)
+                              ./src/parse_input.o (strcmp)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strlen.c.o)
+                              ./src/bsp/driver/uart/uart.o (strlen)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strchr.c.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o) (strchr)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strnlen.c.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o) (strnlen)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o) (fgetc)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_filestrget.c.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_sscanf.c.o) (__file_str_get)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_putchar.c.o) (fputc)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o) (ungetc)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fgetc.c.o) (__atomic_exchange_ungetc)
+c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_ungetc.c.o) (__atomic_compare_exchange_ungetc)
+c:/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(save-restore.o)
+                              c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o) (__riscv_save_12)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/uart/uart.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/uart/uart.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/uart/uart.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/uart/uart.o
+ .text.uart_getc
+                0x0000000000000000      0x136 ./src/bsp/driver/uart/uart.o
+ .text.uart_config
+                0x0000000000000000      0x146 ./src/bsp/driver/uart/uart.o
+ .text.uart_set_rate
+                0x0000000000000000       0xb2 ./src/bsp/driver/uart/uart.o
+ .text.display_navigated_command
+                0x0000000000000000       0x64 ./src/bsp/driver/uart/uart.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/spi_controller/spi_master.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/spi_controller/spi_master.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/spi_controller/spi_master.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/spi_controller/spi_master.o
+ .text.spi_master_config
+                0x0000000000000000      0x1be ./src/bsp/driver/spi_controller/spi_master.o
+ .text.spi_master_transfer
+                0x0000000000000000      0x148 ./src/bsp/driver/spi_controller/spi_master.o
+ .text.spi_master_transfer_blocking
+                0x0000000000000000      0x252 ./src/bsp/driver/spi_controller/spi_master.o
+ .text.spi_device_select
+                0x0000000000000000       0x58 ./src/bsp/driver/spi_controller/spi_master.o
+ .text.spi_device_enable
+                0x0000000000000000       0x42 ./src/bsp/driver/spi_controller/spi_master.o
+ .text.spi_master_isr
+                0x0000000000000000      0x148 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000      0x201 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x3b ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x82 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000       0x8d ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000000000      0x358 ./src/bsp/driver/spi_controller/spi_master.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/cache.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/cache.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/cache.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/cache.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/cache.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/cache.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/cache.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/cache.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/cache.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/cache.o
+ .text.cache_flush_ins
+                0x0000000000000000       0x12 ./src/bsp/driver/riscv_mc/cache.o
+ .text.cache_invalidate
+                0x0000000000000000       0x12 ./src/bsp/driver/riscv_mc/cache.o
+ .text.cache_invalidate_all
+                0x0000000000000000        0xe ./src/bsp/driver/riscv_mc/cache.o
+ .debug_info    0x0000000000000000       0xd2 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_abbrev  0x0000000000000000       0x81 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_ranges  0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_macro   0x0000000000000000       0x63 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/driver/riscv_mc/cache.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/riscv_mc/cache.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/riscv_mc/cache.o
+ .debug_line    0x0000000000000000      0x229 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_str     0x0000000000000000     0x4798 ./src/bsp/driver/riscv_mc/cache.o
+ .comment       0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/cache.o
+ .debug_frame   0x0000000000000000       0x7c ./src/bsp/driver/riscv_mc/cache.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/crt0.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/crt0.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/exit.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/exit.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/exit.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000      0x201 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x3b ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x82 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000       0x8d ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000000000      0x358 ./src/bsp/driver/riscv_mc/exit.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/interrupt.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/interrupt.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/interrupt.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x94 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000      0x201 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x3b ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x57 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x82 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x8d ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/driver/riscv_mc/interrupt.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/iob.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/iob.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/iob.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x94 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000      0x201 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x3b ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x57 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x82 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000       0x8d ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000000000      0x358 ./src/bsp/driver/riscv_mc/iob.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/pic.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/pic.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/pic.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_int_polarity_set
+                0x0000000000000000       0x46 ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_int_polarity_get
+                0x0000000000000000       0x3e ./src/bsp/driver/riscv_mc/pic.o
+ .text.pic_int_status_get
+                0x0000000000000000       0x24 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x94 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000      0x201 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x3b ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x57 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x82 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x8d ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/driver/riscv_mc/pic.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/reg_access.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/reg_access.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/reg_access.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_32b_modify
+                0x0000000000000000       0x46 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_16b_write
+                0x0000000000000000       0x2e ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_16b_read
+                0x0000000000000000       0x36 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_8b_write
+                0x0000000000000000       0x2e ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_8b_modify
+                0x0000000000000000       0x74 ./src/bsp/driver/riscv_mc/reg_access.o
+ .text.reg_8b_read
+                0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/reg_access.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/riscv_mc/reg_access.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/timer.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/timer.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/timer.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_stop
+                0x0000000000000000       0x48 ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_get_mtime
+                0x0000000000000000       0xa4 ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_callback
+                0x0000000000000000       0x4a ./src/bsp/driver/riscv_mc/timer.o
+ .sbss.toggle.0
+                0x0000000000000000        0x4 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000      0x1f5 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x94 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000      0x201 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x3b ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x57 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x82 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x8d ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000000000       0x22 ./src/bsp/driver/riscv_mc/timer.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/riscv_mc/util.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/util.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/util.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/riscv_mc/util.o
+ .text.big_little_convert
+                0x0000000000000000       0x6e ./src/bsp/driver/riscv_mc/util.o
+ .debug_info    0x0000000000000000       0xd8 ./src/bsp/driver/riscv_mc/util.o
+ .debug_abbrev  0x0000000000000000       0x87 ./src/bsp/driver/riscv_mc/util.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/util.o
+ .debug_ranges  0x0000000000000000       0x10 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000      0x100 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x94 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000      0x201 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x3b ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x57 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x82 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x58 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x16 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x97 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x35 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x10 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0x20 ./src/bsp/driver/riscv_mc/util.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/bsp/driver/riscv_mc/util.o
+ .debug_line    0x0000000000000000      0x321 ./src/bsp/driver/riscv_mc/util.o
+ .debug_str     0x0000000000000000     0x6ac7 ./src/bsp/driver/riscv_mc/util.o
+ .comment       0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/util.o
+ .debug_frame   0x0000000000000000       0x34 ./src/bsp/driver/riscv_mc/util.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/bsp/driver/gpio/gpio.o
+ .text          0x0000000000000000        0x0 ./src/bsp/driver/gpio/gpio.o
+ .data          0x0000000000000000        0x0 ./src/bsp/driver/gpio/gpio.o
+ .bss           0x0000000000000000        0x0 ./src/bsp/driver/gpio/gpio.o
+ .text.gpio_set_direction
+                0x0000000000000000       0x52 ./src/bsp/driver/gpio/gpio.o
+ .text.gpio_output_write
+                0x0000000000000000       0x66 ./src/bsp/driver/gpio/gpio.o
+ .text.gpio_input_get
+                0x0000000000000000       0x3e ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000000000      0x778 ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000000000       0x8e ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000000000       0x51 ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000000000      0x103 ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000000000       0x6a ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000000000      0x1df ./src/bsp/driver/gpio/gpio.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/RTD/adc128.o
+ .text          0x0000000000000000        0x0 ./src/RTD/adc128.o
+ .data          0x0000000000000000        0x0 ./src/RTD/adc128.o
+ .bss           0x0000000000000000        0x0 ./src/RTD/adc128.o
+ .bss.spi_mast_regs
+                0x0000000000000000       0x3c ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000      0x778 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x16 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000      0x1f5 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x8e ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x51 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000      0x103 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x6a ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000      0x1df ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x22 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0xcc ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x35 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000      0x201 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x3b ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x34 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x82 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x58 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x16 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x97 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x35 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x10 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x20 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/RTD/adc128.o
+ .debug_macro   0x0000000000000000       0x2e ./src/RTD/adc128.o
+ .group         0x0000000000000000        0xc ./src/ccsds.o
+ .group         0x0000000000000000        0xc ./src/ccsds.o
+ .group         0x0000000000000000        0xc ./src/ccsds.o
+ .group         0x0000000000000000        0xc ./src/ccsds.o
+ .group         0x0000000000000000        0xc ./src/ccsds.o
+ .group         0x0000000000000000        0xc ./src/ccsds.o
+ .group         0x0000000000000000        0xc ./src/ccsds.o
+ .group         0x0000000000000000        0xc ./src/ccsds.o
+ .text          0x0000000000000000        0x0 ./src/ccsds.o
+ .data          0x0000000000000000        0x0 ./src/ccsds.o
+ .bss           0x0000000000000000        0x0 ./src/ccsds.o
+ .bss.pkg       0x0000000000000000       0x18 ./src/ccsds.o
+ .debug_info    0x0000000000000000      0x20e ./src/ccsds.o
+ .debug_abbrev  0x0000000000000000       0xb2 ./src/ccsds.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./src/ccsds.o
+ .debug_macro   0x0000000000000000       0x62 ./src/ccsds.o
+ .debug_macro   0x0000000000000000      0x778 ./src/ccsds.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/ccsds.o
+ .debug_macro   0x0000000000000000       0x8e ./src/ccsds.o
+ .debug_macro   0x0000000000000000       0x51 ./src/ccsds.o
+ .debug_macro   0x0000000000000000      0x103 ./src/ccsds.o
+ .debug_macro   0x0000000000000000       0x6a ./src/ccsds.o
+ .debug_macro   0x0000000000000000      0x1df ./src/ccsds.o
+ .debug_macro   0x0000000000000000       0x34 ./src/ccsds.o
+ .debug_line    0x0000000000000000      0x1c2 ./src/ccsds.o
+ .debug_str     0x0000000000000000     0x492a ./src/ccsds.o
+ .comment       0x0000000000000000       0x34 ./src/ccsds.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .group         0x0000000000000000        0xc ./src/main.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .sdata.pin_state.1
+                0x0000000000000000        0x1 ./src/main.o
+ .sbss.idx.0    0x0000000000000000        0x1 ./src/main.o
+ .debug_macro   0x0000000000000000      0x778 ./src/main.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/main.o
+ .debug_macro   0x0000000000000000       0x35 ./src/main.o
+ .debug_macro   0x0000000000000000       0x94 ./src/main.o
+ .debug_macro   0x0000000000000000      0x201 ./src/main.o
+ .debug_macro   0x0000000000000000       0x3b ./src/main.o
+ .debug_macro   0x0000000000000000      0x103 ./src/main.o
+ .debug_macro   0x0000000000000000       0x34 ./src/main.o
+ .debug_macro   0x0000000000000000       0x57 ./src/main.o
+ .debug_macro   0x0000000000000000       0x6a ./src/main.o
+ .debug_macro   0x0000000000000000      0x1df ./src/main.o
+ .debug_macro   0x0000000000000000       0x82 ./src/main.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/main.o
+ .debug_macro   0x0000000000000000       0x58 ./src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/main.o
+ .debug_macro   0x0000000000000000       0x97 ./src/main.o
+ .debug_macro   0x0000000000000000       0x35 ./src/main.o
+ .debug_macro   0x0000000000000000       0x10 ./src/main.o
+ .debug_macro   0x0000000000000000       0x20 ./src/main.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/main.o
+ .debug_macro   0x0000000000000000       0x8d ./src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./src/main.o
+ .debug_macro   0x0000000000000000      0x358 ./src/main.o
+ .debug_macro   0x0000000000000000       0x16 ./src/main.o
+ .debug_macro   0x0000000000000000      0x1f5 ./src/main.o
+ .debug_macro   0x0000000000000000       0x2e ./src/main.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/parse_input.o
+ .text          0x0000000000000000        0x0 ./src/parse_input.o
+ .data          0x0000000000000000        0x0 ./src/parse_input.o
+ .bss           0x0000000000000000        0x0 ./src/parse_input.o
+ .debug_macro   0x0000000000000000      0x778 ./src/parse_input.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x35 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x94 ./src/parse_input.o
+ .debug_macro   0x0000000000000000      0x201 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x3b ./src/parse_input.o
+ .debug_macro   0x0000000000000000      0x103 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x34 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x57 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x6a ./src/parse_input.o
+ .debug_macro   0x0000000000000000      0x1df ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x82 ./src/parse_input.o
+ .debug_macro   0x0000000000000000      0x4cc ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x58 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x16 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x97 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x35 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x10 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x20 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0xf9 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x8d ./src/parse_input.o
+ .debug_macro   0x0000000000000000      0x358 ./src/parse_input.o
+ .debug_macro   0x0000000000000000       0x35 ./src/parse_input.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .group         0x0000000000000000        0xc ./src/utils.o
+ .text          0x0000000000000000        0x0 ./src/utils.o
+ .data          0x0000000000000000        0x0 ./src/utils.o
+ .bss           0x0000000000000000        0x0 ./src/utils.o
+ .text.delayCycle
+                0x0000000000000000       0x40 ./src/utils.o
+ .text.delay    0x0000000000000000       0x22 ./src/utils.o
+ .debug_macro   0x0000000000000000      0x778 ./src/utils.o
+ .debug_macro   0x0000000000000000      0x4c5 ./src/utils.o
+ .debug_macro   0x0000000000000000       0x8e ./src/utils.o
+ .debug_macro   0x0000000000000000       0x51 ./src/utils.o
+ .debug_macro   0x0000000000000000      0x103 ./src/utils.o
+ .debug_macro   0x0000000000000000       0x6a ./src/utils.o
+ .debug_macro   0x0000000000000000      0x1df ./src/utils.o
+ .debug_macro   0x0000000000000000       0x16 ./src/utils.o
+ .debug_macro   0x0000000000000000      0x1f5 ./src/utils.o
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strncpy.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strncpy.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strncpy.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_printf.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_printf.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_printf.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_putchar.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_putchar.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_putchar.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_puts.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_puts.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_puts.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_sscanf.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_sscanf.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_sscanf.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(memset.S.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(memset.S.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(memset.S.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strcmp.S.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strcmp.S.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strcmp.S.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strlen.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strlen.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strlen.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strchr.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strchr.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strchr.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strnlen.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strnlen.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strnlen.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_filestrget.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_filestrget.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_filestrget.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .text          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+ .data          0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+ .bss           0x0000000000000000        0x0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+ .data          0x0000000000000000        0x0 c:/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(save-restore.o)
+ .bss           0x0000000000000000        0x0 c:/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(save-restore.o)
+ .eh_frame      0x0000000000000000       0xf8 c:/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(save-restore.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sysmem0_inst     0x0000000000000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000001b38                vfprintf = __i_vfprintf
+                0x0000000000002082                vfscanf = __i_vfscanf
+LOAD ./src/bsp/driver/uart/uart.o
+LOAD ./src/bsp/driver/spi_controller/spi_master.o
+LOAD ./src/bsp/driver/riscv_mc/cache.o
+LOAD ./src/bsp/driver/riscv_mc/crt0.o
+LOAD ./src/bsp/driver/riscv_mc/exit.o
+LOAD ./src/bsp/driver/riscv_mc/interrupt.o
+LOAD ./src/bsp/driver/riscv_mc/iob.o
+LOAD ./src/bsp/driver/riscv_mc/pic.o
+LOAD ./src/bsp/driver/riscv_mc/reg_access.o
+LOAD ./src/bsp/driver/riscv_mc/timer.o
+LOAD ./src/bsp/driver/riscv_mc/util.o
+LOAD ./src/bsp/driver/gpio/gpio.o
+LOAD ./src/RTD/adc128.o
+LOAD ./src/ccsds.o
+LOAD ./src/main.o
+LOAD ./src/parse_input.o
+LOAD ./src/utils.o
+LOAD c:/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a
+START GROUP
+LOAD c:/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a
+LOAD c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a
+END GROUP
+LOAD c:/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a
+                0x0000000000000000                _HEAP_SIZE = DEFINED (_HEAP_SIZE)?_HEAP_SIZE:0x0
+                0x0000000000000a00                _STACK_SIZE = DEFINED (_STACK_SIZE)?_STACK_SIZE:0xa00
+
+.text           0x0000000000000000     0x2834
+                0x0000000000000000                _ftext = .
+                [!provide]                        PROVIDE (_sprof = .)
+ *(SORT_BY_NAME(.crt*))
+ .crt0          0x0000000000000000       0x94 ./src/bsp/driver/riscv_mc/crt0.o
+                0x0000000000000000                _start
+                0x0000000000000010                trap_entry
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.uart_isr
+                0x0000000000000094      0x21a ./src/bsp/driver/uart/uart.o
+                0x0000000000000094                uart_isr
+ .text.uart_init
+                0x00000000000002ae      0x116 ./src/bsp/driver/uart/uart.o
+                0x00000000000002ae                uart_init
+ .text.uart_getline
+                0x00000000000003c4      0x3b4 ./src/bsp/driver/uart/uart.o
+                0x00000000000003c4                uart_getline
+ .text.uart_putc
+                0x0000000000000778      0x140 ./src/bsp/driver/uart/uart.o
+                0x0000000000000778                uart_putc
+ .text.add_to_history
+                0x00000000000008b8       0x8e ./src/bsp/driver/uart/uart.o
+ .text.history_up
+                0x0000000000000946       0x76 ./src/bsp/driver/uart/uart.o
+ .text.history_down
+                0x00000000000009bc       0x6e ./src/bsp/driver/uart/uart.o
+ .text.spi_master_init
+                0x0000000000000a2a       0x92 ./src/bsp/driver/spi_controller/spi_master.o
+                0x0000000000000a2a                spi_master_init
+ .text.spi_int_enable
+                0x0000000000000abc       0x1a ./src/bsp/driver/spi_controller/spi_master.o
+                0x0000000000000abc                spi_int_enable
+ .text.spi_isr  0x0000000000000ad6       0x32 ./src/bsp/driver/spi_controller/spi_master.o
+                0x0000000000000ad6                spi_isr
+ .text.spi_get_value
+                0x0000000000000b08       0x26 ./src/bsp/driver/spi_controller/spi_master.o
+                0x0000000000000b08                spi_get_value
+ .text          0x0000000000000b2e       0x42 ./src/bsp/driver/riscv_mc/crt0.o
+ .text._exit    0x0000000000000b70        0xc ./src/bsp/driver/riscv_mc/exit.o
+                0x0000000000000b70                _exit
+ .text.irq_callback
+                0x0000000000000b7c       0xb2 ./src/bsp/driver/riscv_mc/interrupt.o
+                0x0000000000000b7c                irq_callback
+ .text.esr_callback
+                0x0000000000000c2e       0x44 ./src/bsp/driver/riscv_mc/interrupt.o
+                0x0000000000000c2e                esr_callback
+ .text.iob_init
+                0x0000000000000c72       0x32 ./src/bsp/driver/riscv_mc/iob.o
+                0x0000000000000c72                iob_init
+ .text.iob_putc
+                0x0000000000000ca4       0x38 ./src/bsp/driver/riscv_mc/iob.o
+ .text.iob_getc
+                0x0000000000000cdc       0x2c ./src/bsp/driver/riscv_mc/iob.o
+ .text.iob_flush
+                0x0000000000000d08       0x2c ./src/bsp/driver/riscv_mc/iob.o
+ .text.pic_init
+                0x0000000000000d34       0x7a ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000000d34                pic_init
+ .text.pic_int_enable
+                0x0000000000000dae       0x30 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000000dae                pic_int_enable
+ .text.pic_int_disable
+                0x0000000000000dde       0x34 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000000dde                pic_int_disable
+ .text.pic_int_clear
+                0x0000000000000e12       0x26 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000000e12                pic_int_clear
+ .text.pic_int_pending
+                0x0000000000000e38       0x38 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000000e38                pic_int_pending
+ .text.pic_isr_register
+                0x0000000000000e70       0x66 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000000e70                pic_isr_register
+ .text.reg_32b_write
+                0x0000000000000ed6       0x2a ./src/bsp/driver/riscv_mc/reg_access.o
+                0x0000000000000ed6                reg_32b_write
+ .text.reg_32b_read
+                0x0000000000000f00       0x2c ./src/bsp/driver/riscv_mc/reg_access.o
+                0x0000000000000f00                reg_32b_read
+ .text.timer_isr
+                0x0000000000000f2c       0x7e ./src/bsp/driver/riscv_mc/timer.o
+ .text.timer_init
+                0x0000000000000faa       0x58 ./src/bsp/driver/riscv_mc/timer.o
+                0x0000000000000faa                timer_init
+ .text.timer_start
+                0x0000000000001002       0x9c ./src/bsp/driver/riscv_mc/timer.o
+                0x0000000000001002                timer_start
+ .text.timer_set_mtime
+                0x000000000000109e       0x64 ./src/bsp/driver/riscv_mc/timer.o
+                0x000000000000109e                timer_set_mtime
+ .text.timer_get_mtimecmp
+                0x0000000000001102       0x98 ./src/bsp/driver/riscv_mc/timer.o
+                0x0000000000001102                timer_get_mtimecmp
+ .text.timer_set_mtimecmp
+                0x000000000000119a       0x64 ./src/bsp/driver/riscv_mc/timer.o
+                0x000000000000119a                timer_set_mtimecmp
+ .text.timer_reload
+                0x00000000000011fe       0x8a ./src/bsp/driver/riscv_mc/timer.o
+                0x00000000000011fe                timer_reload
+ .text.timer_test
+                0x0000000000001288       0x32 ./src/bsp/driver/riscv_mc/timer.o
+                0x0000000000001288                timer_test
+ .text.gpio_init
+                0x00000000000012ba       0xa4 ./src/bsp/driver/gpio/gpio.o
+                0x00000000000012ba                gpio_init
+ .text.adc128_read_rtd
+                0x000000000000135e       0xd0 ./src/RTD/adc128.o
+                0x000000000000135e                adc128_read_rtd
+ .text.lscc_uart_putc
+                0x000000000000142e       0x5a ./src/main.o
+ .text.lscc_uart_getc
+                0x0000000000001488       0x14 ./src/main.o
+ .text.lscc_uart_flush
+                0x000000000000149c       0x14 ./src/main.o
+ .text.bsp_init
+                0x00000000000014b0       0x96 ./src/main.o
+ .text.main     0x0000000000001546      0x130 ./src/main.o
+                0x0000000000001546                main
+ .text.parse_input
+                0x0000000000001676       0x6a ./src/parse_input.o
+                0x0000000000001676                parse_input
+ .text.help     0x00000000000016e0       0x1a ./src/parse_input.o
+                0x00000000000016e0                help
+ .text.execute_command
+                0x00000000000016fa      0x318 ./src/parse_input.o
+ .text.trap_init
+                0x0000000000001a12        0xe ./src/utils.o
+                0x0000000000001a12                trap_init
+ .text.strncpy  0x0000000000001a20       0x24 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strncpy.c.o)
+                0x0000000000001a20                strncpy
+ .text.printf   0x0000000000001a44       0x26 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_printf.c.o)
+                0x0000000000001a44                printf
+ .text.putchar  0x0000000000001a6a        0xa c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_putchar.c.o)
+                0x0000000000001a6a                putchar
+ .text.puts     0x0000000000001a74       0x3e c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_puts.c.o)
+                0x0000000000001a74                puts
+ .text.sscanf   0x0000000000001ab2       0x48 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_sscanf.c.o)
+                0x0000000000001ab2                sscanf
+ .text.__ultoa_invert
+                0x0000000000001afa       0x3e c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .text.vfprintf
+                0x0000000000001b38      0x4b0 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+                0x0000000000001b38                __i_vfprintf
+ .text.scanf_getc
+                0x0000000000001fe8       0x16 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.scanf_ungetc
+                0x0000000000001ffe       0x18 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.skip_spaces
+                0x0000000000002016       0x38 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.putval   0x000000000000204e       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .text.vfscanf  0x0000000000002082      0x482 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+                0x0000000000002082                __i_vfscanf
+ .text.memset   0x0000000000002504       0xa8 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(memset.S.o)
+                0x0000000000002504                memset
+ .text.strcmp   0x00000000000025ac      0x11e c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strcmp.S.o)
+                0x00000000000025ac                strcmp
+ .text.strlen   0x00000000000026ca       0x12 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strlen.c.o)
+                0x00000000000026ca                strlen
+ .text.strchr   0x00000000000026dc       0x1a c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strchr.c.o)
+                0x00000000000026dc                strchr
+ .text.strnlen  0x00000000000026f6       0x18 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strnlen.c.o)
+                0x00000000000026f6                strnlen
+ .text.fgetc    0x000000000000270e       0x48 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+                0x000000000000270e                fgetc
+                0x000000000000270e                getc
+ .text.__file_str_get
+                0x0000000000002756       0x14 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_filestrget.c.o)
+                0x0000000000002756                __file_str_get
+ .text.fputc    0x000000000000276a       0x20 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+                0x000000000000276a                fputc
+                0x000000000000276a                putc
+ .text.ungetc   0x000000000000278a       0x2e c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+                0x000000000000278a                ungetc
+ .text.__picolibc_non_atomic_exchange_ungetc
+                0x00000000000027b8        0xc c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+                0x00000000000027b8                __picolibc_non_atomic_exchange_ungetc
+                0x00000000000027b8                __atomic_exchange_ungetc
+ .text.__picolibc_non_atomic_compare_exchange_ungetc
+                0x00000000000027c4       0x10 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+                0x00000000000027c4                __atomic_compare_exchange_ungetc
+                0x00000000000027c4                __picolibc_non_atomic_compare_exchange_ungetc
+ .text          0x00000000000027d4       0x60 c:/lscc/propel/2024.1/sdk/riscv-none-embed-gcc/bin/../lib/gcc/riscv-none-embed/10.2.0/rv32imc/ilp32\libgcc.a(save-restore.o)
+                0x00000000000027d4                __riscv_save_12
+                0x00000000000027dc                __riscv_save_9
+                0x00000000000027dc                __riscv_save_11
+                0x00000000000027dc                __riscv_save_10
+                0x00000000000027dc                __riscv_save_8
+                0x00000000000027ea                __riscv_save_4
+                0x00000000000027ea                __riscv_save_6
+                0x00000000000027ea                __riscv_save_5
+                0x00000000000027ea                __riscv_save_7
+                0x0000000000002804                __riscv_save_3
+                0x0000000000002804                __riscv_save_2
+                0x0000000000002804                __riscv_save_1
+                0x0000000000002804                __riscv_save_0
+                0x0000000000002810                __riscv_restore_12
+                0x0000000000002814                __riscv_restore_11
+                0x0000000000002814                __riscv_restore_9
+                0x0000000000002814                __riscv_restore_10
+                0x0000000000002814                __riscv_restore_8
+                0x000000000000281e                __riscv_restore_5
+                0x000000000000281e                __riscv_restore_7
+                0x000000000000281e                __riscv_restore_6
+                0x000000000000281e                __riscv_restore_4
+                0x0000000000002828                __riscv_restore_3
+                0x0000000000002828                __riscv_restore_0
+                0x0000000000002828                __riscv_restore_2
+                0x0000000000002828                __riscv_restore_1
+ *(.init)
+ *(.fini)
+                0x0000000000002834                . = ALIGN (0x4)
+ *fill*         0x0000000000002834        0x0 
+                0x0000000000002834                _etext = .
+
+.gprof          0x0000000000002834        0x0
+                [!provide]                        PROVIDE (_s_part_prof = .)
+ *(.gprof)
+                0x0000000000002834                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_eprof = .)
+
+.ctors          0x0000000000002834        0x0
+                0x0000000000002834                _ctors_start = .
+ *(.init_array*)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x0000000000002834                . = ALIGN (0x4)
+                0x0000000000002834                _ctors_end = .
+
+.dtors          0x0000000000002834        0x0
+                0x0000000000002834                _dtors_start = .
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x0000000000002834                . = ALIGN (0x4)
+
+.rodata         0x0000000000002834      0x4ec
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata        0x0000000000002834       0x49 ./src/bsp/driver/uart/uart.o
+ *fill*         0x000000000000287d        0x3 
+ .rodata        0x0000000000002880       0x32 ./src/bsp/driver/riscv_mc/interrupt.o
+ *fill*         0x00000000000028b2        0x2 
+ .rodata.__iob  0x00000000000028b4        0xc ./src/bsp/driver/riscv_mc/iob.o
+                0x00000000000028b4                __iob
+ .rodata        0x00000000000028c0       0x2f ./src/RTD/adc128.o
+ *fill*         0x00000000000028ef        0x1 
+ .rodata        0x00000000000028f0       0x7c ./src/main.o
+ .rodata        0x000000000000296c      0x396 ./src/parse_input.o
+ *fill*         0x0000000000002d02        0x2 
+ .rodata.str1.4
+                0x0000000000002d04       0x10 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .rodata.str1.4
+                0x0000000000002d14        0xc c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ *(.gnu.linkonce.r.*)
+                0x0000000000002d20                . = ALIGN (0x4)
+
+.rela.dyn       0x0000000000002d20        0x0
+ .rela.text     0x0000000000002d20        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.bsp_init
+                0x0000000000002d20        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.printf
+                0x0000000000002d20        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.putchar
+                0x0000000000002d20        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.puts
+                0x0000000000002d20        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.fgetc
+                0x0000000000002d20        0x0 ./src/bsp/driver/uart/uart.o
+ .rela.text.ungetc
+                0x0000000000002d20        0x0 ./src/bsp/driver/uart/uart.o
+
+.data           0x0000000000002d20       0x58
+ *(.data .data.*)
+ .data.__stdio  0x0000000000002d20       0x14 ./src/bsp/driver/riscv_mc/iob.o
+ .data.memory   0x0000000000002d34       0x40 ./src/parse_input.o
+ *(.gnu.linkonce.d.*)
+                0x0000000000002d74                . = ALIGN (0x4)
+                0x0000000000003574                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata.channel_value
+                0x0000000000002d74        0x4 ./src/bsp/driver/spi_controller/spi_master.o
+                0x0000000000002d74                channel_value
+ *(.gnu.linkonce.s.*)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x0000000000002d78                . = ALIGN (0x4)
+
+.bss            0x0000000000002d78      0x2b8
+                0x0000000000002d78                _bss_start = .
+ *(.sbss*)
+ .sbss.input_index
+                0x0000000000002d78        0x4 ./src/bsp/driver/uart/uart.o
+                0x0000000000002d78                input_index
+ .sbss.navigate_index
+                0x0000000000002d7c        0x4 ./src/bsp/driver/uart/uart.o
+                0x0000000000002d7c                navigate_index
+ .sbss.navigate_count
+                0x0000000000002d80        0x4 ./src/bsp/driver/uart/uart.o
+                0x0000000000002d80                navigate_count
+ .sbss.history_total_count
+                0x0000000000002d84        0x4 ./src/bsp/driver/uart/uart.o
+                0x0000000000002d84                history_total_count
+ .sbss.spi_state
+                0x0000000000002d88        0x4 ./src/bsp/driver/spi_controller/spi_master.o
+                0x0000000000002d88                spi_state
+ .sbss.s_putc_func
+                0x0000000000002d8c        0x4 ./src/bsp/driver/riscv_mc/iob.o
+ .sbss.s_getc_func
+                0x0000000000002d90        0x4 ./src/bsp/driver/riscv_mc/iob.o
+ .sbss.s_flush_func
+                0x0000000000002d94        0x4 ./src/bsp/driver/riscv_mc/iob.o
+ .sbss.pic_dev  0x0000000000002d98        0x4 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000002d98                pic_dev
+ .sbss.toggle.1
+                0x0000000000002d9c        0x4 ./src/bsp/driver/riscv_mc/timer.o
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ .bss.history   0x0000000000002da0       0x80 ./src/bsp/driver/uart/uart.o
+                0x0000000000002da0                history
+ .bss.int_table
+                0x0000000000002e20       0x48 ./src/bsp/driver/riscv_mc/pic.o
+                0x0000000000002e20                int_table
+ .bss.m_timer   0x0000000000002e68       0x18 ./src/main.o
+                0x0000000000002e68                m_timer
+ .bss.spi_mast  0x0000000000002e80       0x30 ./src/main.o
+                0x0000000000002e80                spi_mast
+ .bss.gpio_inst
+                0x0000000000002eb0      0x108 ./src/main.o
+                0x0000000000002eb0                gpio_inst
+ .bss.uart_core_uart
+                0x0000000000002fb8       0x58 ./src/main.o
+                0x0000000000002fb8                uart_core_uart
+ .bss.rx_buf    0x0000000000003010       0x20 ./src/main.o
+                0x0000000000003010                rx_buf
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x0000000000003030                . = ALIGN (0x4)
+                0x0000000000003030                _bss_end = .
+
+.heap           0x0000000000003030        0x0
+                [!provide]                        PROVIDE (_heap_start = .)
+                [!provide]                        PROVIDE (__heap_start = .)
+                0x0000000000003030                . = (. + _HEAP_SIZE)
+                0x0000000000003030                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_heap_end = .)
+                [!provide]                        PROVIDE (__heap_end = .)
+
+.stack          0x0000000000003030      0xa00
+                [!provide]                        PROVIDE (_stack_end = .)
+                0x0000000000003a30                . = (. + _STACK_SIZE)
+ *fill*         0x0000000000003030      0xa00 
+                0x0000000000003a30                . = ALIGN (0x10)
+                0x0000000000003a30                PROVIDE (_stack_start = .)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+OUTPUT(riscv_mc_helloworld.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x2eba
+ .debug_info    0x0000000000000000      0x742 ./src/bsp/driver/uart/uart.o
+ .debug_info    0x0000000000000742      0x79d ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_info    0x0000000000000edf       0x22 ./src/bsp/driver/riscv_mc/crt0.o
+ .debug_info    0x0000000000000f01       0xa0 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_info    0x0000000000000fa1      0x1a6 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_info    0x0000000000001147      0x30d ./src/bsp/driver/riscv_mc/iob.o
+ .debug_info    0x0000000000001454      0x36a ./src/bsp/driver/riscv_mc/pic.o
+ .debug_info    0x00000000000017be      0x2cc ./src/bsp/driver/riscv_mc/reg_access.o
+ .debug_info    0x0000000000001a8a      0x57a ./src/bsp/driver/riscv_mc/timer.o
+ .debug_info    0x0000000000002004      0x25c ./src/bsp/driver/gpio/gpio.o
+ .debug_info    0x0000000000002260      0x219 ./src/RTD/adc128.o
+ .debug_info    0x0000000000002479      0x67f ./src/main.o
+ .debug_info    0x0000000000002af8      0x2ac ./src/parse_input.o
+ .debug_info    0x0000000000002da4      0x116 ./src/utils.o
+
+.debug_abbrev   0x0000000000000000     0x10de
+ .debug_abbrev  0x0000000000000000      0x219 ./src/bsp/driver/uart/uart.o
+ .debug_abbrev  0x0000000000000219      0x25c ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_abbrev  0x0000000000000475       0x12 ./src/bsp/driver/riscv_mc/crt0.o
+ .debug_abbrev  0x0000000000000487       0x5b ./src/bsp/driver/riscv_mc/exit.o
+ .debug_abbrev  0x00000000000004e2      0x137 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_abbrev  0x0000000000000619      0x14f ./src/bsp/driver/riscv_mc/iob.o
+ .debug_abbrev  0x0000000000000768      0x155 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_abbrev  0x00000000000008bd       0x8e ./src/bsp/driver/riscv_mc/reg_access.o
+ .debug_abbrev  0x000000000000094b      0x1ae ./src/bsp/driver/riscv_mc/timer.o
+ .debug_abbrev  0x0000000000000af9      0x10d ./src/bsp/driver/gpio/gpio.o
+ .debug_abbrev  0x0000000000000c06       0xd5 ./src/RTD/adc128.o
+ .debug_abbrev  0x0000000000000cdb      0x222 ./src/main.o
+ .debug_abbrev  0x0000000000000efd      0x10d ./src/parse_input.o
+ .debug_abbrev  0x000000000000100a       0xd4 ./src/utils.o
+
+.debug_aranges  0x0000000000000000      0x3a0
+ .debug_aranges
+                0x0000000000000000       0x70 ./src/bsp/driver/uart/uart.o
+ .debug_aranges
+                0x0000000000000070       0x68 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_aranges
+                0x00000000000000d8       0x28 ./src/bsp/driver/riscv_mc/crt0.o
+ .debug_aranges
+                0x0000000000000100       0x20 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_aranges
+                0x0000000000000120       0x28 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_aranges
+                0x0000000000000148       0x38 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_aranges
+                0x0000000000000180       0x60 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_aranges
+                0x00000000000001e0       0x58 ./src/bsp/driver/riscv_mc/reg_access.o
+ .debug_aranges
+                0x0000000000000238       0x70 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_aranges
+                0x00000000000002a8       0x38 ./src/bsp/driver/gpio/gpio.o
+ .debug_aranges
+                0x00000000000002e0       0x20 ./src/RTD/adc128.o
+ .debug_aranges
+                0x0000000000000300       0x40 ./src/main.o
+ .debug_aranges
+                0x0000000000000340       0x30 ./src/parse_input.o
+ .debug_aranges
+                0x0000000000000370       0x30 ./src/utils.o
+
+.debug_ranges   0x0000000000000000      0x2e0
+ .debug_ranges  0x0000000000000000       0x78 ./src/bsp/driver/uart/uart.o
+ .debug_ranges  0x0000000000000078       0x58 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_ranges  0x00000000000000d0       0x20 ./src/bsp/driver/riscv_mc/crt0.o
+ .debug_ranges  0x00000000000000f0       0x10 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_ranges  0x0000000000000100       0x18 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_ranges  0x0000000000000118       0x28 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_ranges  0x0000000000000140       0x50 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_ranges  0x0000000000000190       0x48 ./src/bsp/driver/riscv_mc/reg_access.o
+ .debug_ranges  0x00000000000001d8       0x60 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_ranges  0x0000000000000238       0x28 ./src/bsp/driver/gpio/gpio.o
+ .debug_ranges  0x0000000000000260       0x10 ./src/RTD/adc128.o
+ .debug_ranges  0x0000000000000270       0x30 ./src/main.o
+ .debug_ranges  0x00000000000002a0       0x20 ./src/parse_input.o
+ .debug_ranges  0x00000000000002c0       0x20 ./src/utils.o
+
+.debug_macro    0x0000000000000000     0x3735
+ .debug_macro   0x0000000000000000      0x1b1 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x00000000000001b1      0x778 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000000929      0x4c5 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000000dee       0x8e ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000000e7c       0x51 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000000ecd      0x103 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000000fd0       0x6a ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x000000000000103a      0x1df ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001219       0x22 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x000000000000123b       0x52 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x000000000000128d       0x35 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x00000000000012c2      0x201 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x00000000000014c3       0x3b ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x00000000000014fe       0x34 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001532       0x82 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x00000000000015b4      0x4cc ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001a80       0x58 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001ad8       0x16 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001aee       0x97 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001b85       0x35 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001bba       0x10 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001bca       0x20 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001bea       0xf9 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001ce3       0x8d ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000001d70      0x358 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x00000000000020c8       0x16 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x00000000000020de       0x35 ./src/bsp/driver/uart/uart.o
+ .debug_macro   0x0000000000002113      0x1ac ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x00000000000022bf       0x16 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x00000000000022d5      0x1f5 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x00000000000024ca       0xcc ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000002596      0x13c ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x00000000000026d2       0x2e ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_macro   0x0000000000002700      0x118 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000002818       0x94 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x00000000000028ac       0x57 ./src/bsp/driver/riscv_mc/exit.o
+ .debug_macro   0x0000000000002903      0x135 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000002a38       0x22 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_macro   0x0000000000002a5a      0x122 ./src/bsp/driver/riscv_mc/iob.o
+ .debug_macro   0x0000000000002b7c      0x136 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_macro   0x0000000000002cb2       0x1b ./src/bsp/driver/riscv_mc/reg_access.o
+ .debug_macro   0x0000000000002ccd      0x16d ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000002e3a       0x1c ./src/bsp/driver/riscv_mc/timer.o
+ .debug_macro   0x0000000000002e56       0x7f ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000002ed5       0x46 ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x0000000000002f1b      0x174 ./src/bsp/driver/gpio/gpio.o
+ .debug_macro   0x000000000000308f      0x14f ./src/RTD/adc128.o
+ .debug_macro   0x00000000000031de      0x1d4 ./src/main.o
+ .debug_macro   0x00000000000033b2       0x2e ./src/main.o
+ .debug_macro   0x00000000000033e0       0x22 ./src/main.o
+ .debug_macro   0x0000000000003402       0xd2 ./src/main.o
+ .debug_macro   0x00000000000034d4       0x58 ./src/main.o
+ .debug_macro   0x000000000000352c      0x13f ./src/parse_input.o
+ .debug_macro   0x000000000000366b       0x10 ./src/parse_input.o
+ .debug_macro   0x000000000000367b       0x80 ./src/utils.o
+ .debug_macro   0x00000000000036fb       0x3a ./src/utils.o
+
+.debug_line     0x0000000000000000     0x52d8
+ .debug_line    0x0000000000000000     0x109a ./src/bsp/driver/uart/uart.o
+ .debug_line    0x000000000000109a      0xd51 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_line    0x0000000000001deb      0x1c2 ./src/bsp/driver/riscv_mc/crt0.o
+ .debug_line    0x0000000000001fad      0x2da ./src/bsp/driver/riscv_mc/exit.o
+ .debug_line    0x0000000000002287      0x3d6 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_line    0x000000000000265d      0x3ed ./src/bsp/driver/riscv_mc/iob.o
+ .debug_line    0x0000000000002a4a      0x5be ./src/bsp/driver/riscv_mc/pic.o
+ .debug_line    0x0000000000003008      0x246 ./src/bsp/driver/riscv_mc/reg_access.o
+ .debug_line    0x000000000000324e      0x803 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_line    0x0000000000003a51      0x40a ./src/bsp/driver/gpio/gpio.o
+ .debug_line    0x0000000000003e5b      0x491 ./src/RTD/adc128.o
+ .debug_line    0x00000000000042ec      0x6fd ./src/main.o
+ .debug_line    0x00000000000049e9      0x64c ./src/parse_input.o
+ .debug_line    0x0000000000005035      0x2a3 ./src/utils.o
+
+.debug_str      0x0000000000000000     0xa3e7
+ .debug_str     0x0000000000000000     0x823e ./src/bsp/driver/uart/uart.o
+                                       0x8533 (size before relaxing)
+ .debug_str     0x000000000000823e     0x1763 ./src/bsp/driver/spi_controller/spi_master.o
+                                       0x98c0 (size before relaxing)
+ .debug_str     0x00000000000099a1       0x2e ./src/bsp/driver/riscv_mc/crt0.o
+                                         0x63 (size before relaxing)
+ .debug_str     0x00000000000099cf       0x28 ./src/bsp/driver/riscv_mc/exit.o
+                                       0x8051 (size before relaxing)
+ .debug_str     0x00000000000099f7      0x144 ./src/bsp/driver/riscv_mc/interrupt.o
+                                       0x6d6a (size before relaxing)
+ .debug_str     0x0000000000009b3b       0xcc ./src/bsp/driver/riscv_mc/iob.o
+                                       0x815c (size before relaxing)
+ .debug_str     0x0000000000009c07       0xe7 ./src/bsp/driver/riscv_mc/pic.o
+                                       0x6dc5 (size before relaxing)
+ .debug_str     0x0000000000009cee       0xda ./src/bsp/driver/riscv_mc/reg_access.o
+                                       0x27b4 (size before relaxing)
+ .debug_str     0x0000000000009dc8      0x22d ./src/bsp/driver/riscv_mc/timer.o
+                                       0x7883 (size before relaxing)
+ .debug_str     0x0000000000009ff5      0x1d6 ./src/bsp/driver/gpio/gpio.o
+                                       0x4c4f (size before relaxing)
+ .debug_str     0x000000000000a1cb       0x6d ./src/RTD/adc128.o
+                                       0x793d (size before relaxing)
+ .debug_str     0x000000000000a238      0x127 ./src/main.o
+                                       0x9404 (size before relaxing)
+ .debug_str     0x000000000000a35f       0x54 ./src/parse_input.o
+                                       0x80d4 (size before relaxing)
+ .debug_str     0x000000000000a3b3       0x34 ./src/utils.o
+                                       0x5138 (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 ./src/bsp/driver/uart/uart.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/spi_controller/spi_master.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/exit.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/interrupt.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/iob.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/pic.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/reg_access.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/riscv_mc/timer.o
+ .comment       0x0000000000000033       0x34 ./src/bsp/driver/gpio/gpio.o
+ .comment       0x0000000000000033       0x34 ./src/RTD/adc128.o
+ .comment       0x0000000000000033       0x34 ./src/main.o
+ .comment       0x0000000000000033       0x34 ./src/parse_input.o
+ .comment       0x0000000000000033       0x34 ./src/utils.o
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strncpy.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_printf.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_putchar.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_puts.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_sscanf.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiprintf.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_vfiscanf.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(strlen.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strchr.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_string_strnlen.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fgetc.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_filestrget.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_fputc.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_ungetc.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_exchange.c.o)
+ .comment       0x0000000000000033       0x34 c:\lscc\propel\2024.1\sdk\riscv-none-embed-gcc\bin\../riscv-none-embed/picolibc/riscv-none-embed/lib/rv32imc/ilp32\libc.a(libc_tinystdio_compare_exchange.c.o)
+
+.debug_frame    0x0000000000000000      0xbcc
+ .debug_frame   0x0000000000000000      0x1c0 ./src/bsp/driver/uart/uart.o
+ .debug_frame   0x00000000000001c0      0x190 ./src/bsp/driver/spi_controller/spi_master.o
+ .debug_frame   0x0000000000000350       0x2c ./src/bsp/driver/riscv_mc/exit.o
+ .debug_frame   0x000000000000037c       0x60 ./src/bsp/driver/riscv_mc/interrupt.o
+ .debug_frame   0x00000000000003dc       0xac ./src/bsp/driver/riscv_mc/iob.o
+ .debug_frame   0x0000000000000488      0x158 ./src/bsp/driver/riscv_mc/pic.o
+ .debug_frame   0x00000000000005e0      0x130 ./src/bsp/driver/riscv_mc/reg_access.o
+ .debug_frame   0x0000000000000710      0x208 ./src/bsp/driver/riscv_mc/timer.o
+ .debug_frame   0x0000000000000918       0xac ./src/bsp/driver/gpio/gpio.o
+ .debug_frame   0x00000000000009c4       0x38 ./src/RTD/adc128.o
+ .debug_frame   0x00000000000009fc       0xc4 ./src/main.o
+ .debug_frame   0x0000000000000ac0       0x8c ./src/parse_input.o
+ .debug_frame   0x0000000000000b4c       0x80 ./src/utils.o

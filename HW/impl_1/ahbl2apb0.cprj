@@ -1,7 +1,0 @@
--ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.v"
--lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.vhd"
--ver "C:/lattice-fpga/HW/HW/lib/latticesemi.com/module/ahbl2apb0/1.1.0/rtl/ahbl2apb0.v"
--path "C:/lattice-fpga/HW" "C:/lattice-fpga/HW/HW/lib/latticesemi.com/module/ahbl2apb0/1.1.0" "C:/lattice-fpga/HW"
--top ahbl2apb0
--a "LFD2NX"
--t "LFD2NX-40"

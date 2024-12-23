@@ -60,8 +60,8 @@
  ***************************************************************
 */
 
-#ifndef _UART_NO_INTERRUPTS_
-static void uart_isr(void *ctx)
+#if _UART_ENABLE_INTERRUPTS_
+void uart_isr(void *ctx)
 {
 	struct uart_instance *uart;
 	volatile struct uart_dev *dev;
@@ -189,7 +189,9 @@ unsigned char uart_init(struct uart_instance *this_uart,
 	//uart_config(this_uart, 8, 0, 0, 1);
 
 	this_uart->blockingTx = 1;
-#ifndef _UART_NO_INTERRUPTS_
+#if _UART_ENABLE_INTERRUPTS_
+	this_uart->intrAvail = true;
+
 	/* If interrupts are available use interrupt-mode */
 	if (this_uart->intrAvail) {
 
@@ -240,7 +242,7 @@ unsigned char uart_getc(struct uart_instance *this_uart,
 	dev = (volatile struct uart_dev *) (this_uart->base);
 
 	do {
-#ifndef _UART_NO_INTERRUPTS_
+#if _UART_ENABLE_INTERRUPTS_
 		if (this_uart->intrAvail) {
 
 			/* using interrupts */
@@ -296,7 +298,7 @@ unsigned char uart_putc(struct uart_instance *this_uart,
 	}
 	dev = (volatile struct uart_dev *) (this_uart->base);
 
-#ifndef _UART_NO_INTERRUPTS_
+#if _UART_ENABLE_INTERRUPTS_
 	if (this_uart->intrAvail) {
 		/* if tx-buffer's full, wait for it to get empty */
 		while (this_uart->txDataBytes == this_uart->txBufferSize) {
@@ -438,7 +440,7 @@ unsigned char uart_set_rate(struct uart_instance *this_uart,
 	if (baudrate == 0)
 		return (UART_ERR_INVALID_ARGUMENT);
 
-#ifndef _UART_NO_INTERRUPTS_
+#if _UART_ENABLE_INTERRUPTS_
 	/* disable interrupt for the UART */
 	pic_int_disable(this_uart->intrLevel);
 #endif
@@ -457,7 +459,7 @@ unsigned char uart_set_rate(struct uart_instance *this_uart,
 	address++;
 	*address = (unsigned char) (divisor >> 8);
 
-#ifndef _UART_NO_INTERRUPTS_
+#if _UART_ENABLE_INTERRUPTS_
 	/* re-enable interrupt for the UART */
 	pic_int_enable(this_uart->intrLevel);
 #endif

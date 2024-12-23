@@ -45,7 +45,7 @@ HW _inst (.CS(),
           .MISO_i(), 
           .MOSI(), 
           .clk_o(), 
-          .rstn_i(), 
-          .led_o(), 
           .rxd_i(), 
-          .txd_o());
+          .txd_o(), 
+          .led_o(), 
+          .rstn_i());

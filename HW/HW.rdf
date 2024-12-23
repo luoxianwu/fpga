@@ -36,7 +36,7 @@
         <Source name="HW/lib/latticesemi.com/ip/cpu0/2.6.0/cpu0.ipx" type="IPX_Module" type_short="IPX">
             <Options/>
         </Source>
-        <Source name="HW/lib/latticesemi.com/module/pll0/1.9.0/pll0.ipx" type="IPX_Module" type_short="IPX">
+        <Source name="HW/lib/latticesemi.com/module/pll0/1.7.0/pll0.ipx" type="IPX_Module" type_short="IPX">
             <Options/>
         </Source>
         <Source name="HW.pdc" type="Physical Constraints File" type_short="PDC">
