@@ -53,12 +53,12 @@ component HW is
     );
     
 end component HW;
-_inst: HW port map (CS => __,
-                    MISO_i => __,
-                    MOSI => __,
-                    clk_o => __,
+_inst: HW port map (rstn_i => __,
+                    led_o => __,
                     rxd_i => __,
                     txd_o => __,
-                    led_o => __,
-                    rstn_i => __);
+                    CS => __,
+                    MISO_i => __,
+                    MOSI => __,
+                    clk_o => __);
                     
