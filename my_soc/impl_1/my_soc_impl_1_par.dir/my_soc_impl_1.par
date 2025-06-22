@@ -1,0 +1,20 @@
+Copyright (c) 2002-2022 Lattice Semiconductor Corporation,  All rights reserved.
+
+Sat Jun 21 21:09:41 2025
+
+Command Line: par -w -n 10 -t 1 -s 1 -cores 1 -stopzero -hsp m -exp \
+	nbrForceHoldTimeCorrection=1:parPathBased=OFF my_soc_impl_1_map.udb \
+	my_soc_impl_1.udb 
+
+
+Level/       Number       Estimated       Timing       Estimated Worst    Timing          Run      Run
+Cost [udb]   Unrouted     Worst Slack     Score        Slack(hold)        Score(hold)     Time     Status
+----------   --------     -----------     ------       ---------------    -----------     ----     ------
+5_2   *      0            0.223           0            0.088              0               02:21    Completed
+5_1          0            -0.147          885          0.088              0               02:29    Completed
+
+* : Design saved.
+
+Total (real) run time for 2-seed: 4 mins 50 secs 
+
+par done!

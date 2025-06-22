@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<propelProject>
+    <builder-resource>
+        <socProject sbxfile="./my_soc/my_soc.sbx" />
+        <verifyProject sbxfile="./verification/my_soc_v.sbx" />
+        <ConstraintFile>./my_soc.pdc</ConstraintFile>
+    </builder-resource>
+    <builderInfo version="2024.1.2406150513_p" />
+</propelProject>

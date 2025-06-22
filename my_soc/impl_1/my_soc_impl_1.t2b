@@ -1,0 +1,4 @@
+-gui
+-msgset "C:/fpga/my_soc/promote.xml"
+
+-g REGISTER_INIT:ON

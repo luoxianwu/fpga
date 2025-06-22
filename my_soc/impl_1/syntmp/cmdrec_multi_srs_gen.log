@@ -1,0 +1,7 @@
+C:\lscc\radiant\2024.1\synpbase\bin64\syn_nfilter.exe  -link  -top  my_soc  -multisrs  C:\fpga\my_soc\impl_1\synwork\my_soc_impl_1_comp.srs  -osyn  C:\fpga\my_soc\impl_1\synwork\my_soc_impl_1_mult.srs  -log  C:\fpga\my_soc\impl_1\synlog\my_soc_impl_1_multi_srs_gen.srr 
+relcom:..\..\..\..\lscc\radiant\2024.1\synpbase\bin64\syn_nfilter.exe -link -top my_soc -multisrs ..\synwork\my_soc_impl_1_comp.srs -osyn ..\synwork\my_soc_impl_1_mult.srs -log ..\synlog\my_soc_impl_1_multi_srs_gen.srr
+rc:0 success:1 runtime:3
+file:..\synwork\my_soc_impl_1_comp.srs|io:i|time:1750561592|size:872946|exec:0|csum:CAD90DCC4314811DA94E3BA7A3E15DD5
+file:..\synwork\my_soc_impl_1_mult.srs|io:o|time:1750561596|size:12480|exec:0|csum:
+file:..\synlog\my_soc_impl_1_multi_srs_gen.srr|io:o|time:1750561596|size:1121|exec:0|csum:
+file:..\..\..\..\lscc\radiant\2024.1\synpbase\bin64\syn_nfilter.exe|io:i|time:1715795492|size:10549248|exec:1|csum:546A6F3FB6870E698E5AF07CCB466A00

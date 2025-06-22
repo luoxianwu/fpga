@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "20:52:21    21-Jun-2025",
+	"Working Directory" : "C:/fpga/my_soc/impl_1",
+	"Install" : "C:/lscc/radiant/2024.1/synpbase"
+},
+"impl_1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "20:51:47",
+   "Runtime" : "34s",
+   "Executable Run Time" : "34s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "20:51:47",
+      "Runtime" : "34s",
+      "Executable Run Time" : "34s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "20:51:47",
+         "Runtime" : "34s",
+         "Executable Run Time" : "34s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "20:51:47",
+            "Runtime" : "34s",
+            "Executable Run Time" : "34s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/fpga/my_soc/impl_1",
+               "Run State" : "Complete",
+               "Return Code" : "2",
+               "Has Errors" : "yes",
+               "Run Start Time" : "20:51:47",
+               "Run Time" : "34s",
+               "Exe Run Time" : "34s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/fpga/my_soc/impl_1",
+               "Run State" : "Canceled",
+               "Return Code" : "-",
+               "Has Errors" : "yes",
+               "Run Start Time" : "-",
+               "Run Time" : "02s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/fpga/my_soc/impl_1",
+            "Run State" : "Canceled",
+            "Return Code" : "-",
+            "Has Errors" : "yes",
+            "Run Start Time" : "-",
+            "Run Time" : "10s  (10s UI processing)",
+            "Exe Run Time" : "00s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "-",
+         "Runtime" : "00s",
+         "Executable Run Time" : "00s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/fpga/my_soc/impl_1",
+            "Run State" : "Canceled",
+            "Return Code" : "-",
+            "Has Errors" : "yes",
+            "Run Start Time" : "-",
+            "Run Time" : "01m:56s  (01m:56s UI processing)",
+            "Exe Run Time" : "00s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

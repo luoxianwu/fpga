@@ -1,0 +1,2067 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-1
+Install: C:\lscc\radiant\2024.1\synpbase
+OS: Windows 10 or later
+Hostname: ASUS
+
+Implementation : impl_1
+
+#### START OF AREA REPORT #####[
+
+Part:			LFD2NX_40-8 (Lattice)
+
+----------------------------------------------------------------------
+########   Utilization report for  Top level view:   my_soc   ########
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BX         22                                      
+FD1P3DX         387                                     
+BFD1P3KX        8                                       
+FD1P3IX         112                                     
+FD1P3JX         11                                      
+IFD1P3BX        1                                       
+                                                        
+Total FLOPS     541                100 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block my_soc:	541 (37.75 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   646                                     
+INV                    15                                      
+WIDEFN9                10                                      
+CCU2                   65                                      
+                                                               
+Total LUTS             671                100 %                
+Total CARRY CHAINS     65                 100 %                
+===============================================================
+Total COMBINATIONAL LOGIC in the block my_soc:	736 (51.36 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              16                                      
+                                                           
+Total BLOCKRAM     16                 100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block my_soc:	16 (1.12 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+OB           3                                       
+IB           2                                       
+BB           8                                       
+                                                     
+Total IO     13                 100 %                
+=====================================================
+Total IO PADS in the block my_soc:	13 (0.91 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 62                                      
+VLO                 62                                      
+GSR                 1                                       
+OSCA                1                                       
+PLL                 1                                       
+                                                            
+Total BLACK BOX     127                100 %                
+============================================================
+Total BLACKBOX in the block my_soc:	127 (8.86 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   APB_PWM   ########
+Instance path:   u_pwm_apb_instance                          
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IX         33                                      
+FD1P3DX         51                                      
+                                                        
+Total FLOPS     84                 15.5 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block u_pwm_apb_instance:	84 (5.86 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   73                                      
+CCU2                   42                                      
+                                                               
+Total LUTS             73                 10.9 %               
+Total CARRY CHAINS     42                 64.6 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block u_pwm_apb_instance:	115 (8.03 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block u_pwm_apb_instance:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_32s_1s_1s_0_32768_1s_32768_2048   ########
+Instance path:   ahbl0_inst                                                                
+===========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BX         1                                       
+FD1P3DX         5                                       
+                                                        
+Total FLOPS     6                  1.11 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block ahbl0_inst:	6 (0.42 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           75                                      
+                                                       
+Total LUTS     75                 11.2 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst:	75 (5.23 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 10                                      
+VLO                 10                                      
+                                                            
+Total BLACK BOX     20                 15.7 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst:	20 (1.40 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_interconnect_Z1_layer0   ########
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst                                           
+Parent Instance:   ahbl0_inst                                                                     
+==================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BX         1                                       
+FD1P3DX         5                                       
+                                                        
+Total FLOPS     6                  1.11 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block ahbl0_inst.lscc_ahbl_interconnect_inst:	6 (0.42 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           75                                      
+                                                       
+Total LUTS     75                 11.2 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst:	75 (5.23 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 9                                       
+VLO                 9                                       
+                                                            
+Total BLACK BOX     18                 14.2 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst:	18 (1.26 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_bus_Z5_layer0   ########
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus     
+Parent Instance:   ahbl0_inst.lscc_ahbl_interconnect_inst                                
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BX         1                                       
+FD1P3DX         5                                       
+                                                        
+Total FLOPS     6                  1.11 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus:	6 (0.42 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           75                                      
+                                                       
+Total LUTS     75                 11.2 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus:	75 (5.23 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 8                                       
+VLO                 8                                       
+                                                            
+Total BLACK BOX     16                 12.6 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus:	16 (1.12 % Utilization)
+
+--------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_decoder_Z2_layer0   ########           
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder
+Parent Instance:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus                  
+========================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           13                                      
+                                                       
+Total LUTS     13                 1.94 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder:	13 (0.91 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 5                                       
+VLO                 5                                       
+                                                            
+Total BLACK BOX     10                 7.87 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder:	10 (0.70 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_3_layer0   ########                                      
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[0].genblk1.u_lscc_ahbl_decoder_sel
+Parent Instance:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder                                         
+===================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           7                                       
+                                                       
+Total LUTS     7                  1.04 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[0].genblk1.u_lscc_ahbl_decoder_sel:	7 (0.49 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+                                                            
+Total BLACK BOX     4                  3.15 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[0].genblk1.u_lscc_ahbl_decoder_sel:	4 (0.28 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_0_32768_32s_32767_15s   ########                                                                      
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[0].genblk1.u_lscc_ahbl_decoder_sel.genblk1[0].u_lscc_ahbl_decoder_comp
+Parent Instance:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[0].genblk1.u_lscc_ahbl_decoder_sel                                  
+=======================================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           7                                       
+                                                       
+Total LUTS     7                  1.04 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[0].genblk1.u_lscc_ahbl_decoder_sel.genblk1[0].u_lscc_ahbl_decoder_comp:	7 (0.49 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[0].genblk1.u_lscc_ahbl_decoder_sel.genblk1[0].u_lscc_ahbl_decoder_comp:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_4_layer0   ########                                      
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[1].genblk1.u_lscc_ahbl_decoder_sel
+Parent Instance:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder                                         
+===================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           6                                       
+                                                       
+Total LUTS     6                  0.8940 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[1].genblk1.u_lscc_ahbl_decoder_sel:	6 (0.42 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+                                                            
+Total BLACK BOX     4                  3.15 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[1].genblk1.u_lscc_ahbl_decoder_sel:	4 (0.28 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_32768_2048_32s_34815_11s   ########                                                                   
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[1].genblk1.u_lscc_ahbl_decoder_sel.genblk1[0].u_lscc_ahbl_decoder_comp
+Parent Instance:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[1].genblk1.u_lscc_ahbl_decoder_sel                                  
+=======================================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           6                                       
+                                                       
+Total LUTS     6                  0.8940 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[1].genblk1.u_lscc_ahbl_decoder_sel.genblk1[0].u_lscc_ahbl_decoder_comp:	6 (0.42 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_decoder.genblk1[1].genblk1.u_lscc_ahbl_decoder_sel.genblk1[0].u_lscc_ahbl_decoder_comp:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_default_slv_32s_2s_0s_1s_2s_0_1_2_3   ########
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_default_slv   
+Parent Instance:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus                         
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         2                                       
+                                                        
+Total FLOPS     2                  0.370 %              
+========================================================
+Total SEQUENTIAL ELEMENTS in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_default_slv:	2 (0.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           3                                       
+                                                       
+Total LUTS     3                  0.4470 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_default_slv:	3 (0.21 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 1                                       
+VLO                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_default_slv:	2 (0.14 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl0_ipgen_lscc_ahbl_multiplexor_32s_32s_2s_0s   ########       
+Instance path:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_multiplexor
+Parent Instance:   ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus                      
+============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BX         1                                       
+FD1P3DX         3                                       
+                                                        
+Total FLOPS     4                  0.7390 %             
+========================================================
+Total SEQUENTIAL ELEMENTS in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_multiplexor:	4 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           59                                      
+                                                       
+Total LUTS     59                 8.79 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_multiplexor:	59 (4.12 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 1                                       
+VLO                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus.u_lscc_ahbl_bus.u_lscc_ahbl_multiplexor:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl2apb0_32s   ########
+Instance path:   ahbl2apb0_inst                                    
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         175                                     
+FD1P3BX         2                                       
+                                                        
+Total FLOPS     177                32.7 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block ahbl2apb0_inst:	177 (12.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           95                                      
+                                                       
+Total LUTS     95                 14.2 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl2apb0_inst:	95 (6.63 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+                                                            
+Total BLACK BOX     4                  3.15 %               
+============================================================
+Total BLACKBOX in the block ahbl2apb0_inst:	4 (0.28 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ahbl2apb0_ipgen_lscc_ahbl2apb_Z6_layer0   ########
+Instance path:   ahbl2apb0_inst.lscc_ahbl2apb_inst                                           
+Parent Instance:   ahbl2apb0_inst                                                            
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         175                                     
+FD1P3BX         2                                       
+                                                        
+Total FLOPS     177                32.7 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block ahbl2apb0_inst.lscc_ahbl2apb_inst:	177 (12.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           95                                      
+                                                       
+Total LUTS     95                 14.2 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block ahbl2apb0_inst.lscc_ahbl2apb_inst:	95 (6.63 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block ahbl2apb0_inst.lscc_ahbl2apb_inst:	2 (0.14 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_32s_1s_32768_1024_33792_1024_34816_1024   ########
+Instance path:   apb0_inst                                                                        
+==================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         4                                       
+                                                        
+Total FLOPS     4                  0.7390 %             
+========================================================
+Total SEQUENTIAL ELEMENTS in the block apb0_inst:	4 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           42                                      
+                                                       
+Total LUTS     42                 6.26 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst:	42 (2.93 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 11                                      
+VLO                 11                                      
+                                                            
+Total BLACK BOX     22                 17.3 %               
+============================================================
+Total BLACKBOX in the block apb0_inst:	22 (1.54 % Utilization)
+
+------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_interconnect_Z7_layer0   ########
+Instance path:   apb0_inst.lscc_apb_interconnect_inst                                           
+Parent Instance:   apb0_inst                                                                    
+================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         4                                       
+                                                        
+Total FLOPS     4                  0.7390 %             
+========================================================
+Total SEQUENTIAL ELEMENTS in the block apb0_inst.lscc_apb_interconnect_inst:	4 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           42                                      
+                                                       
+Total LUTS     42                 6.26 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst:	42 (2.93 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 10                                      
+VLO                 10                                      
+                                                            
+Total BLACK BOX     20                 15.7 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst:	20 (1.40 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_bus_Z9_layer0   ########
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus           
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst                                
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         4                                       
+                                                        
+Total FLOPS     4                  0.7390 %             
+========================================================
+Total SEQUENTIAL ELEMENTS in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus:	4 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           42                                      
+                                                       
+Total LUTS     42                 6.26 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus:	42 (2.93 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 9                                       
+VLO                 9                                       
+                                                            
+Total BLACK BOX     18                 14.2 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus:	18 (1.26 % Utilization)
+
+-----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_decoder_Z8_layer0   ########    
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus                 
+===============================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           15                                      
+                                                       
+Total LUTS     15                 2.24 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder:	15 (1.05 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 7                                       
+VHI                 7                                       
+                                                            
+Total BLACK BOX     14                 11 %                 
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder:	14 (0.98 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_32768_1024   ########                
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[0].u_lscc_apb_decoder_sel
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder                                
+=================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[0].u_lscc_apb_decoder_sel:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+                                                            
+Total BLACK BOX     4                  3.15 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[0].u_lscc_apb_decoder_sel:	4 (0.28 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_decoder_comp_32s_32768_1024_32s_1s_33791_10s   ########                                              
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[0].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[0].u_lscc_apb_decoder_sel                                 
+====================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[0].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[0].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_33792_1024   ########                
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[1].u_lscc_apb_decoder_sel
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder                                
+=================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           3                                       
+                                                       
+Total LUTS     3                  0.4470 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[1].u_lscc_apb_decoder_sel:	3 (0.21 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+                                                            
+Total BLACK BOX     4                  3.15 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[1].u_lscc_apb_decoder_sel:	4 (0.28 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_decoder_comp_32s_33792_1024_32s_1s_34815_10s   ########                                              
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[1].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[1].u_lscc_apb_decoder_sel                                 
+====================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           3                                       
+                                                       
+Total LUTS     3                  0.4470 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[1].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp:	3 (0.21 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[1].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_34816_1024   ########                
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[2].u_lscc_apb_decoder_sel
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder                                
+=================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[2].u_lscc_apb_decoder_sel:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+                                                            
+Total BLACK BOX     4                  3.15 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[2].u_lscc_apb_decoder_sel:	4 (0.28 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_decoder_comp_32s_34816_1024_32s_1s_35839_10s   ########                                              
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[2].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[2].u_lscc_apb_decoder_sel                                 
+====================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[2].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_decoder.genblk1[2].u_lscc_apb_decoder_sel.genblk1[0].u_lscc_apb_decoder_comp:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   apb0_ipgen_lscc_apb_multiplexor_32s_32s_32s_3s_0s   ########
+Instance path:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_multiplexor    
+Parent Instance:   apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus                         
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         4                                       
+                                                        
+Total FLOPS     4                  0.7390 %             
+========================================================
+Total SEQUENTIAL ELEMENTS in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_multiplexor:	4 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           27                                      
+                                                       
+Total LUTS     27                 4.02 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_multiplexor:	27 (1.88 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 1                                       
+VLO                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block apb0_inst.lscc_apb_interconnect_inst.apb_bus.u_lscc_apb_bus.u_lscc_apb_multiplexor:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   cpu0_0s_0s_4294967295_0_4294967295_0_4294901760_11_layer0   ########
+Instance path:   cpu0_inst                                                                                     
+===============================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block cpu0_inst:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block cpu0_inst:	2 (0.14 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   gpio0   ########
+Instance path:   gpio0_inst                                
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+BFD1P3KX        8                                       
+FD1P3IX         56                                      
+FD1P3JX         8                                       
+FD1P3DX         25                                      
+                                                        
+Total FLOPS     97                 17.9 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block gpio0_inst:	97 (6.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            9                                       
+LUT4           90                                      
+WIDEFN9        10                                      
+                                                       
+Total LUTS     109                16.2 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block gpio0_inst:	109 (7.61 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+BB           8                                       
+                                                     
+Total IO     8                  61.5 %               
+=====================================================
+Total IO PADS in the block gpio0_inst:	8 (0.56 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 4                                       
+VLO                 4                                       
+                                                            
+Total BLACK BOX     8                  6.3 %                
+============================================================
+Total BLACKBOX in the block gpio0_inst:	8 (0.56 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   gpio0_ipgen_lscc_gpio_Z12_layer0   ########
+Instance path:   gpio0_inst.lscc_gpio_inst                                            
+Parent Instance:   gpio0_inst                                                         
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+BFD1P3KX        8                                       
+FD1P3IX         56                                      
+FD1P3JX         8                                       
+FD1P3DX         25                                      
+                                                        
+Total FLOPS     97                 17.9 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block gpio0_inst.lscc_gpio_inst:	97 (6.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            9                                       
+LUT4           90                                      
+WIDEFN9        10                                      
+                                                       
+Total LUTS     109                16.2 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block gpio0_inst.lscc_gpio_inst:	109 (7.61 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+BB           8                                       
+                                                     
+Total IO     8                  61.5 %               
+=====================================================
+Total IO PADS in the block gpio0_inst.lscc_gpio_inst:	8 (0.56 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 3                                       
+VLO                 3                                       
+                                                            
+Total BLACK BOX     6                  4.72 %               
+============================================================
+Total BLACKBOX in the block gpio0_inst.lscc_gpio_inst:	6 (0.42 % Utilization)
+
+---------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   gpio0_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s   ########
+Instance path:   gpio0_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0                                 
+Parent Instance:   gpio0_inst.lscc_gpio_inst                                                       
+===================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         25                                      
+                                                        
+Total FLOPS     25                 4.62 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block gpio0_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0:	25 (1.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            1                                       
+LUT4           9                                       
+                                                       
+Total LUTS     10                 1.49 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block gpio0_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0:	10 (0.70 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block gpio0_inst.lscc_gpio_inst.genblk2.lscc_apb2lmmi_0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   gpio0_ipgen_lscc_gpio_lmmi_Z13_layer0   ########
+Instance path:   gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0                        
+Parent Instance:   gpio0_inst.lscc_gpio_inst                                               
+===========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+BFD1P3KX        8                                       
+FD1P3IX         56                                      
+FD1P3JX         8                                       
+                                                        
+Total FLOPS     72                 13.3 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0:	72 (5.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            8                                       
+LUT4           81                                      
+WIDEFN9        10                                      
+                                                       
+Total LUTS     99                 14.8 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0:	99 (6.91 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+BB           8                                       
+                                                     
+Total IO     8                  61.5 %               
+=====================================================
+Total IO PADS in the block gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0:	8 (0.56 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block gpio0_inst.lscc_gpio_inst.genblk1.lscc_gpio_lmmi_0:	2 (0.14 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   osc0   ########
+Instance path:   osc0_inst                                
+==========================================================
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+OSCA                1                                       
+                                                            
+Total BLACK BOX     5                  3.94 %               
+============================================================
+Total BLACKBOX in the block osc0_inst:	5 (0.35 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   osc0_ipgen_lscc_osc_Z14_layer0   ########
+Instance path:   osc0_inst.lscc_osc_inst                                            
+Parent Instance:   osc0_inst                                                        
+====================================================================================
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+OSCA                1                                       
+VHI                 1                                       
+VLO                 1                                       
+                                                            
+Total BLACK BOX     3                  2.36 %               
+============================================================
+Total BLACKBOX in the block osc0_inst.lscc_osc_inst:	3 (0.21 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   pll0   ########
+Instance path:   pll0_inst                                
+==========================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block pll0_inst:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 2                                       
+VLO                 2                                       
+PLL                 1                                       
+                                                            
+Total BLACK BOX     5                  3.94 %               
+============================================================
+Total BLACKBOX in the block pll0_inst:	5 (0.35 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   pll0_ipgen_lscc_pll_Z15_layer0   ########
+Instance path:   pll0_inst.lscc_pll_inst                                            
+Parent Instance:   pll0_inst                                                        
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block pll0_inst.lscc_pll_inst:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+PLL                 1                                       
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     3                  2.36 %               
+============================================================
+Total BLACKBOX in the block pll0_inst.lscc_pll_inst:	3 (0.21 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   sysmem0_sysmem0   ########
+Instance path:   sysmem0_inst                                        
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IX         23                                      
+FD1P3JX         3                                       
+                                                        
+Total FLOPS     26                 4.81 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block sysmem0_inst:	26 (1.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           46                                      
+                                                       
+Total LUTS     46                 6.86 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst:	46 (3.21 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              16                                      
+                                                           
+Total BLOCKRAM     16                 100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst:	16 (1.12 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 23                                      
+VLO                 23                                      
+                                                            
+Total BLACK BOX     46                 36.2 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst:	46 (3.21 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sysmem0_ipgen_lscc_sys_mem_Z16_layer0   ########
+Instance path:   sysmem0_inst.lscc_sys_mem_inst                                            
+Parent Instance:   sysmem0_inst                                                            
+===========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IX         23                                      
+FD1P3JX         3                                       
+                                                        
+Total FLOPS     26                 4.81 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst:	26 (1.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           46                                      
+                                                       
+Total LUTS     46                 6.86 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst:	46 (3.21 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              16                                      
+                                                           
+Total BLOCKRAM     16                 100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst:	16 (1.12 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 22                                      
+VLO                 22                                      
+                                                            
+Total BLACK BOX     44                 34.6 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst:	44 (3.07 % Utilization)
+
+---------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sysmem0_ipgen_lscc_ahblmem_slave_Z17_layer0_0   ########
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.bridge_s1.genblk1.bridge_s1                        
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst                                                  
+===================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3IX         23                                      
+FD1P3JX         3                                       
+                                                        
+Total FLOPS     26                 4.81 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.bridge_s1.genblk1.bridge_s1:	26 (1.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           42                                      
+                                                       
+Total LUTS     42                 6.26 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.bridge_s1.genblk1.bridge_s1:	42 (2.93 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 1                                       
+VLO                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.bridge_s1.genblk1.bridge_s1:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   sysmem0_ipgen_lscc_mem_Z18_layer0   ########
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0        
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst                                      
+=======================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           4                                       
+                                                       
+Total LUTS     4                  0.5960 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0:	4 (0.28 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              16                                      
+                                                           
+Total BLOCKRAM     16                 100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0:	16 (1.12 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 20                                      
+VLO                 20                                      
+                                                            
+Total BLACK BOX     40                 31.5 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0:	40 (2.79 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_Z37_layer0   ########                                       
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0                                       
+========================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           4                                       
+                                                       
+Total LUTS     4                  0.5960 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem:	4 (0.28 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              16                                      
+                                                           
+Total BLOCKRAM     16                 100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem:	16 (1.12 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 19                                      
+VLO                 19                                      
+                                                            
+Total BLACK BOX     38                 29.9 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem:	38 (2.65 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_main_Z36_layer0   ########                                           
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem       
+=================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           4                                       
+                                                       
+Total LUTS     4                  0.5960 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main:	4 (0.28 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              16                                      
+                                                           
+Total BLOCKRAM     16                 100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main:	16 (1.12 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 18                                      
+VLO                 18                                      
+                                                            
+Total BLACK BOX     36                 28.3 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main:	36 (2.51 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_inst_Z19_layer0   ########                                                   
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main      
+=========================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           4                                       
+                                                       
+Total LUTS     4                  0.5960 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0:	4 (0.28 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              16                                      
+                                                           
+Total BLOCKRAM     16                 100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0:	16 (1.12 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 17                                      
+VLO                 17                                      
+                                                            
+Total BLACK BOX     34                 26.8 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0:	34 (2.37 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z20_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[0].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[0].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[0].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[0].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z21_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[1].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[1].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[1].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z22_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[2].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[2].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[2].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z23_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[3].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[3].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[3].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z24_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[4].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[4].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[4].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[4].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z25_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[5].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[5].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[5].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z26_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[6].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[6].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[6].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z27_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[7].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[7].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[7].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z28_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[8].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[8].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[8].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[8].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z29_layer0   ########                                                                                                     
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[9].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                
+===========================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[9].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[9].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z30_layer0   ########                                                                                                      
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[10].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                 
+============================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[10].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[10].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z31_layer0   ########                                                                                                      
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[11].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                 
+============================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[11].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[11].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z32_layer0   ########                                                                                                      
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[12].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                 
+============================================================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1                                       
+                                                       
+Total LUTS     1                  0.1490 %             
+=======================================================
+Total COMBINATIONAL LOGIC in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[12].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[12].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[12].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z33_layer0   ########                                                                                                      
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[13].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                 
+============================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[13].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[13].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z34_layer0   ########                                                                                                      
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[14].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                 
+============================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[14].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[14].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   lscc_ram_dp_true_core_Z35_layer0   ########                                                                                                      
+Instance path:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[15].no_mem_file.u_mem0
+Parent Instance:   sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0                                                 
+============================================================================================================================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DP16K              1                                       
+                                                           
+Total BLOCKRAM     1                  6.25 %               
+===========================================================
+Total MEMORY ELEMENTS in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[15].no_mem_file.u_mem0:	1 (0.07 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block sysmem0_inst.lscc_sys_mem_inst.CORE_MEMORY.genblk1.u_lscc_mem0.intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem.mem_main.uinst_0.prim.NON_MIX.xADDR[0].xDATA[15].no_mem_file.u_mem0:	2 (0.14 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   uart0   ########
+Instance path:   uart0_inst                                
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         127                                     
+FD1P3BX         19                                      
+IFD1P3BX        1                                       
+                                                        
+Total FLOPS     147                27.2 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block uart0_inst:	147 (10.26 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    4                                       
+LUT4                   224                                     
+CCU2                   23                                      
+                                                               
+Total LUTS             228                34 %                 
+Total CARRY CHAINS     23                 35.4 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block uart0_inst:	251 (17.52 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 5                                       
+VLO                 5                                       
+                                                            
+Total BLACK BOX     10                 7.87 %               
+============================================================
+Total BLACKBOX in the block uart0_inst:	10 (0.70 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   uart0_ipgen_lscc_uart_Z39_layer0   ########
+Instance path:   uart0_inst.lscc_uart_inst                                            
+Parent Instance:   uart0_inst                                                         
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         127                                     
+FD1P3BX         19                                      
+IFD1P3BX        1                                       
+                                                        
+Total FLOPS     147                27.2 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block uart0_inst.lscc_uart_inst:	147 (10.26 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    4                                       
+LUT4                   224                                     
+CCU2                   23                                      
+                                                               
+Total LUTS             228                34 %                 
+Total CARRY CHAINS     23                 35.4 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block uart0_inst.lscc_uart_inst:	251 (17.52 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 4                                       
+VLO                 4                                       
+                                                            
+Total BLACK BOX     8                  6.3 %                
+============================================================
+Total BLACKBOX in the block uart0_inst.lscc_uart_inst:	8 (0.56 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   uart0_ipgen_lscc_uart_intface_Z38_layer0   ########
+Instance path:   uart0_inst.lscc_uart_inst.u_intface                                          
+Parent Instance:   uart0_inst.lscc_uart_inst                                                  
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         41                                      
+FD1P3BX         7                                       
+                                                        
+Total FLOPS     48                 8.87 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block uart0_inst.lscc_uart_inst.u_intface:	48 (3.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+INV            2                                       
+LUT4           65                                      
+                                                       
+Total LUTS     67                 9.99 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block uart0_inst.lscc_uart_inst.u_intface:	67 (4.68 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block uart0_inst.lscc_uart_inst.u_intface:	2 (0.14 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D   ########
+Instance path:   uart0_inst.lscc_uart_inst.u_rxcver                                                            
+Parent Instance:   uart0_inst.lscc_uart_inst                                                                   
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+IFD1P3BX        1                                       
+FD1P3BX         7                                       
+FD1P3DX         49                                      
+                                                        
+Total FLOPS     57                 10.5 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block uart0_inst.lscc_uart_inst.u_rxcver:	57 (3.98 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    1                                       
+LUT4                   84                                      
+CCU2                   14                                      
+                                                               
+Total LUTS             85                 12.7 %               
+Total CARRY CHAINS     14                 21.5 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block uart0_inst.lscc_uart_inst.u_rxcver:	99 (6.91 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block uart0_inst.lscc_uart_inst.u_rxcver:	2 (0.14 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   uart0_ipgen_lscc_uart_txmitt_8s_0s_7s_1_2_4_8_16_32_64   ########
+Instance path:   uart0_inst.lscc_uart_inst.u_txmitt                                                         
+Parent Instance:   uart0_inst.lscc_uart_inst                                                                
+============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DX         37                                      
+FD1P3BX         5                                       
+                                                        
+Total FLOPS     42                 7.76 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block uart0_inst.lscc_uart_inst.u_txmitt:	42 (2.93 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    1                                       
+LUT4                   75                                      
+CCU2                   9                                       
+                                                               
+Total LUTS             76                 11.3 %               
+Total CARRY CHAINS     9                  13.8 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block uart0_inst.lscc_uart_inst.u_txmitt:	85 (5.93 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VHI                 1                                       
+VLO                 1                                       
+                                                            
+Total BLACK BOX     2                  1.57 %               
+============================================================
+Total BLACKBOX in the block uart0_inst.lscc_uart_inst.u_txmitt:	2 (0.14 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

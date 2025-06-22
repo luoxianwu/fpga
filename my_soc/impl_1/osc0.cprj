@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.v"
+-lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.vhd"
+-ver "C:/fpga/my_soc/my_soc/lib/latticesemi.com/module/osc0/1.4.0/rtl/osc0.v"
+-sdc "C:/fpga/my_soc/my_soc/lib/latticesemi.com/module/osc0/1.4.0/constraints/osc0.ldc"
+-path "C:/fpga/my_soc" "C:/fpga/my_soc/my_soc/lib/latticesemi.com/module/osc0/1.4.0" "C:/fpga/my_soc"
+-top osc0
+-a "LFD2NX"
+-t "LFD2NX-40"

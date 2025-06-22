@@ -1,0 +1,7 @@
+-ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.v"
+-lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.vhd"
+-ver "C:/fpga/my_soc/my_soc/lib/latticesemi.com/ip/sysmem0/2.0.0/rtl/sysmem0.v"
+-path "C:/fpga/my_soc" "C:/fpga/my_soc/my_soc/lib/latticesemi.com/ip/sysmem0/2.0.0" "C:/fpga/my_soc"
+-top sysmem0
+-a "LFD2NX"
+-t "LFD2NX-40"

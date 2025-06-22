@@ -1,0 +1,5 @@
+@E: CG1168 :"C:\fpga\my_soc\my_soc\my_soc.v":251:13:251:35|Illegal defparam. Parameter S2_ADDR_RANGE cannot be found in module apb0.
+@E: CG1168 :"C:\fpga\my_soc\my_soc\my_soc.v":252:13:252:34|Illegal defparam. Parameter S2_BASE_ADDR cannot be found in module apb0.
+@E: CS168 :"C:\fpga\my_soc\my_soc\my_soc.v":215:34:215:34|Port apb_m02_paddr_mstr_o does not exist
+@E::Errors while synthesizing top module my_soc.
+

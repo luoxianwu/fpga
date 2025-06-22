@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.v"
+-lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.vhd"
+-ver "C:/fpga/my_soc/my_soc/my_soc.v" "C:/fpga/my_soc/source/impl_1/apb_pwm.v"
+-path "C:/fpga/my_soc" "C:/fpga/my_soc"
+-top my_soc
+-isTop
+-a "LFD2NX"
+-t "LFD2NX-40"
