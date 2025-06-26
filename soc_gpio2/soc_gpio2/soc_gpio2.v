@@ -51,12 +51,13 @@
 //
 // Verific Verilog Description of module soc_gpio2
 //
-module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o);
+module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc_gpio2_pwm_o);
     inout [31:0]gpio2_o;
     inout [7:0]gpio_00_io;
     input rstn_i;
     input uart_rxd_00_i;
     output uart_txd_00_o;
+	output soc_gpio2_pwm_o;
     
     
     wire pll0_inst_clkos_o_net, cpu0_inst_system_resetn_o_net;
@@ -132,7 +133,7 @@ module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o);
     
     assign expr_0_inst_O_net = (rstn_i & pll0_inst_lock_o_net) ; 
 
-    APB_REG_MODULE APB_REG_MODULE_inst (.clk_i(pll0_inst_clkos_o_net), .resetn_i(cpu0_inst_system_resetn_o_net));
+    //APB_PWM_CONTROLLER apb_pwm_inst (.clk_i(pll0_inst_clkos_o_net), .resetn_i(cpu0_inst_system_resetn_o_net));
     ahbl0 ahbl0_inst (.ahbl_m00_haddr_mstr_o({ahbl0_inst_AHBL_M00_interconnect_HADDR}), 
           .ahbl_m00_hburst_mstr_o({ahbl0_inst_AHBL_M00_interconnect_HBURST}), 
           .ahbl_m00_hprot_mstr_o({ahbl0_inst_AHBL_M00_interconnect_HPROT}), 
@@ -266,7 +267,7 @@ module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o);
           .clk_i(pll0_inst_clkos_o_net), .resetn_i(cpu0_inst_system_resetn_o_net));
 */
 
-    APB_REG_MODULE apb_reg_inst (
+    APB_PWM_CONTROLLER apb_pwm_inst (
         .clk_i(pll0_inst_clkos_o_net),             // System clock input
         .resetn_i(cpu0_inst_system_resetn_o_net),  // Asynchronous active-low reset
 
@@ -278,7 +279,8 @@ module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o);
         .pwdata_i(apb0_inst_APB_M02_interconnect_PWDATA),
         .prdata_o(apb0_inst_APB_M02_interconnect_PRDATA),
         .pready_o(apb0_inst_APB_M02_interconnect_PREADY),
-        .pslverr_o(apb0_inst_APB_M02_interconnect_PSLVERR)
+        .pslverr_o(apb0_inst_APB_M02_interconnect_PSLVERR),
+		.pwm_o(soc_gpio2_pwm_o)
     );
 
 		  

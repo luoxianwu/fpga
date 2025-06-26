@@ -17,6 +17,10 @@ ldc_set_location -site {E13} [get_ports txd_o]
 #GSRN
 ldc_set_location -site {G2} [get_ports rstn_i]
 
+#PWM
+ldc_set_location -site {A6} [get_ports top_pwm_o]
+
+
 ldc_set_vcc -bank 0 1.8
 ldc_set_vcc -bank 1 3.3
 ldc_set_vcc -bank 2 3.3

@@ -12,7 +12,9 @@ module soc_gpio2_Top (
 
 	inout [7:0] led_o,
 	
-	inout [31:0] top_gpio2_o
+	inout [31:0] top_gpio2_o,
+	
+	output top_pwm_o
 
 );
 
@@ -99,7 +101,9 @@ soc_gpio2 soc_gpio2_inst (
 
 	.gpio_00_io(led_o),
 	
-	.gpio2_o(top_gpio2_o)
+	.gpio2_o(top_gpio2_o),
+	
+	.soc_gpio2_pwm_o(top_pwm_o)
 
 );
 
