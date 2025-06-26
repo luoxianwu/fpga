@@ -1,0 +1,25 @@
+Copyright (c) 2002-2022 Lattice Semiconductor Corporation,  All rights reserved.
+
+Thu Jun 26 10:30:28 2025
+
+Command Line: par -w -n 10 -t 1 -s 1 -cores 1 -stopzero -hsp m -exp \
+	parPathBased=OFF soc_gpio2_impl_1_map.udb soc_gpio2_impl_1.udb 
+
+
+Level/       Number       Estimated       Timing       Estimated Worst    Timing          Run      Run
+Cost [udb]   Unrouted     Worst Slack     Score        Slack(hold)        Score(hold)     Time     Status
+----------   --------     -----------     ------       ---------------    -----------     ----     ------
+5_6   *      0            0.103           0            0.079              0               02:31    Completed
+5_5          0            -0.623          1307         -                  -               02:35    Completed
+5_1          0            -0.523          1728         -                  -               02:17    Completed
+5_4          0            -0.203          2154         -                  -               05:17    Completed
+5_3          0            -0.399          4537         -                  -               03:20    Completed
+5_2          -            -               -            -                  -               44       Skipped
+
+* : Design saved.
+
+INFO <60001138> - par: Iteration 5_2 was terminated during the PAR process to save total runtime, as it was determined it would not improve upon a timing result achieved in a previous iteration.
+
+Total (real) run time for 6-seed: 16 mins 45 secs 
+
+par done!

@@ -1,0 +1,7 @@
+C:\lscc\radiant\2024.1\synpbase\bin64\syn_nfilter.exe  -link  -top  soc_gpio2_Top  -multisrs  C:\Users\x-luo\proj\fpga\soc_gpio2\impl_1\synwork\soc_gpio2_impl_1_comp.srs  -osyn  C:\Users\x-luo\proj\fpga\soc_gpio2\impl_1\synwork\soc_gpio2_impl_1_mult.srs  -log  C:\Users\x-luo\proj\fpga\soc_gpio2\impl_1\synlog\soc_gpio2_impl_1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\radiant\2024.1\synpbase\bin64\syn_nfilter.exe -link -top soc_gpio2_Top -multisrs ..\synwork\soc_gpio2_impl_1_comp.srs -osyn ..\synwork\soc_gpio2_impl_1_mult.srs -log ..\synlog\soc_gpio2_impl_1_multi_srs_gen.srr
+rc:0 success:1 runtime:2
+file:..\synwork\soc_gpio2_impl_1_comp.srs|io:i|time:1750955286|size:1066568|exec:0|csum:0C6DF3CFBBC8666AD00C54830BD953C6
+file:..\synwork\soc_gpio2_impl_1_mult.srs|io:o|time:1750955290|size:3412|exec:0|csum:
+file:..\synlog\soc_gpio2_impl_1_multi_srs_gen.srr|io:o|time:1750955290|size:1151|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\radiant\2024.1\synpbase\bin64\syn_nfilter.exe|io:i|time:1715795492|size:10549248|exec:1|csum:546A6F3FB6870E698E5AF07CCB466A00

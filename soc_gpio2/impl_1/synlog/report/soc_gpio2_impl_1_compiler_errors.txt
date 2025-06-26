@@ -1,0 +1,4 @@
+@E: CS180 :"C:\Users\x-luo\proj\fpga\soc_gpio2\soc_gpio2\lib\gluelogics\APB_REG_MODULE.v":44:21:44:23|Assignment target int must be a register or integer
+@E: CG295 :"C:\Users\x-luo\proj\fpga\soc_gpio2\soc_gpio2\lib\gluelogics\APB_REG_MODULE.v":44:25:44:25|Expecting =, <=, or arithmetic-assignment operator.
+@E::Verilog compiler failed
+

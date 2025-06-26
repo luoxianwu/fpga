@@ -1,0 +1,455 @@
+
+Lattice Place and Route Report for Design "soc_gpio2_impl_1_map.udb"
+Thu Jun 26 10:30:29 2025
+
+PAR: Place And Route Radiant Software (64-bit) 2024.1.0.34.2.
+Command Line: par -w -t 1 -hsp m -exp parPathBased=OFF soc_gpio2_impl_1_map.udb \
+	soc_gpio2_impl_1_par.dir/5_1.udb 
+
+Loading soc_gpio2_impl_1_map.udb ...
+Loading device for application GENERIC from file 'jd5s30.nph' in environment: C:/lscc/radiant/2024.1/ispfpga.
+Package Status:                     Final          Version 4.
+Performance Hardware Data Status:   Final          Version 107.1.
+
+
+
+Design:  soc_gpio2_Top
+Family:  LFD2NX
+Device:  LFD2NX-40
+Package: CABGA256
+Performance Grade:   8_High-Performance_1.0V
+WARNING <77001032> - par: Unable to find the instance/port 'top_gpio2_o[7]' in the constraint 'ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]'
+
+WARNING <77001031> - par: In the constraint 'ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]', the locate object is not specified
+
+
+Constraint Summary
+   Total number of constraints: 23
+   Total number of constraints dropped: 1
+   Dropped constraints are:
+     ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]
+
+WARNING <71003020> - par: Top module port 'top_gpio2_o[31]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[30]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[29]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[28]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[27]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[26]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[25]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[24]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[23]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[22]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[21]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[20]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[19]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[18]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[17]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[16]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[15]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[14]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[13]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[12]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[11]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[10]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[9]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[8]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[7]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[6]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[5]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[4]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[3]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[2]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[1]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[0]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TCK' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TMS' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDI' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDO' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[31]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[30]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[29]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[28]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[27]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[26]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[25]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[24]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[23]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[22]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[21]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[20]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[19]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[18]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[17]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[16]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[15]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[14]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[13]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[12]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[11]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[10]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[9]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[8]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[7]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[6]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[5]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[4]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[3]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[2]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[1]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[0]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TCK' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TMS' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDI' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDO' does not connect to anything.
+
+Device SLICE utilization summary after final SLICE packing:
+   SLICE           4670/16128        28% used
+
+WARNING <77001032> - par: Unable to find the instance/port 'top_gpio2_o[7]' in the constraint 'ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]'
+
+WARNING <77001031> - par: In the constraint 'ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]', the locate object is not specified
+
+INFO <70001951> - par: Constrained CDC register input For a group of CDC paths.
+WARNING <77001032> - par: Unable to find the instance/port 'top_gpio2_o[7]' in the constraint 'ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]'
+
+WARNING <77001031> - par: In the constraint 'ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]', the locate object is not specified
+
+Number of Signals: 6411
+Number of Connections: 22480
+Device utilization summary:
+
+   VHI                   1/1           100% used
+   SIOLOGIC              9/186           5% used
+   DCC                   1/62            2% used
+   EBR                  18/84           21% used
+   SEIO33               11/185           6% used
+                        11/111          10% bonded
+   OSC                   1/1           100% used
+   PLL                   1/3            33% used
+   CONFIG_JTAG           1/1           100% used
+   SLICE              4670/16128        29% used
+     LUT              4108/32256        13% used
+     REG              2117/32256         7% used
+
+
+Pin Constraint Summary:
+   10 out of 11 pins locked (90% locked).
+INFO: signal 'soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1' driving mixed DCC load types requires multi-feedlines.
+INFO: signal 'soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1' driving mixed DCC load types requires multi-feedlines.
+.
+Starting Placer Phase 0 (HIER). CPU time: 7 secs , REAL time: 9 secs 
+...........
+Finished Placer Phase 0 (HIER). CPU time: 10 secs , REAL time: 12 secs 
+
+Starting Placer Phase 1. CPU time: 10 secs , REAL time: 12 secs 
+..  ..
+.....................
+
+Placer score = 2201469.
+Finished Placer Phase 1. CPU time: 42 secs , REAL time: 1 mins 22 secs 
+
+Starting Placer Phase 2.
+.
+
+Placer score =  2165512
+Finished Placer Phase 2.  CPU time: 43 secs , REAL time: 1 mins 22 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 26 (0%)
+  PLL        : 1 out of 3 (33%)
+  DCS        : 0 out of 1 (0%)
+  DCC        : 1 out of 62 (1%)
+  ECLKDIV    : 0 out of 12 (0%)
+  PCLKDIV    : 0 out of 1 (0%)
+  OSC        : 1 out of 1 (100%)
+  PCIE       : 0 out of 1 (0%)
+
+Global Clocks:
+  PRIMARY "soc_gpio2_inst.osc0_inst_hf_clk_out_o_net" from HFCLKOUT on comp "soc_gpio2_inst.osc0_inst.lscc_osc_inst.OSCA.u_OSC.OSCA_inst" on site "OSC_CORE_R1C77", clk load = 1, ce load = 0, sr load = 0
+  PRIMARY "soc_gpio2_inst.pll0_inst_clkop_o_net" from CLKOP on comp "soc_gpio2_inst.pll0_inst.lscc_pll_inst.gen_no_refclk_mon.u_PLL.PLL_inst" on PLL site "PLL_LLC", clk load = 1581, ce load = 0, sr load = 0
+  PRIMARY "soc_gpio2_inst.pll0_inst_clkos_o_net" from CLKOS on comp "soc_gpio2_inst.pll0_inst.lscc_pll_inst.gen_no_refclk_mon.u_PLL.PLL_inst" on PLL site "PLL_LLC", clk load = 397, ce load = 0, sr load = 0
+  PRIMARY "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1" from JTCK on comp "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IbCuo3aEvk5cF25j4DHzkJGG2F.genblk3.jtag.jtagg_u" on site "TCONFIG_JTAG_CORE73", clk load = 58, ce load = 0, sr load = 0
+  PRIMARY "soc_gpio2_inst.cpu0_inst_system_resetn_o_net" from Q0 on comp "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IdmsCC83jqGag9CKFl9b1a3AFBjxqdlgK.ff_inst" on site "R38C49A", clk load = 0, ce load = 0, sr load = 747
+  PRIMARY DCC "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.NbbICH" from comp "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IbCuo3aEvk5cF25j4DHzkJGG2F.Iohm428if6nkdrszemy5wAmC" on DCC site "DCC_T0", total # of clk loads = 83
+     - DCC input "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1" from JTCK on comp "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IbCuo3aEvk5cF25j4DHzkJGG2F.genblk3.jtag.jtagg_u" on site "TCONFIG_JTAG_CORE73"
+
+  PRIMARY  : 6 out of 16 (37%)
+
+Edge Clocks:
+
+  No edge clock selected.
+
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   11 out of 185 (5.9%) SEIO33 sites used.
+   11 out of 111 (9.9%) bonded SEIO33 sites used.
+   Number of SEIO33 components: 11; differential: 0
+   Number of Vref pins used: 0
+   0 out of 74 (0.0%) SEIO18 sites used.
+   0 out of 74 (0.0%) bonded SEIO18 sites used.
+   Number of SEIO18 components: 0; differential: 0
+   0 out of 37 (0.0%) DIFFIO18 sites used.
+   0 out of 37 (0.0%) bonded DIFFIO18 sites used.
+   Number of DIFFIO18 components: 0; differential: 0
+
+I/O Bank Usage Summary:
++----------+---------------+------------+------------+------------+
+| I/O Bank | Usage         | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+---------------+------------+------------+------------+
+| 0        | 0 / 12 (  0%) | 1.8V       | -          | -          |
+| 1        | 3 / 21 ( 14%) | 3.3V       | -          | -          |
+| 2        | 7 / 28 ( 25%) | 3.3V       | -          | -          |
+| 3        | 0 / 32 (  0%) | 1.8V       | -          | -          |
+| 4        | 0 / 32 (  0%) | 1.8V       | -          | -          |
+| 5        | 0 / 10 (  0%) | 1.8V       | -          | -          |
+| 6        | 0 / 28 (  0%) | 3.3V       | -          | -          |
+| 7        | 1 / 22 (  4%) | 3.3V       | -          | -          |
++----------+---------------+------------+------------+------------+
+
+Total Placer CPU time: 43 secs , REAL time: 1 mins 22 secs 
+
+
+Checksum -- place: d4f93a027c89c617594faec9e99618b216382b9
+Writing design to file soc_gpio2_impl_1_par.dir/5_1.udb ...
+
+WARNING <71003020> - par: Top module port 'top_gpio2_o[31]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[30]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[29]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[28]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[27]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[26]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[25]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[24]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[23]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[22]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[21]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[20]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[19]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[18]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[17]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[16]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[15]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[14]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[13]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[12]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[11]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[10]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[9]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[8]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[7]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[6]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[5]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[4]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[3]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[2]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[1]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'top_gpio2_o[0]' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TCK' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TMS' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDI' does not connect to anything.
+WARNING <71003020> - par: Top module port 'TDO' does not connect to anything.
+WARNING <77001032> - par: Unable to find the instance/port 'top_gpio2_o[7]' in the constraint 'ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]'
+
+WARNING <77001031> - par: In the constraint 'ldc_set_location -site {J15} [get_ports {top_gpio2_o[7]}]', the locate object is not specified
+
+
+Start NBR router at 10:32:02 06/26/25
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in timing report. You should always run the timing    
+      tool to verify your design.                                
+*****************************************************************
+
+Starting routing resource preassignment
+Preassignment Summary:
+--------------------------------------------------------------------------------
+1164 connections routed with dedicated routing resources
+6 global clock signals routed
+4499 connections routed (of 22480 total) (20.01%)
+---------------------------------------------------------
+Clock routing summary:
+Primary clocks (12 used out of 32 available):
+    Signal "soc_gpio2_inst.pll0_inst_clkop_o_net" (3, 19)
+       Clock   loads: 1581  out of  1581 routed (100.00%)
+    Signal "soc_gpio2_inst.pll0_inst_clkos_o_net" (5, 21)
+       Clock   loads: 397   out of   397 routed (100.00%)
+    Signal "soc_gpio2_inst.cpu0_inst_system_resetn_o_net" (0, 16)
+       Control loads: 747   out of   747 routed (100.00%)
+       Data    loads: 0     out of    14 routed (  0.00%)
+    Signal "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.IbCuo3aEvk5cF25j4DHzkJGG2F.NbqAaKcoy7LeAHb1" (10, 26)
+       Clock   loads: 58    out of    58 routed (100.00%)
+       Data    loads: 1     out of     1 routed (100.00%)
+    Signal "soc_gpio2_inst.cpu0_inst.riscvsmall_inst.IiszmCq7mlL9G2GyGKkJE0hI8sh.NbbICH" (4, 20)
+       Clock   loads: 83    out of    83 routed (100.00%)
+    Signal "soc_gpio2_inst.osc0_inst_hf_clk_out_o_net" (2, 18)
+       Clock   loads: 1     out of     1 routed (100.00%)
+Other clocks:
+    Signal "soc_gpio2_inst.pll0_inst.lscc_pll_inst.intclkop_w"
+       Clock   loads: 1     out of     1 routed (100.00%)
+---------------------------------------------------------
+--------------------------------------------------------------------------------
+Completed routing resource preassignment
+INFO <70001951> - par: Constrained CDC register input For a group of CDC paths.
+
+Start NBR section for initial routing at 10:32:17 06/26/25
+Level 4, iteration 1
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Routing in Serial Mode ......
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+3993(0.23%) conflicts; 0(0.00%) untouched conn; 25530 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.378ns/-25.531ns; real time: 30 secs 
+
+Info: Initial congestion level at 75.00% usage is 0
+Info: Initial congestion area  at 75.00% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 10:32:25 06/26/25
+Level 4, iteration 1
+3524(0.20%) conflicts; 0(0.00%) untouched conn; 9876 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.216ns/-9.877ns; real time: 34 secs 
+Level 4, iteration 2
+1364(0.08%) conflicts; 0(0.00%) untouched conn; 7947 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.212ns/-7.948ns; real time: 36 secs 
+Level 4, iteration 3
+679(0.04%) conflicts; 0(0.00%) untouched conn; 12991 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.263ns/-12.992ns; real time: 38 secs 
+Level 4, iteration 4
+358(0.02%) conflicts; 0(0.00%) untouched conn; 11047 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.217ns/-11.048ns; real time: 39 secs 
+Level 4, iteration 5
+224(0.01%) conflicts; 0(0.00%) untouched conn; 11047 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.217ns/-11.048ns; real time: 40 secs 
+Level 4, iteration 6
+170(0.01%) conflicts; 0(0.00%) untouched conn; 12392 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.238ns/-12.393ns; real time: 41 secs 
+Level 4, iteration 7
+100(0.01%) conflicts; 0(0.00%) untouched conn; 12392 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.238ns/-12.393ns; real time: 41 secs 
+Level 4, iteration 8
+84(0.00%) conflicts; 0(0.00%) untouched conn; 14681 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.287ns/-14.682ns; real time: 42 secs 
+Level 4, iteration 9
+50(0.00%) conflicts; 0(0.00%) untouched conn; 14681 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.287ns/-14.682ns; real time: 42 secs 
+Level 4, iteration 10
+67(0.00%) conflicts; 0(0.00%) untouched conn; 16475 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.318ns/-16.476ns; real time: 42 secs 
+Level 4, iteration 11
+36(0.00%) conflicts; 0(0.00%) untouched conn; 16475 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.318ns/-16.476ns; real time: 42 secs 
+Level 4, iteration 12
+22(0.00%) conflicts; 0(0.00%) untouched conn; 15081 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.287ns/-15.082ns; real time: 43 secs 
+Level 4, iteration 13
+15(0.00%) conflicts; 0(0.00%) untouched conn; 15081 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.287ns/-15.082ns; real time: 43 secs 
+Level 4, iteration 14
+24(0.00%) conflicts; 0(0.00%) untouched conn; 16612 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.318ns/-16.613ns; real time: 43 secs 
+Level 4, iteration 15
+18(0.00%) conflicts; 0(0.00%) untouched conn; 16612 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.318ns/-16.613ns; real time: 43 secs 
+Level 4, iteration 16
+28(0.00%) conflicts; 0(0.00%) untouched conn; 17912 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.330ns/-17.913ns; real time: 44 secs 
+Level 4, iteration 17
+21(0.00%) conflicts; 0(0.00%) untouched conn; 17912 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.330ns/-17.913ns; real time: 44 secs 
+Level 4, iteration 18
+14(0.00%) conflicts; 0(0.00%) untouched conn; 23276 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.442ns/-23.277ns; real time: 44 secs 
+Level 4, iteration 19
+31(0.00%) conflicts; 0(0.00%) untouched conn; 23276 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.442ns/-23.277ns; real time: 44 secs 
+Level 4, iteration 20
+26(0.00%) conflicts; 0(0.00%) untouched conn; 19341 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.387ns/-19.342ns; real time: 45 secs 
+Level 4, iteration 21
+13(0.00%) conflicts; 0(0.00%) untouched conn; 19341 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.387ns/-19.342ns; real time: 45 secs 
+Level 4, iteration 22
+8(0.00%) conflicts; 0(0.00%) untouched conn; 22276 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.434ns/-22.277ns; real time: 45 secs 
+Level 4, iteration 23
+6(0.00%) conflicts; 0(0.00%) untouched conn; 22276 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.434ns/-22.277ns; real time: 45 secs 
+Level 4, iteration 24
+6(0.00%) conflicts; 0(0.00%) untouched conn; 22580 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.434ns/-22.581ns; real time: 46 secs 
+Level 4, iteration 25
+10(0.00%) conflicts; 0(0.00%) untouched conn; 22580 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.434ns/-22.581ns; real time: 46 secs 
+Level 4, iteration 26
+14(0.00%) conflicts; 0(0.00%) untouched conn; 25012 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.472ns/-25.013ns; real time: 46 secs 
+Level 4, iteration 27
+13(0.00%) conflicts; 0(0.00%) untouched conn; 25012 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.472ns/-25.013ns; real time: 46 secs 
+Level 4, iteration 28
+3(0.00%) conflicts; 0(0.00%) untouched conn; 29030 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.523ns/-29.031ns; real time: 46 secs 
+Level 4, iteration 29
+6(0.00%) conflicts; 0(0.00%) untouched conn; 29030 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.523ns/-29.031ns; real time: 47 secs 
+Level 4, iteration 30
+5(0.00%) conflicts; 0(0.00%) untouched conn; 28577 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.523ns/-28.578ns; real time: 47 secs 
+Level 4, iteration 31
+1(0.00%) conflict; 0(0.00%) untouched conn; 28577 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.523ns/-28.578ns; real time: 47 secs 
+Level 4, iteration 32
+0(0.00%) conflict; 0(0.00%) untouched conn; 28808 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: -0.523ns/-28.809ns; real time: 47 secs 
+
+Start NBR section for post-routing at 10:32:42 06/26/25
+
+End NBR router with 0 unrouted connection(s)
+
+Checksum -- route: ad7c58924c711943f2c91f44de623c29b66989d6
+
+Total CPU time 29 secs 
+Total REAL time: 49 secs 
+Completely routed.
+End of route.  22480 routed (100.00%); 0 unrouted.
+
+Writing design to file soc_gpio2_impl_1_par.dir/5_1.udb ...
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Estimated worst slack<setup/<ns>> = -0.523
+PAR_SUMMARY::Timing score<setup/<ns>> = 1.728
+PAR_SUMMARY::Estimated worst slack<hold/<ns>> = <n/a>
+PAR_SUMMARY::Timing score<hold/<ns>> = <n/a>
+PAR_SUMMARY::Number of errors = 0
+
+Note: user must run 'timing' for timing closure signoff.
+
+Total CPU  Time: 1 mins 15 secs 
+Total REAL Time: 2 mins 17 secs 
+Peak Memory Usage: 727.10 MB
+
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.

@@ -1,0 +1,152 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<link href="file:///C:/lscc/radiant/2024.1/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/2024.1/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2024.1.0.34.2
+Command Line: postsyn -a LFD2NX -p LFD2NX-40 -t CABGA256 -sp 8_High-Performance_1.0V -oc Commercial -top -w -o soc_gpio2_impl_1_syn.udb -ldc C:/Users/x-luo/proj/fpga/soc_gpio2/impl_1/soc_gpio2_impl_1.ldc -gui -msgset C:/Users/x-luo/proj/fpga/soc_gpio2/promote.xml soc_gpio2_impl_1.vm 
+   Architecture:     LFD2NX
+   Device:           LFD2NX-40
+   Package:          CABGA256
+   Performance:      8_High-Performance_1.0V
+Reading input file 'soc_gpio2_impl_1.vm' ...
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'ahbl0_32s_1s_1s_0_32768_1s_32768_1073751040' cannot be supported. It will be ignored.
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'ahbl2apb0' cannot be supported. It will be ignored.
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'apb0_32s_1s_1073782784_1024_1073741824_1024_32768_1024_12_layer0' cannot be supported. It will be ignored.
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'cpu0_0s_0s_4294967295_0_4294967295_0_4294901760_15_layer0' cannot be supported. It will be ignored.
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'gpio0' cannot be supported. It will be ignored.
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'osc0' cannot be supported. It will be ignored.
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'pll0' cannot be supported. It will be ignored.
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'system0_system0' cannot be supported. It will be ignored.
+WARNING <35811116> - Attribute 'LATTICE_IP_GENERATED' on Module 'uart0' cannot be supported. It will be ignored.
+Reading constraint file 'C:/Users/x-luo/proj/fpga/soc_gpio2/impl_1/soc_gpio2_impl_1.ldc' ...
+Removing unused logic ...
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[0].genblk1.u_lscc_ahbl_decoder_sel/N_4113 undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[0].genblk1.u_lscc_ahbl_decoder_sel/N_4114 undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/N_4115 undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/N_4116 undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor/hsel_def_Q_reg.intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor/ahbl_hsel_dec_r_reg[0].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor/ahbl_hsel_dec_r_reg[1].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor/active_tx_r_reg.intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_default_slv/cs_sm_reg[0].intGnd undriven or does not drive anything - clipped
+INFO <35811146> - Signal soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_default_slv/cs_sm_reg[1].intGnd undriven or does not drive anything - clipped
+INFO <35811149> - ... More signals are undriven or does not drive anything - clipped
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[5].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[5].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[6].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[6].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[7].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[7].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[4].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[4].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[1].genblk1.genblk1.u_BB_data.PIC_inst_out is optimized away.
+INFO <35811145> - Instance soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0/genblk2[1].genblk1.genblk1.u_BB_data.PIC_inst_tristate is optimized away.
+INFO <35811148> - ... More instances are optimized away.
+Starting design annotation....
+INFO <70001951> - Constrained CDC register input For a group of CDC paths.
+ 
+Constraint Summary:
+   Total number of constraints: 4
+   Total number of constraints dropped: 0
+ 
+Writing output file 'soc_gpio2_impl_1_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 4 secs 
+Total REAL Time: 5 secs 
+Peak Memory Usage: 227 MB
+Checksum -- postsyn: 3a0d50aec955bb09144ed6513980a8e4c3a7b54e
+
+
+</PRE></DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="2" build_time="1750956515">
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1750956515"/>
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1750955417">
+            <Task name="Map" build_result="2" update_result="0" update_time="1750955417"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1750882777"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1750956433">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1750956433"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1750956441"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1750955393">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1750955393"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1750889732"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1750889732"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1750889732"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="3" update_time="0"/>
+            <Task name="BKM" build_result="0" update_result="3" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Report name="soc_gpio2_impl_1.bgn" last_build_time="1750956515" last_build_size="7520"/>
+        <Report name="soc_gpio2_impl_1.bit" last_build_time="1750956515" last_build_size="852723"/>
+        <Report name="soc_gpio2_impl_1.twr.html" last_build_time="1750956440" last_build_size="1146081"/>
+        <Report name="soc_gpio2_impl_1.udb" last_build_time="1750956433" last_build_size="1128000"/>
+        <Report name="soc_gpio2_impl_1_map.udb" last_build_time="1750955416" last_build_size="719334"/>
+        <Report name="soc_gpio2_impl_1_syn.udb" last_build_time="1750955392" last_build_size="354358"/>
+    </Strategy>
+</BuildStatus>
+         

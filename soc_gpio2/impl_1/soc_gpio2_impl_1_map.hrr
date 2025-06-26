@@ -1,0 +1,859 @@
+---------------------------------------------------
+Report for cell soc_gpio2_Top
+   Instance path: soc_gpio2_Top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       4108        100.0
+                               LUTGATE	       3568        100.0
+                                LUTRAM	         48        100.0
+                                LUTCCU	        492        100.0
+                                 IOREG	          9        100.0
+                                 IOBUF	         11        100.0
+                                PFUREG	       2117        100.0
+                                   EBR	         18        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                             soc_gpio2	          1        100.0
+---------------------------------------------------
+Report for cell soc_gpio2
+   Instance path: soc_gpio2_Top/soc_gpio2_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       4107        100.0
+                               LUTGATE	       3567        100.0
+                                LUTRAM	         48        100.0
+                                LUTCCU	        492        100.0
+                                 IOREG	          9        100.0
+                                 IOBUF	          8        72.7
+                                PFUREG	       2116        100.0
+                                   EBR	         18        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                        APB_REG_MODULE	          1         3.2
+ahbl0_32s_1s_1s_0_32768_1s_32768_1073751040	          1         2.2
+                             ahbl2apb0	          1         7.7
+apb0_32s_1s_1073782784_1024_1073741824_1024_32768_1024_12_layer0	          1         1.0
+cpu0_0s_0s_4294967295_0_4294967295_0_4294901760_15_layer0	          1        75.9
+                                 gpio0	          1         2.8
+                                  osc0	          1         0.0
+                                  pll0	          1         0.0
+                       system0_system0	          1         1.2
+                                 uart0	          1         5.9
+---------------------------------------------------
+Report for cell ahbl0_32s_1s_1s_0_32768_1s_32768_1073751040
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         91         2.2
+                               LUTGATE	         91         2.6
+                                PFUREG	          6         0.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_interconnect_Z1_layer0	          1         2.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_interconnect_Z1_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         91         2.2
+                               LUTGATE	         91         2.6
+                                PFUREG	          6         0.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+   ahbl0_ipgen_lscc_ahbl_bus_Z5_layer0	          1         2.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_bus_Z5_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         91         2.2
+                               LUTGATE	         91         2.6
+                                PFUREG	          6         0.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_Z2_layer0	          1         0.4
+ahbl0_ipgen_lscc_ahbl_default_slv_32s_2s_0s_1s_2s_0_1_2_3	          1         0.0
+ahbl0_ipgen_lscc_ahbl_multiplexor_32s_32s_2s_0s	          1         1.8
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_Z2_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         15         0.4
+                               LUTGATE	         15         0.4
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_3_layer0	          1         0.2
+ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_4_layer0	          1         0.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_3_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[0].genblk1.u_lscc_ahbl_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7         0.2
+                               LUTGATE	          7         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_0_32768_32s_32767_15s	          1         0.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_0_32768_32s_32767_15s
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[0].genblk1.u_lscc_ahbl_decoder_sel/genblk1[0].u_lscc_ahbl_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7         0.2
+                               LUTGATE	          7         0.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_prim_8s_32s_1s_1_4_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[1].genblk1.u_lscc_ahbl_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          8         0.2
+                               LUTGATE	          8         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_32768_1073751040_32s_1073783807_31s	          1         0.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_decoder_comp_1s_32768_1073751040_32s_1073783807_31s
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_decoder/genblk1[1].genblk1.u_lscc_ahbl_decoder_sel/genblk1[0].u_lscc_ahbl_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          8         0.2
+                               LUTGATE	          8         0.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_multiplexor_32s_32s_2s_0s
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_multiplexor
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         74         1.8
+                               LUTGATE	         74         2.1
+                                PFUREG	          4         0.2
+---------------------------------------------------
+Report for cell ahbl0_ipgen_lscc_ahbl_default_slv_32s_2s_0s_1s_2s_0_1_2_3
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl0_inst/lscc_ahbl_interconnect_inst/ahb_lite_bus.u_lscc_ahbl_bus/u_lscc_ahbl_default_slv
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.1
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell ahbl2apb0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl2apb0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        318         7.7
+                               LUTGATE	        318         8.9
+                                PFUREG	        253        12.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl2apb0_ipgen_lscc_ahbl2apb_Z6_layer0	          1         7.7
+---------------------------------------------------
+Report for cell ahbl2apb0_ipgen_lscc_ahbl2apb_Z6_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl2apb0_inst/lscc_ahbl2apb_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        318         7.7
+                               LUTGATE	        318         8.9
+                                PFUREG	        253        12.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ ahbl2apb0_ipgen_lscc_toggle_pulsesync	          1         0.1
+---------------------------------------------------
+Report for cell ahbl2apb0_ipgen_lscc_toggle_pulsesync
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl2apb0_inst/lscc_ahbl2apb_inst/dual_clk.slverr_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          6         0.1
+                               LUTGATE	          6         0.2
+                                PFUREG	          4         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ahbl2apb0_ipgen_lscc_sync_2s_ASYNC_0_0	          1         0.0
+---------------------------------------------------
+Report for cell ahbl2apb0_ipgen_lscc_sync_2s_ASYNC_0_0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/ahbl2apb0_inst/lscc_ahbl2apb_inst/dual_clk.slverr_sync/u_pls_toggle_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell apb0_32s_1s_1073782784_1024_1073741824_1024_32768_1024_12_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         41         1.0
+                               LUTGATE	         41         1.1
+                                PFUREG	          4         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_interconnect_Z7_layer0	          1         1.0
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_interconnect_Z7_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         41         1.0
+                               LUTGATE	         41         1.1
+                                PFUREG	          4         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+    apb0_ipgen_lscc_apb_bus_Z11_layer0	          1         1.0
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_bus_Z11_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         41         1.0
+                               LUTGATE	         41         1.1
+                                PFUREG	          4         0.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ apb0_ipgen_lscc_apb_decoder_Z8_layer0	          1         0.5
+apb0_ipgen_lscc_apb_multiplexor_32s_32s_32s_3s_0s	          1         0.5
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_Z8_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         19         0.5
+                               LUTGATE	         19         0.5
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_1073741824_1024	          1         0.1
+apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_1073782784_1024	          1         0.2
+apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_32768_1024	          1         0.1
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_1073782784_1024
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder/genblk1[0].u_lscc_apb_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.2
+                               LUTGATE	         10         0.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_decoder_comp_32s_1073782784_1024_32s_1s_1073783807_10s_9_layer0	          1         0.2
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_comp_32s_1073782784_1024_32s_1s_1073783807_10s_9_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder/genblk1[0].u_lscc_apb_decoder_sel/genblk1[0].u_lscc_apb_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.2
+                               LUTGATE	         10         0.3
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_1073741824_1024
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder/genblk1[1].u_lscc_apb_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          5         0.1
+                               LUTGATE	          5         0.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_decoder_comp_32s_1073741824_1024_32s_1s_1073742847_10s_10_layer0	          1         0.1
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_comp_32s_1073741824_1024_32s_1s_1073742847_10s_10_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder/genblk1[1].u_lscc_apb_decoder_sel/genblk1[0].u_lscc_apb_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          5         0.1
+                               LUTGATE	          5         0.1
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_prim_32s_1s_32s_1s_1_32768_1024
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder/genblk1[2].u_lscc_apb_decoder_sel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.1
+                               LUTGATE	          3         0.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+apb0_ipgen_lscc_apb_decoder_comp_32s_32768_1024_32s_1s_33791_10s	          1         0.1
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_decoder_comp_32s_32768_1024_32s_1s_33791_10s
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_decoder/genblk1[2].u_lscc_apb_decoder_sel/genblk1[0].u_lscc_apb_decoder_comp
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          3         0.1
+                               LUTGATE	          3         0.1
+---------------------------------------------------
+Report for cell apb0_ipgen_lscc_apb_multiplexor_32s_32s_32s_3s_0s
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb0_inst/lscc_apb_interconnect_inst/apb_bus.u_lscc_apb_bus/u_lscc_apb_multiplexor
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         22         0.5
+                               LUTGATE	         22         0.6
+                                PFUREG	          4         0.2
+---------------------------------------------------
+Report for cell cpu0_0s_0s_4294967295_0_4294967295_0_4294901760_15_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/cpu0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       3120        75.9
+                               LUTGATE	       2674        74.9
+                                LUTCCU	        446        90.7
+                                PFUREG	       1540        72.7
+                                   EBR	          2        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_1	          1        75.9
+---------------------------------------------------
+Report for cell secured_design_1
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/cpu0_inst/riscvsmall_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       3120        75.9
+                               LUTGATE	       2674        74.9
+                                LUTCCU	        446        90.7
+                                PFUREG	       1540        72.7
+                                   EBR	          2        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_2	          1         3.5
+                     secured_design_22	          1        60.2
+                      secured_design_3	          1         0.8
+                      secured_design_4	          1         8.3
+                      secured_design_5	          1         3.2
+---------------------------------------------------
+Report for cell secured_design_2
+   Instance path: soc_gpio2_Top/secured_instance_2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        143         3.5
+                               LUTGATE	        143         4.0
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell secured_design_3
+   Instance path: soc_gpio2_Top/secured_instance_3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         31         0.8
+                               LUTGATE	         31         0.9
+                                PFUREG	         18         0.9
+---------------------------------------------------
+Report for cell secured_design_4
+   Instance path: soc_gpio2_Top/secured_instance_4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        339         8.3
+                               LUTGATE	        207         5.8
+                                LUTCCU	        132        26.8
+                                PFUREG	        137         6.5
+---------------------------------------------------
+Report for cell secured_design_5
+   Instance path: soc_gpio2_Top/secured_instance_5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        133         3.2
+                               LUTGATE	        119         3.3
+                                LUTCCU	         14         2.8
+                                PFUREG	        267        12.6
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_18	          1         1.9
+                     secured_design_21	          1         0.3
+                      secured_design_6	          1         1.0
+---------------------------------------------------
+Report for cell secured_design_6
+   Instance path: soc_gpio2_Top/secured_instance_6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         41         1.0
+                               LUTGATE	         27         0.8
+                                LUTCCU	         14         2.8
+                                PFUREG	         62         2.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_10	          1         0.0
+                     secured_design_11	          1         0.0
+                     secured_design_12	          1         0.0
+                     secured_design_13	          1         0.0
+                     secured_design_14	          1         0.0
+                     secured_design_15	          1         0.8
+                      secured_design_7	          1         0.0
+                      secured_design_8	          1         0.0
+                      secured_design_9	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_7
+   Instance path: soc_gpio2_Top/secured_instance_7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell secured_design_8
+   Instance path: soc_gpio2_Top/secured_instance_8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_9
+   Instance path: soc_gpio2_Top/secured_instance_9
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_10
+   Instance path: soc_gpio2_Top/secured_instance_10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_11
+   Instance path: soc_gpio2_Top/secured_instance_11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_12
+   Instance path: soc_gpio2_Top/secured_instance_12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_13
+   Instance path: soc_gpio2_Top/secured_instance_13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_14
+   Instance path: soc_gpio2_Top/secured_instance_14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_15
+   Instance path: soc_gpio2_Top/secured_instance_15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                               LUTGATE	         20         0.6
+                                LUTCCU	         14         2.8
+                                PFUREG	         53         2.5
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_16	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_16
+   Instance path: soc_gpio2_Top/secured_instance_16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_17	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_17
+   Instance path: soc_gpio2_Top/secured_instance_17
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_18
+   Instance path: soc_gpio2_Top/secured_instance_18
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         77         1.9
+                               LUTGATE	         77         2.2
+                                PFUREG	        122         5.8
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_19	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_19
+   Instance path: soc_gpio2_Top/secured_instance_19
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2         0.0
+                               LUTGATE	          2         0.1
+                                PFUREG	          9         0.4
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_20	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_20
+   Instance path: soc_gpio2_Top/secured_instance_20
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          2         0.1
+---------------------------------------------------
+Report for cell secured_design_21
+   Instance path: soc_gpio2_Top/secured_instance_21
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         14         0.3
+                               LUTGATE	         14         0.4
+                                PFUREG	         78         3.7
+---------------------------------------------------
+Report for cell secured_design_22
+   Instance path: soc_gpio2_Top/secured_instance_22
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2473        60.2
+                               LUTGATE	       2173        60.9
+                                LUTCCU	        300        61.0
+                                PFUREG	       1114        52.6
+                                   EBR	          2        11.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_23	          1         2.5
+---------------------------------------------------
+Report for cell secured_design_23
+   Instance path: soc_gpio2_Top/secured_instance_23
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        102         2.5
+                               LUTGATE	        102         2.9
+                                PFUREG	         35         1.7
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_24	          1         2.5
+---------------------------------------------------
+Report for cell secured_design_24
+   Instance path: soc_gpio2_Top/secured_instance_24
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        102         2.5
+                               LUTGATE	        102         2.9
+                                PFUREG	         35         1.7
+---------------------------------------------------
+Report for cell gpio0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/gpio0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        113         2.8
+                               LUTGATE	        113         3.2
+                                 IOREG	          8        88.9
+                                 IOBUF	          8        72.7
+                                PFUREG	         89         4.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      gpio0_ipgen_lscc_gpio_Z16_layer0	          1         2.8
+---------------------------------------------------
+Report for cell gpio0_ipgen_lscc_gpio_Z16_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/gpio0_inst/lscc_gpio_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        113         2.8
+                               LUTGATE	        113         3.2
+                                 IOREG	          8        88.9
+                                 IOBUF	          8        72.7
+                                PFUREG	         89         4.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+gpio0_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s	          1         0.3
+ gpio0_ipgen_lscc_gpio_lmmi_Z17_layer0	          1         2.5
+---------------------------------------------------
+Report for cell gpio0_ipgen_lscc_gpio_lmmi_Z17_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk1.lscc_gpio_lmmi_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        102         2.5
+                               LUTGATE	        102         2.9
+                                 IOREG	          8        88.9
+                                 IOBUF	          8        72.7
+                                PFUREG	         64         3.0
+---------------------------------------------------
+Report for cell gpio0_ipgen_lscc_apb2lmmi_8s_6s_1s_1_2_4_8_4s
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/gpio0_inst/lscc_gpio_inst/genblk2.lscc_apb2lmmi_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         11         0.3
+                               LUTGATE	         11         0.3
+                                PFUREG	         25         1.2
+---------------------------------------------------
+Report for cell APB_REG_MODULE
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/apb_reg_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        130         3.2
+                               LUTGATE	         82         2.3
+                                LUTRAM	         48        100.0
+                                PFUREG	         49         2.3
+---------------------------------------------------
+Report for cell osc0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/osc0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+        osc0_ipgen_lscc_osc_Z18_layer0	          1         0.0
+---------------------------------------------------
+Report for cell osc0_ipgen_lscc_osc_Z18_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/osc0_inst/lscc_osc_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell pll0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/pll0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+        pll0_ipgen_lscc_pll_Z19_layer0	          1         0.0
+---------------------------------------------------
+Report for cell pll0_ipgen_lscc_pll_Z19_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/pll0_inst/lscc_pll_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+---------------------------------------------------
+Report for cell system0_system0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         51         1.2
+                               LUTGATE	         51         1.4
+                                PFUREG	         29         1.4
+                                   EBR	         16        88.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+ system0_ipgen_lscc_sys_mem_Z20_layer0	          1         1.2
+---------------------------------------------------
+Report for cell system0_ipgen_lscc_sys_mem_Z20_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         51         1.2
+                               LUTGATE	         51         1.4
+                                PFUREG	         29         1.4
+                                   EBR	         16        88.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+system0_ipgen_lscc_ahblmem_subordinate_Z21_layer0_0	          1         1.0
+system0_ipgen_lscc_ahblmem_subordinate_Z21_layer0_1	          1         0.1
+     system0_ipgen_lscc_mem_Z22_layer0	          1         0.1
+---------------------------------------------------
+Report for cell system0_ipgen_lscc_ahblmem_subordinate_Z21_layer0_1
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/bridge_s0.genblk1.bridge_s0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell system0_ipgen_lscc_ahblmem_subordinate_Z21_layer0_0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/bridge_s1.genblk1.bridge_s1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         41         1.0
+                               LUTGATE	         41         1.1
+                                PFUREG	         26         1.2
+---------------------------------------------------
+Report for cell system0_ipgen_lscc_mem_Z22_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          6         0.1
+                               LUTGATE	          6         0.2
+                                   EBR	         16        88.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+           lscc_ram_dp_true_Z41_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_Z41_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                   EBR	         16        88.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_main_Z40_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_main_Z40_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                   EBR	         16        88.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_inst_Z23_layer0	          1         0.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_inst_Z23_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.1
+                               LUTGATE	          4         0.1
+                                   EBR	         16        88.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      lscc_ram_dp_true_core_Z24_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z25_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z26_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z27_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z28_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z29_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z30_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z31_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z32_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z33_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z34_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z35_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z36_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z37_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z38_layer0	          1         0.0
+      lscc_ram_dp_true_core_Z39_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z25_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[1].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z29_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[5].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z33_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[9].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z35_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[11].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z37_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[13].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z26_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[2].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z30_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[6].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z28_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[4].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z34_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[10].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z32_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[8].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z36_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[12].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z27_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[3].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z31_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[7].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z24_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[0].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          1         0.0
+                               LUTGATE	          1         0.0
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z38_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[14].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell lscc_ram_dp_true_core_Z39_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/system0_inst/lscc_sys_mem_inst/CORE_MEMORY.genblk1.u_lscc_mem0/intf_AHBL.lifcl_LAVAT.ebr.dp.LIFCL.u_mem/mem_main/uinst_0/prim.NON_MIX.xADDR[0].xDATA[15].no_mem_file.u_mem0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         5.6
+---------------------------------------------------
+Report for cell uart0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/uart0_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        241         5.9
+                               LUTGATE	        195         5.5
+                                LUTCCU	         46         9.3
+                                 IOREG	          1        11.1
+                                PFUREG	        146         6.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+      uart0_ipgen_lscc_uart_Z43_layer0	          1         5.9
+---------------------------------------------------
+Report for cell uart0_ipgen_lscc_uart_Z43_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/uart0_inst/lscc_uart_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        241         5.9
+                               LUTGATE	        195         5.5
+                                LUTCCU	         46         9.3
+                                 IOREG	          1        11.1
+                                PFUREG	        146         6.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+uart0_ipgen_lscc_uart_intface_Z42_layer0	          1         1.3
+uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D	          1         2.6
+uart0_ipgen_lscc_uart_txmitt_8s_0s_7s_1_2_4_8_16_32_64	          1         2.0
+---------------------------------------------------
+Report for cell uart0_ipgen_lscc_uart_intface_Z42_layer0
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/uart0_inst/lscc_uart_inst/u_intface
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         55         1.3
+                               LUTGATE	         55         1.5
+                                PFUREG	         48         2.3
+---------------------------------------------------
+Report for cell uart0_ipgen_lscc_uart_rxcver_8s_0s_5s_1_2_4_8_16_MachXO3D
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/uart0_inst/lscc_uart_inst/u_rxcver
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        105         2.6
+                               LUTGATE	         77         2.2
+                                LUTCCU	         28         5.7
+                                 IOREG	          1        11.1
+                                PFUREG	         56         2.6
+---------------------------------------------------
+Report for cell uart0_ipgen_lscc_uart_txmitt_8s_0s_7s_1_2_4_8_16_32_64
+   Instance path: soc_gpio2_Top/soc_gpio2_inst/uart0_inst/lscc_uart_inst/u_txmitt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         81         2.0
+                               LUTGATE	         63         1.8
+                                LUTCCU	         18         3.7
+                                PFUREG	         42         2.0

@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.v"
+-lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.vhd"
+-ver "C:/Users/x-luo/proj/fpga/soc_gpio2/soc_gpio2/soc_gpio2.v" "C:/Users/x-luo/proj/fpga/soc_gpio2/soc_gpio2/soc_gpio2_Top.v" "C:/Users/x-luo/proj/fpga/soc_gpio2/soc_gpio2/lib/gluelogics/APB_REG_MODULE.v"
+-path "C:/Users/x-luo/proj/fpga/soc_gpio2" "C:/Users/x-luo/proj/fpga/soc_gpio2"
+-top soc_gpio2_Top
+-isTop
+-a "LFD2NX"
+-t "LFD2NX-40"

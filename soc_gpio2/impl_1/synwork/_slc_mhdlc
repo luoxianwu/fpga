@@ -1,0 +1,13 @@
+ahbl2apb0_ipgen_lscc_toggle_pulsesync
+cpu0_ipgen_BufferCC_1_
+cpu0_ipgen_FlowCCByToggle
+cpu0_ipgen_JtagBridge
+cpu0_ipgen_SystemDebugger
+cpu0_ipgen_StreamFifo_Dbg_IC
+cpu0_ipgen_StreamFifoLowLatency_Dbg_IC
+gpio0
+osc0
+pll0
+uart0
+soc_gpio2
+soc_gpio2_Top

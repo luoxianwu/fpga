@@ -1,0 +1,13 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work, lscc_ram_dp_true_inst_Z23_layer0,0h:00m:12s,0h:00m:12s,-,0h:00m:00s,   229 MB,    11 MB,    11 MB,     0 MB,     0 MB
+work, system0_ipgen_lscc_mem_Z22_layer0,0h:00m:14s,0h:00m:14s,0h:00m:00s,0h:00m:00s,   229 MB,    11 MB,    11 MB,     0 MB,     0 MB
+work, system0_ipgen_lscc_sys_mem_Z20_layer0,0h:00m:16s,0h:00m:16s,-,0h:00m:00s,   229 MB,    11 MB,    11 MB,     0 MB,     0 MB
+work, gpio0_ipgen_lscc_gpio_Z16_layer0,0h:00m:02s,0h:00m:01s,-,0h:00m:00s,   229 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, cpu0_ipgen_Riscv_Dbg_IC,0h:00m:04s,0h:00m:00s,0h:00m:00s,0h:00m:03s,   307 MB,    78 MB,     3 MB,    21 MB,    54 MB
+work, cpu0_ipgen_vex_jtag_bridge_Z14_layer0,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   307 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, cpu0_ipgen_riscvsmall_Z13_layer0,0h:00m:13s,0h:00m:13s,0h:00m:00s,0h:00m:00s,   307 MB,    27 MB,    27 MB,     0 MB,     0 MB
+work, apb0_ipgen_lscc_apb_decoder_Z8_layer0,0h:00m:04s,0h:00m:03s,0h:00m:00s,0h:00m:00s,   307 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, apb0_ipgen_lscc_apb_interconnect_Z7_layer0,0h:00m:06s,0h:00m:06s,-,0h:00m:00s,   307 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, ahbl2apb0_ipgen_lscc_ahbl2apb_Z6_layer0,0h:00m:01s,0h:00m:01s,0h:00m:00s,0h:00m:00s,   307 MB,     1 MB,     0 MB,     1 MB,     0 MB
+work, ahbl0_ipgen_lscc_ahbl_decoder_Z2_layer0,0h:00m:02s,0h:00m:02s,0h:00m:00s,0h:00m:00s,   307 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, ahbl0_ipgen_lscc_ahbl_interconnect_Z1_layer0,0h:00m:05s,0h:00m:04s,-,0h:00m:00s,   307 MB,     1 MB,     1 MB,     0 MB,     0 MB

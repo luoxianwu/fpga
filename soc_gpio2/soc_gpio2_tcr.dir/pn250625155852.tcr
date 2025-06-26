@@ -1,0 +1,12 @@
+#Start recording tcl command: 6/25/2025 14:08:17
+#Project Location: C:/Users/x-luo/proj/fpga/soc_gpio2; Project name: soc_gpio2
+source "C:/Users/x-luo/proj/fpga/soc_gpio2/radiant_setup_template.tcl"
+prj_add_source "C:/Users/x-luo/proj/fpga/soc_gpio2/source/impl_1/soc_gpio2_top.pdc"
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_save 
+prj_close
+#Stop recording: 6/25/2025 15:58:52

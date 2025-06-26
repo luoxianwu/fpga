@@ -1,0 +1,180 @@
+i soc_gpio2_inst.pll0_inst.lscc_pll_inst.clkos_o
+m 0 0
+u 91 394
+n ckid0_0 {t:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_txmitt.nfifo_fsm\.tx_state[6].C} Clock Optimization not enabled
+p {p:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_txmitt.clk}{t:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_txmitt.nfifo_fsm\.tx_state[6].C}
+e ckid0_0 {t:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_txmitt.nfifo_fsm\.tx_state[6].C} dffr
+p {p:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_rxcver.clk}{t:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_rxcver.cs_state[4].C}
+e ckid0_1 {t:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_rxcver.cs_state[4].C} dffr
+p {p:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_intface.clk}{t:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_intface.nfifo_int\.cs_state[1].C}
+e ckid0_2 {t:soc_gpio2_inst.uart0_inst.lscc_uart_inst.u_intface.nfifo_int\.cs_state[1].C} dffr
+p {p:soc_gpio2_inst.apb_reg_inst.clk_i}{t:soc_gpio2_inst.apb_reg_inst.prdata_o[31:0].C}
+e ckid0_3 {t:soc_gpio2_inst.apb_reg_inst.prdata_o[31:0].C} dffr
+p {p:soc_gpio2_inst.gpio0_inst.lscc_gpio_inst.genblk2\.lscc_apb2lmmi_0.clk_i}{t:soc_gpio2_inst.gpio0_inst.lscc_gpio_inst.genblk2\.lscc_apb2lmmi_0.genblk1\.bus_sm_cs[1].C}
+e ckid0_4 {t:soc_gpio2_inst.gpio0_inst.lscc_gpio_inst.genblk2\.lscc_apb2lmmi_0.genblk1\.bus_sm_cs[1].C} dffr
+p {p:soc_gpio2_inst.gpio0_inst.lscc_gpio_inst.genblk1\.lscc_gpio_lmmi_0.clk_i}{t:soc_gpio2_inst.gpio0_inst.lscc_gpio_inst.genblk1\.lscc_gpio_lmmi_0.int_status_r[7:0].C}
+e ckid0_5 {t:soc_gpio2_inst.gpio0_inst.lscc_gpio_inst.genblk1\.lscc_gpio_lmmi_0.int_status_r[7:0].C} sdffr
+p {p:soc_gpio2_inst.apb0_inst.lscc_apb_interconnect_inst.apb_bus\.u_lscc_apb_bus.u_lscc_apb_multiplexor.apb_pclk_i}{t:soc_gpio2_inst.apb0_inst.lscc_apb_interconnect_inst.apb_bus\.u_lscc_apb_bus.u_lscc_apb_multiplexor.apb_psel_def_r.C}
+e ckid0_6 {t:soc_gpio2_inst.apb0_inst.lscc_apb_interconnect_inst.apb_bus\.u_lscc_apb_bus.u_lscc_apb_multiplexor.apb_psel_def_r.C} dffr
+p {p:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.src_clk}{t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.pls_toggle.C}
+e ckid0_7 {t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.pls_toggle.C} dffre
+p {p:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.pclk_i}{t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.cs_apb_sm[1].C}
+e ckid0_8 {t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.cs_apb_sm[1].C} dffr
+d ckid0_0,ckid0_1,ckid0_2,ckid0_3,ckid0_4,ckid0_5,ckid0_6,ckid0_7,ckid0_8 {t:soc_gpio2_inst.pll0_inst.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOS} PLL Clock Optimization not enabled
+i soc_gpio2_inst.pll0_inst.lscc_pll_inst.clkop_o
+m 0 0
+u 315 1736
+n ckid0_9 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[15\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} Clock Optimization not enabled
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[15\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[15\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_9 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[15\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[15\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[15\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_10 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[15\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[14\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[14\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_11 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[14\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[14\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[14\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_12 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[14\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[0\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[0\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_13 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[0\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[0\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[0\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_14 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[0\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[7\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[7\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_15 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[7\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[7\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[7\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_16 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[7\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[3\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[3\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_17 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[3\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[3\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[3\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_18 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[3\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[12\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[12\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_19 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[12\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[12\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[12\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_20 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[12\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[8\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[8\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_21 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[8\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[8\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[8\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_22 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[8\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[10\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[10\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_23 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[10\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[10\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[10\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_24 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[10\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[4\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[4\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_25 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[4\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[4\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[4\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_26 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[4\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[6\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[6\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_27 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[6\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[6\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[6\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_28 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[6\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[2\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[2\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_29 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[2\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[2\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[2\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_30 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[2\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[13\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[13\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_31 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[13\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[13\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[13\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_32 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[13\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[11\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[11\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_33 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[11\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[11\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[11\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_34 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[11\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[9\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[9\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_35 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[9\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[9\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[9\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_36 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[9\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[5\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[5\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_37 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[5\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[5\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[5\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_38 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[5\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[1\]\.no_mem_file\.u_mem0.clk_a_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[1\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA}
+e ckid0_39 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[1\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKA} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[1\]\.no_mem_file\.u_mem0.clk_b_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[1\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB}
+e ckid0_40 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.CORE_MEMORY\.genblk1\.u_lscc_mem0.intf_AHBL\.lifcl_LAVAT\.ebr\.dp\.LIFCL\.u_mem.mem_main.uinst_0.prim\.NON_MIX\.xADDR\[0\]\.xDATA\[1\]\.no_mem_file\.u_mem0.LIFCL\.dp16k.CLKB} DP16K
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.bridge_s1\.genblk1\.bridge_s1.ahbl_hclk_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.bridge_s1\.genblk1\.bridge_s1.genblk5\.bridge_sm_r[8].C}
+e ckid0_41 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.bridge_s1\.genblk1\.bridge_s1.genblk5\.bridge_sm_r[8].C} dffr
+p {p:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.bridge_s0\.genblk1\.bridge_s0.ahbl_hclk_i}{t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.bridge_s0\.genblk1\.bridge_s0.genblk5\.bridge_sm_r[8].C}
+e ckid0_42 {t:soc_gpio2_inst.system0_inst.lscc_sys_mem_inst.bridge_s0\.genblk1\.bridge_s0.genblk5\.bridge_sm_r[8].C} dffr
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_43 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_44 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_45 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_46 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_47 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_48 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_49 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_50 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_51 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_52 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_53 {t:ENCRYPTED} <ENCRYPTED>
+p {p:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.u_pls_toggle_sync.dest_clk}{t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.u_pls_toggle_sync.genblk2\.dout[0].C}
+e ckid0_54 {t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.u_pls_toggle_sync.genblk2\.dout[0].C} dffr
+p {p:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.dst_clk}{t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.pls_toggle_dstclk.C}
+e ckid0_55 {t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.dual_clk\.slverr_sync.pls_toggle_dstclk.C} dffr
+p {p:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.clk_i}{t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.buff_valid_r[1].C}
+e ckid0_56 {t:soc_gpio2_inst.ahbl2apb0_inst.lscc_ahbl2apb_inst.buff_valid_r[1].C} dffr
+p {p:soc_gpio2_inst.ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus\.u_lscc_ahbl_bus.u_lscc_ahbl_default_slv.ahbl_hclk_i}{t:soc_gpio2_inst.ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus\.u_lscc_ahbl_bus.u_lscc_ahbl_default_slv.cs_sm[1].C}
+e ckid0_57 {t:soc_gpio2_inst.ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus\.u_lscc_ahbl_bus.u_lscc_ahbl_default_slv.cs_sm[1].C} dffr
+p {p:soc_gpio2_inst.ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus\.u_lscc_ahbl_bus.u_lscc_ahbl_multiplexor.ahbl_hclk_i}{t:soc_gpio2_inst.ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus\.u_lscc_ahbl_bus.u_lscc_ahbl_multiplexor.active_tx_r.C}
+e ckid0_58 {t:soc_gpio2_inst.ahbl0_inst.lscc_ahbl_interconnect_inst.ahb_lite_bus\.u_lscc_ahbl_bus.u_lscc_ahbl_multiplexor.active_tx_r.C} dffre
+d ckid0_9,ckid0_10,ckid0_11,ckid0_12,ckid0_13,ckid0_14,ckid0_15,ckid0_16,ckid0_17,ckid0_18,ckid0_19,ckid0_20,ckid0_21,ckid0_22,ckid0_23,ckid0_24,ckid0_25,ckid0_26,ckid0_27,ckid0_28,ckid0_29,ckid0_30,ckid0_31,ckid0_32,ckid0_33,ckid0_34,ckid0_35,ckid0_36,ckid0_37,ckid0_38,ckid0_39,ckid0_40,ckid0_41,ckid0_42,ckid0_43,ckid0_44,ckid0_45,ckid0_46,ckid0_47,ckid0_48,ckid0_49,ckid0_50,ckid0_51,ckid0_52,ckid0_53,ckid0_54,ckid0_55,ckid0_56,ckid0_57,ckid0_58 {t:soc_gpio2_inst.pll0_inst.lscc_pll_inst.gen_no_refclk_mon\.u_PLL.CLKOP} PLL Clock Optimization not enabled
+i soc_gpio2_inst.cpu0_inst.riscvsmall_inst.<encrypted><ENCNET779>
+m 0 0
+u 13 83
+n ckid0_59 {t:ENCRYPTED} Clock Optimization not enabled
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_59 {t:ENCRYPTED} <ENCRYPTED>
+p {t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_60 {t:ENCRYPTED} <ENCRYPTED>
+p {p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_61 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_59,ckid0_60,ckid0_61 {t:ENCRYPTED} DCC Clock Optimization not enabled
+i soc_gpio2_inst.cpu0_inst.riscvsmall_inst.<encrypted><ENCNET765>
+m 0 0
+u 8 9
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_62 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_62 {t:ENCRYPTED} JTAGH19 Unsupported/too complex instance on clock path
+i soc_gpio2_inst.cpu0_inst.riscvsmall_inst.<encrypted><ENCNET761>
+m 0 0
+u 0 0
+i soc_gpio2_inst.cpu0_inst.riscvsmall_inst.<encrypted><ENCNET762>
+m 0 0
+u 0 0
+i soc_gpio2_inst.cpu0_inst.riscvsmall_inst.<encrypted><ENCNET766>
+m 0 0
+u 0 0
+i soc_gpio2_inst.cpu0_inst.riscvsmall_inst.<encrypted><ENCNET767>
+m 0 0
+u 0 0
+i soc_gpio2_inst.cpu0_inst.riscvsmall_inst.<encrypted><ENCNET768>
+m 0 0
+u 0 0
+i soc_gpio2_inst.cpu0_inst.riscvsmall_inst.<encrypted><ENCNET769>
+m 0 0
+u 0 0
+i soc_gpio2_inst.osc0_inst.N_1
+m 0 0
+u 0 0
+i soc_gpio2_inst.pll0_inst.lscc_pll_inst.clkop_o_i
+m 0 0
+u 0 0
+i soc_gpio2_inst.pll0_inst.lscc_pll_inst.clkos_o_i
+m 0 0
+u 0 0
+i soc_gpio2_inst.pll0_inst.lscc_pll_inst.lock_o
+m 0 0
+u 0 0
+i soc_gpio2_inst.pll0_inst.lscc_pll_inst.intclkop_w
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

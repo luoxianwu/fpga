@@ -1,0 +1,7 @@
+-ver "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.v"
+-lib pmi -vhd "C:/lscc/radiant/2024.1/ip/pmi/pmi_lfd2nx.vhd"
+-ver "C:/Users/x-luo/proj/fpga/soc_gpio2/soc_gpio2/lib/latticesemi.com/ip/system0/2.3.1/rtl/system0.v"
+-path "C:/Users/x-luo/proj/fpga/soc_gpio2" "C:/Users/x-luo/proj/fpga/soc_gpio2/soc_gpio2/lib/latticesemi.com/ip/system0/2.3.1" "C:/Users/x-luo/proj/fpga/soc_gpio2"
+-top system0
+-a "LFD2NX"
+-t "LFD2NX-40"

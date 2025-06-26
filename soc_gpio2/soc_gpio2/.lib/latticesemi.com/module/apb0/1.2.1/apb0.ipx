@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<RadiantModule architecture="jd5s00" date="2025 06 25 14:07:28" device="LFD2NX-40" device_int="jd5s30" display_module="APB Interconnect" display_vendor="latticesemi.com" family="LFD2NX" gen_platform="Propel" gen_platform_version="2024.2.2503210206_sp1" generator="ipgen" library="module" module="apb_interconnect" name="apb0" operation="Commercial" package="CABGA256" package_int="CABGA256" partnumber="LFD2NX-40-8BG256C" source_format="Verilog" speed="8_High-Performance_1.0V" speed_int="11" vendor="latticesemi.com" version="1.2.1">
+ <Package>
+  <File modified="2025 06 25 14:07:28" name="rtl/apb0_bb.v" type="black_box_verilog"/>
+  <File modified="2025 06 25 14:07:28" name="apb0.cfg" type="cfg"/>
+  <File modified="2025 06 25 14:07:28" name="misc/apb0_tmpl.v" type="template_verilog"/>
+  <File modified="2025 06 25 14:07:28" name="misc/apb0_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2025 06 25 14:07:28" name="rtl/apb0.v" type="top_level_verilog"/>
+  <File modified="2025 06 25 14:07:28" name="testbench/dut_params.v" type="dependency_file"/>
+  <File modified="2025 06 25 14:07:28" name="testbench/dut_inst.v" type="dependency_file"/>
+  <File modified="2025 06 25 14:07:28" name="component.xml" type="IP-XACT_component"/>
+  <File modified="2025 06 25 14:07:28" name="design.xml" type="IP-XACT_design"/>
+  <File modified="2025 06 25 20:07:28" name="testbench/apb_int_top.v" type="testbench_verilog"/>
+  <File modified="2019 12 20 02:26:39" name="testbench/create_apb_interconnect_top.py" type="testbench"/>
+  <File modified="2019 12 20 02:26:39" name="testbench/lscc_apb_master_dummy.v" type="testbench_verilog"/>
+  <File modified="2019 12 20 02:26:39" name="testbench/lscc_apb_slave_dummy.v" type="testbench_verilog"/>
+  <File modified="2019 12 20 02:26:39" name="testbench/lscc_dummy_model_lfsr.v" type="testbench_verilog"/>
+ </Package>
+</RadiantModule>

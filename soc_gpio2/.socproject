@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<propelProject>
+    <builder-resource>
+        <socProject sbxfile="./soc_gpio2/soc_gpio2.sbx" />
+        <verifyProject sbxfile="./verification/soc_gpio2_v.sbx" />
+    </builder-resource>
+    <builderInfo version="2024.2.2503210206_sp1" />
+</propelProject>

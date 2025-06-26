@@ -1,0 +1,4 @@
+-gui
+-msgset "C:/Users/x-luo/proj/fpga/soc_gpio2/promote.xml"
+
+-g REGISTER_INIT:ON
