@@ -42,7 +42,7 @@
         <Source name="soc_gpio2/soc_gpio2_Top.v" type="Verilog" type_short="Verilog">
             <Options top_module="soc_gpio2_Top"/>
         </Source>
-        <Source name="soc_gpio2/lib/gluelogics/APB_REG_MODULE.v" type="Verilog" type_short="Verilog">
+        <Source name="source/impl_1/APB_PWM_CONTROLLERE.v" type="Verilog" type_short="Verilog">
             <Options/>
         </Source>
         <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
