@@ -51,14 +51,12 @@
 //
 // Verific Verilog Description of module soc_gpio2
 //
-module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc_gpio2_pwm_o);
-    inout [31:0]gpio2_o;
+module soc_gpio2 ( gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc_gpio2_pwm_o);
     inout [7:0]gpio_00_io;
     input rstn_i;
     input uart_rxd_00_i;
     output uart_txd_00_o;
-	output soc_gpio2_pwm_o;
-    
+    output [15:0] soc_gpio2_pwm_o; // Reduced to 16-bit vector for 16 PWM outputs
     
     wire pll0_inst_clkos_o_net, cpu0_inst_system_resetn_o_net;
     wire [31:0]ahbl0_inst_AHBL_M00_interconnect_HADDR;
@@ -218,7 +216,7 @@ module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc
     defparam apb0_inst.S0_BASE_ADDR = 32'h4000A000;
     defparam apb0_inst.S1_ADDR_RANGE = 32'h00000400;
     defparam apb0_inst.S1_BASE_ADDR = 32'h40000000;
-    defparam apb0_inst.S2_ADDR_RANGE = 32'h00000400;
+    defparam apb0_inst.S2_ADDR_RANGE = 32'h00000200; // Adjusted for 16 instances (16 * 0x20)
     defparam apb0_inst.S2_BASE_ADDR = 32'h00008000;
     cpu0 cpu0_inst (.ahbl_m_data_haddr_o({cpu0_inst_AHBL_M1_DATA_interconnect_HADDR}), 
          .ahbl_m_data_hburst_o({cpu0_inst_AHBL_M1_DATA_interconnect_HBURST}), 
@@ -267,23 +265,55 @@ module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc
           .clk_i(pll0_inst_clkos_o_net), .resetn_i(cpu0_inst_system_resetn_o_net));
 */
 
-    APB_PWM_CONTROLLER apb_pwm_inst (
-        .clk_i(pll0_inst_clkos_o_net),             // System clock input
-        .resetn_i(cpu0_inst_system_resetn_o_net),  // Asynchronous active-low reset
+    // Instantiate 16 APB_PWM_CONTROLLER instances with offset addressing and multiplexing
+    genvar i;
+    wire [31:0] pwm_prdata [0:15]; // Array to hold PRDATA from each instance
+    wire [31:0] pwm_pready [0:15]; // Array to hold PREADY from each instance
+    wire [31:0] pwm_pslverr [0:15]; // Array to hold PSLVERR from each instance
 
-        // APB Slave Interface
-        .psel_i(apb0_inst_APB_M02_interconnect_PSELx),
-        .penable_i(apb0_inst_APB_M02_interconnect_PENABLE),
-        .pwrite_i(apb0_inst_APB_M02_interconnect_PWRITE),
-        .paddr_i(apb0_inst_APB_M02_interconnect_PADDR[5:0]), // Connect full 6 bits as requested
-        .pwdata_i(apb0_inst_APB_M02_interconnect_PWDATA),
-        .prdata_o(apb0_inst_APB_M02_interconnect_PRDATA),
-        .pready_o(apb0_inst_APB_M02_interconnect_PREADY),
-        .pslverr_o(apb0_inst_APB_M02_interconnect_PSLVERR),
-		.pwm_o(soc_gpio2_pwm_o)
-    );
+    generate
+        for (i = 0; i < 16; i = i + 1) begin : pwm_instances
+            wire psel_i;
+            assign psel_i = apb0_inst_APB_M02_interconnect_PSELx && (apb0_inst_APB_M02_interconnect_PADDR[14:5] == i);
+            APB_PWM_CONTROLLER apb_pwm_inst (
+                .clk_i(pll0_inst_clkos_o_net),             // System clock input
+                .resetn_i(cpu0_inst_system_resetn_o_net),  // Asynchronous active-low reset
+                .psel_i(psel_i),
+                .penable_i(apb0_inst_APB_M02_interconnect_PENABLE),
+                .pwrite_i(apb0_inst_APB_M02_interconnect_PWRITE),
+                .paddr_i(apb0_inst_APB_M02_interconnect_PADDR[5:0]), // Lower 6 bits for register access
+                .pwdata_i(apb0_inst_APB_M02_interconnect_PWDATA),
+                .prdata_o(pwm_prdata[i]),                  // Individual PRDATA output
+                .pready_o(pwm_pready[i]),                  // Individual PREADY output
+                .pslverr_o(pwm_pslverr[i]),                // Individual PSLVERR output
+                .pwm_o(soc_gpio2_pwm_o[i])
+            );
+        end
+    endgenerate
 
-		  
+    // Multiplex the APB response signals
+    integer j;
+    reg [31:0] mux_prdata;
+    reg mux_pready;
+    reg mux_pslverr;
+    always @(*) begin
+        mux_prdata = 32'h0;
+        mux_pready = 1'b0;
+        mux_pslverr = 1'b0;
+        for (j = 0; j < 16; j = j + 1) begin
+            if (apb0_inst_APB_M02_interconnect_PSELx && (apb0_inst_APB_M02_interconnect_PADDR[14:5] == j)) begin
+                mux_prdata = pwm_prdata[j];
+                mux_pready = pwm_pready[j];
+                mux_pslverr = pwm_pslverr[j];
+            end
+        end
+    end
+
+    // Connect multiplexed outputs to APB bus
+    assign apb0_inst_APB_M02_interconnect_PRDATA = mux_prdata;
+    assign apb0_inst_APB_M02_interconnect_PREADY = mux_pready;
+    assign apb0_inst_APB_M02_interconnect_PSLVERR = mux_pslverr;
+    
     osc0 osc0_inst (.hf_clk_out_o(osc0_inst_hf_clk_out_o_net), .hf_out_en_i(1'b1));
     pll0 pll0_inst (.clki_i(osc0_inst_hf_clk_out_o_net), .clkop_o(pll0_inst_clkop_o_net), 
          .clkos_o(pll0_inst_clkos_o_net), .lock_o(pll0_inst_lock_o_net), 
@@ -319,4 +349,3 @@ module soc_gpio2 (gpio2_o, gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc
           .rxd_i(uart_rxd_00_i), .txd_o(uart_txd_00_o));
     
 endmodule
-
