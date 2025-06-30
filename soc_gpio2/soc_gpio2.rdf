@@ -2,7 +2,7 @@
 <RadiantProject version="4.2" radiant="2024.1.0.34.2" title="soc_gpio2" device="LFD2NX-40-8BG256C" performance_grade="8_High-Performance_1.0V" family_int="jd5s00" device_int="jd5s30" package_int="CABGA256" operation_int="COM" speed_int="11" default_implementation="impl_1">
     <Options/>
     <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
-        <Options>
+        <Options def_top="soc_gpio2_Top">
             <Option name="include path" value="."/>
             <Option name="top" value="soc_gpio2_Top"/>
         </Options>

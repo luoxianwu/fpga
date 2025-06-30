@@ -128,6 +128,24 @@ module soc_gpio2 ( gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc_gpio2_p
         gpio0_inst_INTR_interconnect_IRQ, uart0_inst_INT_M0_interconnect_IRQ, 
         expr_0_inst_O_net, osc0_inst_hf_clk_out_o_net, pll0_inst_lock_o_net;
     
+    // Clock divider signals
+    reg [2:0] clk_div_counter; // 3-bit counter for divide-by-6
+    reg pwm_clk;               // 3 MHz PWM clock output
+
+    // Clock divider: Divide 18 MHz clk_i by 6 to get 3 MHz pwm_clk
+    always @(posedge pll0_inst_clkos_o_net or negedge cpu0_inst_system_resetn_o_net) begin
+        if (!cpu0_inst_system_resetn_o_net) begin
+            clk_div_counter <= 3'b000;
+            pwm_clk <= 1'b0;
+        end else begin
+            if (clk_div_counter == 3'd5) begin
+                clk_div_counter <= 3'b000;
+                pwm_clk <= ~pwm_clk; // Toggle every 6 cycles (3 MHz)
+            end else begin
+                clk_div_counter <= clk_div_counter + 1;
+            end
+        end
+    end
     
     assign expr_0_inst_O_net = (rstn_i & pll0_inst_lock_o_net) ; 
 
@@ -277,6 +295,7 @@ module soc_gpio2 ( gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc_gpio2_p
             assign psel_i = apb0_inst_APB_M02_interconnect_PSELx && (apb0_inst_APB_M02_interconnect_PADDR[14:5] == i);
             APB_PWM_CONTROLLER apb_pwm_inst (
                 .clk_i(pll0_inst_clkos_o_net),             // System clock input
+				 .pwm_clk_i(pwm_clk),                       // PWM clock input
                 .resetn_i(cpu0_inst_system_resetn_o_net),  // Asynchronous active-low reset
                 .psel_i(psel_i),
                 .penable_i(apb0_inst_APB_M02_interconnect_PENABLE),

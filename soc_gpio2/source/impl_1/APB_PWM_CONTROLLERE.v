@@ -1,5 +1,6 @@
 module APB_PWM_CONTROLLER (
     input wire clk_i,         // APB clock input (system clock)
+	input wire pwm_clk_i,     // PWM count, seperate it from APB clock
     input wire resetn_i,      // APB asynchronous active-low reset
     input wire psel_i,        // APB peripheral select (active high)
     input wire penable_i,     // APB enable (active high)
@@ -42,22 +43,7 @@ module APB_PWM_CONTROLLER (
     reg pwm_done_int;               // Single-cycle pulse for pwm_done_status
     reg apb_reset_pulse_counter_flag; // APB-initiated pulse counter reset
 
-    // --- Clock Divider (Divide clk_i by 6) ---
-    reg [2:0] clk_div_counter;      // 3-bit counter for division by 6
-    reg pwm_clk;                    // Divided clock for PWM logic
-    always @(posedge clk_i or negedge resetn_i) begin
-        if (!resetn_i) begin
-            clk_div_counter <= 3'd0;
-            pwm_clk <= 1'b0;
-        end else begin
-            if (clk_div_counter == 3'd5) begin // Divide by 6 (0 to 5)
-                clk_div_counter <= 3'd0;
-                pwm_clk <= ~pwm_clk;           // Toggle every 6 cycles
-            end else begin
-                clk_div_counter <= clk_div_counter + 1;
-            end
-        end
-    end
+	wire pwm_clk = pwm_clk_i;
 
     // --- Derived PWM Operational Values ---
     wire [ADDR_SELECT_BITS-1:0] reg_address_index;
