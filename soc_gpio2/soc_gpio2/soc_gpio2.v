@@ -234,7 +234,7 @@ module soc_gpio2 ( gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc_gpio2_p
     defparam apb0_inst.S0_BASE_ADDR = 32'h4000A000;
     defparam apb0_inst.S1_ADDR_RANGE = 32'h00000400;
     defparam apb0_inst.S1_BASE_ADDR = 32'h40000000;
-    defparam apb0_inst.S2_ADDR_RANGE = 32'h00000200; // Adjusted for 16 instances (16 * 0x20)
+    defparam apb0_inst.S2_ADDR_RANGE = 32'h00000400; // set it big enough 
     defparam apb0_inst.S2_BASE_ADDR = 32'h00008000;
     cpu0 cpu0_inst (.ahbl_m_data_haddr_o({cpu0_inst_AHBL_M1_DATA_interconnect_HADDR}), 
          .ahbl_m_data_hburst_o({cpu0_inst_AHBL_M1_DATA_interconnect_HBURST}), 
@@ -283,11 +283,12 @@ module soc_gpio2 ( gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc_gpio2_p
           .clk_i(pll0_inst_clkos_o_net), .resetn_i(cpu0_inst_system_resetn_o_net));
 */
 
+/*
     // Instantiate 16 APB_PWM_CONTROLLER instances with offset addressing and multiplexing
     genvar i;
     wire [31:0] pwm_prdata [0:15]; // Array to hold PRDATA from each instance
-    wire [31:0] pwm_pready [0:15]; // Array to hold PREADY from each instance
-    wire [31:0] pwm_pslverr [0:15]; // Array to hold PSLVERR from each instance
+    wire pwm_pready [0:15]; // Array to hold PREADY from each instance
+    wire pwm_pslverr [0:15]; // Array to hold PSLVERR from each instance
 
     generate
         for (i = 0; i < 16; i = i + 1) begin : pwm_instances
@@ -332,6 +333,26 @@ module soc_gpio2 ( gpio_00_io, rstn_i, uart_rxd_00_i, uart_txd_00_o, soc_gpio2_p
     assign apb0_inst_APB_M02_interconnect_PRDATA = mux_prdata;
     assign apb0_inst_APB_M02_interconnect_PREADY = mux_pready;
     assign apb0_inst_APB_M02_interconnect_PSLVERR = mux_pslverr;
+*/
+
+    // Instantiate PWM_ARRAY with 16 instances
+    PWM_ARRAY #(
+        .NUM_PWM_INST(32),
+        .ADDR_WIDTH(15),      // Match apb0_inst_APB_M02_interconnect_PADDR[14:0]
+        .INST_ADDR_BITS(5)    // 4 bits to select 16 instances
+    ) pwm_array_inst (
+        .clk_i(pll0_inst_clkos_o_net),      // APB clock
+        .resetn_i(cpu0_inst_system_resetn_o_net),
+        .psel_i(apb0_inst_APB_M02_interconnect_PSELx),
+        .penable_i(apb0_inst_APB_M02_interconnect_PENABLE),
+        .pwrite_i(apb0_inst_APB_M02_interconnect_PWRITE),
+        .paddr_i(apb0_inst_APB_M02_interconnect_PADDR[14:0]),
+        .pwdata_i(apb0_inst_APB_M02_interconnect_PWDATA),
+        .prdata_o(apb0_inst_APB_M02_interconnect_PRDATA),
+        .pready_o(apb0_inst_APB_M02_interconnect_PREADY),
+        .pslverr_o(apb0_inst_APB_M02_interconnect_PSLVERR),
+        .pwm_out(soc_gpio2_pwm_o)
+    );	
     
     osc0 osc0_inst (.hf_clk_out_o(osc0_inst_hf_clk_out_o_net), .hf_out_en_i(1'b1));
     pll0 pll0_inst (.clki_i(osc0_inst_hf_clk_out_o_net), .clkop_o(pll0_inst_clkop_o_net), 
