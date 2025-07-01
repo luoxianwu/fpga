@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BuildStatus>
     <Strategy name="Strategy1">
-        <Milestone name="Export" build_result="2" build_time="1750956515">
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1750956515"/>
+        <Milestone name="Export" build_result="0" build_time="1751376079">
+            <Task name="Bitgen" build_result="0" update_result="2" update_time="1751376079"/>
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1750955417">
-            <Task name="Map" build_result="2" update_result="0" update_time="1750955417"/>
+        <Milestone name="Map" build_result="0" build_time="1751376079">
+            <Task name="Map" build_result="0" update_result="2" update_time="1751376079"/>
             <Task name="MapTrace" build_result="0" update_result="2" update_time="1750882777"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1750956433">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1750956433"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1750956441"/>
+        <Milestone name="PAR" build_result="0" build_time="1751376079">
+            <Task name="PAR" build_result="0" update_result="2" update_time="1751376079"/>
+            <Task name="PARTrace" build_result="0" update_result="2" update_time="1751376079"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1750955393">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1750955393"/>
-            <Task name="SynTrace" build_result="0" update_result="2" update_time="1750889732"/>
-            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1750889732"/>
-            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1750889732"/>
+        <Milestone name="Synthesis" build_result="0" build_time="1751376514">
+            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="1751376514"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1751376514"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1751376514"/>
+            <Task name="LSE_Compile" build_result="0" update_result="2" update_time="1751376514"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
             <Task name="HDLE" build_result="0" update_result="3" update_time="0"/>
@@ -36,4 +36,3 @@
         <Report name="soc_gpio2_impl_1_syn.udb" last_build_time="1750955392" last_build_size="354358"/>
     </Strategy>
 </BuildStatus>
-         

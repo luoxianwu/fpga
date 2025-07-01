@@ -1,0 +1,7 @@
+#Start recording tcl command: 7/1/2025 07:28:09
+#Project Location: C:/Users/x-luo/proj/fpga7/soc_gpio2; Project name: soc_gpio2
+prj_open "C:/Users/x-luo/proj/fpga7/soc_gpio2/soc_gpio2.rdf"
+prj_add_source "C:/Users/x-luo/proj/fpga7/soc_gpio2/source/impl_1/pwm_array.v"
+prj_save 
+prj_save 
+#Stop recording: 7/1/2025 07:29:19
